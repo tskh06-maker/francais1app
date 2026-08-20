@@ -1,0 +1,1564 @@
+{
+  "être": {
+    "présent": {
+      "je": "suis",
+      "tu": "es",
+      "il_elle": "est",
+      "nous": "sommes",
+      "vous": "êtes",
+      "ils": "sont"
+    },
+    "imparfait": {
+      "je": "étais",
+      "tu": "étais",
+      "il_elle": "était",
+      "nous": "étions",
+      "vous": "étiez",
+      "ils": "étaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "été"
+    }
+  },
+  "avoir": {
+    "présent": {
+      "je": "ai",
+      "tu": "as",
+      "il_elle": "a",
+      "nous": "avons",
+      "vous": "avez",
+      "ils": "ont"
+    },
+    "imparfait": {
+      "je": "avais",
+      "tu": "avais",
+      "il_elle": "avait",
+      "nous": "avions",
+      "vous": "aviez",
+      "ils": "avaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "eu"
+    }
+  },
+  "faire": {
+    "présent": {
+      "je": "fais",
+      "tu": "fais",
+      "il_elle": "fait",
+      "nous": "faisons",
+      "vous": "faites",
+      "ils": "font"
+    },
+    "imparfait": {
+      "je": "faisais",
+      "tu": "faisais",
+      "il_elle": "faisait",
+      "nous": "faisions",
+      "vous": "faisiez",
+      "ils": "faisaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "fait"
+    }
+  },
+  "aller": {
+    "présent": {
+      "je": "vais",
+      "tu": "vas",
+      "il_elle": "va",
+      "nous": "allons",
+      "vous": "allez",
+      "ils": "vont"
+    },
+    "imparfait": {
+      "je": "allais",
+      "tu": "allais",
+      "il_elle": "allait",
+      "nous": "allions",
+      "vous": "alliez",
+      "ils": "allaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "allé"
+    }
+  },
+  "venir": {
+    "présent": {
+      "je": "viens",
+      "tu": "viens",
+      "il_elle": "vient",
+      "nous": "venons",
+      "vous": "venez",
+      "ils": "viennent"
+    },
+    "imparfait": {
+      "je": "venais",
+      "tu": "venais",
+      "il_elle": "venait",
+      "nous": "venions",
+      "vous": "veniez",
+      "ils": "venaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "venu"
+    }
+  },
+  "voir": {
+    "présent": {
+      "je": "vois",
+      "tu": "vois",
+      "il_elle": "voit",
+      "nous": "voyons",
+      "vous": "voyez",
+      "ils": "voient"
+    },
+    "imparfait": {
+      "je": "voyais",
+      "tu": "voyais",
+      "il_elle": "voyait",
+      "nous": "voyions",
+      "vous": "voyiez",
+      "ils": "voyaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "vu"
+    }
+  },
+  "savoir": {
+    "présent": {
+      "je": "sais",
+      "tu": "sais",
+      "il_elle": "sait",
+      "nous": "savons",
+      "vous": "savez",
+      "ils": "savent"
+    },
+    "imparfait": {
+      "je": "savais",
+      "tu": "savais",
+      "il_elle": "savait",
+      "nous": "savions",
+      "vous": "saviez",
+      "ils": "savaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "su"
+    }
+  },
+  "pouvoir": {
+    "présent": {
+      "je": "peux",
+      "tu": "peux",
+      "il_elle": "peut",
+      "nous": "pouvons",
+      "vous": "pouvez",
+      "ils": "peuvent"
+    },
+    "imparfait": {
+      "je": "pouvais",
+      "tu": "pouvais",
+      "il_elle": "pouvait",
+      "nous": "pouvions",
+      "vous": "pouviez",
+      "ils": "pouvaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "pu"
+    }
+  },
+  "vouloir": {
+    "présent": {
+      "je": "veux",
+      "tu": "veux",
+      "il_elle": "veut",
+      "nous": "voulons",
+      "vous": "voulez",
+      "ils": "veulent"
+    },
+    "imparfait": {
+      "je": "voulais",
+      "tu": "voulais",
+      "il_elle": "voulait",
+      "nous": "voulions",
+      "vous": "vouliez",
+      "ils": "voulaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "voulu"
+    }
+  },
+  "devoir": {
+    "présent": {
+      "je": "dois",
+      "tu": "dois",
+      "il_elle": "doit",
+      "nous": "devons",
+      "vous": "devez",
+      "ils": "doivent"
+    },
+    "imparfait": {
+      "je": "devais",
+      "tu": "devais",
+      "il_elle": "devait",
+      "nous": "devions",
+      "vous": "deviez",
+      "ils": "devaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "dû"
+    }
+  },
+  "dire": {
+    "présent": {
+      "je": "dis",
+      "tu": "dis",
+      "il_elle": "dit",
+      "nous": "disons",
+      "vous": "dites",
+      "ils": "disent"
+    },
+    "imparfait": {
+      "je": "disais",
+      "tu": "disais",
+      "il_elle": "disait",
+      "nous": "disions",
+      "vous": "disiez",
+      "ils": "disaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "dit"
+    }
+  },
+  "prendre": {
+    "présent": {
+      "je": "prends",
+      "tu": "prends",
+      "il_elle": "prend",
+      "nous": "prenons",
+      "vous": "prenez",
+      "ils": "prennent"
+    },
+    "imparfait": {
+      "je": "prenais",
+      "tu": "prenais",
+      "il_elle": "prenait",
+      "nous": "prenions",
+      "vous": "preniez",
+      "ils": "prenaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "pris"
+    }
+  },
+  "donner": {
+    "présent": {
+      "je": "donne",
+      "tu": "donnes",
+      "il_elle": "donne",
+      "nous": "donnons",
+      "vous": "donnez",
+      "ils": "donnent"
+    },
+    "imparfait": {
+      "je": "donnais",
+      "tu": "donnais",
+      "il_elle": "donnait",
+      "nous": "donnions",
+      "vous": "donniez",
+      "ils": "donnaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "donné"
+    }
+  },
+  "parler": {
+    "présent": {
+      "je": "parle",
+      "tu": "parles",
+      "il_elle": "parle",
+      "nous": "parlons",
+      "vous": "parlez",
+      "ils": "parlent"
+    },
+    "imparfait": {
+      "je": "parlais",
+      "tu": "parlais",
+      "il_elle": "parlait",
+      "nous": "parlions",
+      "vous": "parliez",
+      "ils": "parlaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "parlé"
+    }
+  },
+  "aimer": {
+    "présent": {
+      "je": "aime",
+      "tu": "aimes",
+      "il_elle": "aime",
+      "nous": "aimons",
+      "vous": "aimez",
+      "ils": "aiment"
+    },
+    "imparfait": {
+      "je": "aimais",
+      "tu": "aimais",
+      "il_elle": "aimait",
+      "nous": "aimions",
+      "vous": "aimiez",
+      "ils": "aimaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "aimé"
+    }
+  },
+  "manger": {
+    "présent": {
+      "je": "mange",
+      "tu": "manges",
+      "il_elle": "mange",
+      "nous": "mangeons",
+      "vous": "mangez",
+      "ils": "mangent"
+    },
+    "imparfait": {
+      "je": "mangeais",
+      "tu": "mangeais",
+      "il_elle": "mangeait",
+      "nous": "mangions",
+      "vous": "mangiez",
+      "ils": "mangeaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "mangé"
+    }
+  },
+  "boire": {
+    "présent": {
+      "je": "bois",
+      "tu": "bois",
+      "il_elle": "boit",
+      "nous": "buvons",
+      "vous": "buvez",
+      "ils": "boivent"
+    },
+    "imparfait": {
+      "je": "buvais",
+      "tu": "buvais",
+      "il_elle": "buvait",
+      "nous": "buvions",
+      "vous": "buviez",
+      "ils": "buvaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "bu"
+    }
+  },
+  "dormir": {
+    "présent": {
+      "je": "dors",
+      "tu": "dors",
+      "il_elle": "dort",
+      "nous": "dormons",
+      "vous": "dormez",
+      "ils": "dorment"
+    },
+    "imparfait": {
+      "je": "dormais",
+      "tu": "dormais",
+      "il_elle": "dormait",
+      "nous": "dormions",
+      "vous": "dormiez",
+      "ils": "dormaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "dormi"
+    }
+  },
+  "partir": {
+    "présent": {
+      "je": "pars",
+      "tu": "pars",
+      "il_elle": "part",
+      "nous": "partons",
+      "vous": "partez",
+      "ils": "partent"
+    },
+    "imparfait": {
+      "je": "partais",
+      "tu": "partais",
+      "il_elle": "partait",
+      "nous": "partions",
+      "vous": "partiez",
+      "ils": "partaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "parti"
+    }
+  },
+  "sortir": {
+    "présent": {
+      "je": "sors",
+      "tu": "sors",
+      "il_elle": "sort",
+      "nous": "sortons",
+      "vous": "sortez",
+      "ils": "sortent"
+    },
+    "imparfait": {
+      "je": "sortais",
+      "tu": "sortais",
+      "il_elle": "sortait",
+      "nous": "sortions",
+      "vous": "sortiez",
+      "ils": "sortaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "sorti"
+    }
+  },
+  "arriver": {
+    "présent": {
+      "je": "arrive",
+      "tu": "arrives",
+      "il_elle": "arrive",
+      "nous": "arrivons",
+      "vous": "arrivez",
+      "ils": "arrivent"
+    },
+    "imparfait": {
+      "je": "arrivais",
+      "tu": "arrivais",
+      "il_elle": "arrivait",
+      "nous": "arrivions",
+      "vous": "arriviez",
+      "ils": "arrivaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "arrivé"
+    }
+  },
+  "entrer": {
+    "présent": {
+      "je": "entre",
+      "tu": "entres",
+      "il_elle": "entre",
+      "nous": "entrons",
+      "vous": "entrez",
+      "ils": "entrent"
+    },
+    "imparfait": {
+      "je": "entrais",
+      "tu": "entrais",
+      "il_elle": "entrait",
+      "nous": "entrions",
+      "vous": "entriez",
+      "ils": "entraient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "entré"
+    }
+  },
+  "rester": {
+    "présent": {
+      "je": "reste",
+      "tu": "restes",
+      "il_elle": "reste",
+      "nous": "restons",
+      "vous": "restez",
+      "ils": "restent"
+    },
+    "imparfait": {
+      "je": "restais",
+      "tu": "restais",
+      "il_elle": "restait",
+      "nous": "restions",
+      "vous": "restiez",
+      "ils": "restaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "resté"
+    }
+  },
+  "regarder": {
+    "présent": {
+      "je": "regarde",
+      "tu": "regardes",
+      "il_elle": "regarde",
+      "nous": "regardons",
+      "vous": "regardez",
+      "ils": "regardent"
+    },
+    "imparfait": {
+      "je": "regardais",
+      "tu": "regardais",
+      "il_elle": "regardait",
+      "nous": "regardions",
+      "vous": "regardiez",
+      "ils": "regardaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "regardé"
+    }
+  },
+  "écouter": {
+    "présent": {
+      "je": "écoute",
+      "tu": "écoutes",
+      "il_elle": "écoute",
+      "nous": "écoutons",
+      "vous": "écoutez",
+      "ils": "écoutent"
+    },
+    "imparfait": {
+      "je": "écoutais",
+      "tu": "écoutais",
+      "il_elle": "écoutait",
+      "nous": "écoutions",
+      "vous": "écoutiez",
+      "ils": "écoutaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "écouté"
+    }
+  },
+  "lire": {
+    "présent": {
+      "je": "lis",
+      "tu": "lis",
+      "il_elle": "lit",
+      "nous": "lisons",
+      "vous": "lisez",
+      "ils": "lisent"
+    },
+    "imparfait": {
+      "je": "lisais",
+      "tu": "lisais",
+      "il_elle": "lisait",
+      "nous": "lisions",
+      "vous": "lisiez",
+      "ils": "lisaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "lu"
+    }
+  },
+  "écrire": {
+    "présent": {
+      "je": "écris",
+      "tu": "écris",
+      "il_elle": "écrit",
+      "nous": "écrivons",
+      "vous": "écrivez",
+      "ils": "écrivent"
+    },
+    "imparfait": {
+      "je": "écrivais",
+      "tu": "écrivais",
+      "il_elle": "écrivait",
+      "nous": "écrivions",
+      "vous": "écriviez",
+      "ils": "écrivaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "écrit"
+    }
+  },
+  "travailler": {
+    "présent": {
+      "je": "travaille",
+      "tu": "travailles",
+      "il_elle": "travaille",
+      "nous": "travaillons",
+      "vous": "travaillez",
+      "ils": "travaillent"
+    },
+    "imparfait": {
+      "je": "travaillais",
+      "tu": "travaillais",
+      "il_elle": "travaillait",
+      "nous": "travaillions",
+      "vous": "travailliez",
+      "ils": "travaillaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "travaillé"
+    }
+  },
+  "étudier": {
+    "présent": {
+      "je": "étudie",
+      "tu": "étudies",
+      "il_elle": "étudie",
+      "nous": "étudions",
+      "vous": "étudiez",
+      "ils": "étudient"
+    },
+    "imparfait": {
+      "je": "étudiais",
+      "tu": "étudiais",
+      "il_elle": "étudiait",
+      "nous": "étudiions",
+      "vous": "étudiiez",
+      "ils": "étudiaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "étudié"
+    }
+  },
+  "comprendre": {
+    "présent": {
+      "je": "comprends",
+      "tu": "comprends",
+      "il_elle": "comprend",
+      "nous": "comprenons",
+      "vous": "comprenez",
+      "ils": "comprennent"
+    },
+    "imparfait": {
+      "je": "comprenais",
+      "tu": "comprenais",
+      "il_elle": "comprenait",
+      "nous": "comprenions",
+      "vous": "compreniez",
+      "ils": "comprenaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "compris"
+    }
+  },
+  "demander": {
+    "présent": {
+      "je": "demande",
+      "tu": "demandes",
+      "il_elle": "demande",
+      "nous": "demandons",
+      "vous": "demandez",
+      "ils": "demandent"
+    },
+    "imparfait": {
+      "je": "demandais",
+      "tu": "demandais",
+      "il_elle": "demandait",
+      "nous": "demandions",
+      "vous": "demandiez",
+      "ils": "demandaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "demandé"
+    }
+  },
+  "répondre": {
+    "présent": {
+      "je": "réponds",
+      "tu": "réponds",
+      "il_elle": "répond",
+      "nous": "répondons",
+      "vous": "répondez",
+      "ils": "répondent"
+    },
+    "imparfait": {
+      "je": "répondais",
+      "tu": "répondais",
+      "il_elle": "répondait",
+      "nous": "répondions",
+      "vous": "répondiez",
+      "ils": "répondaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "répondu"
+    }
+  },
+  "trouver": {
+    "présent": {
+      "je": "trouve",
+      "tu": "trouves",
+      "il_elle": "trouve",
+      "nous": "trouvons",
+      "vous": "trouvez",
+      "ils": "trouvent"
+    },
+    "imparfait": {
+      "je": "trouvais",
+      "tu": "trouvais",
+      "il_elle": "trouvait",
+      "nous": "trouvions",
+      "vous": "trouviez",
+      "ils": "trouvaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "trouvé"
+    }
+  },
+  "chercher": {
+    "présent": {
+      "je": "cherche",
+      "tu": "cherches",
+      "il_elle": "cherche",
+      "nous": "cherchons",
+      "vous": "cherchez",
+      "ils": "cherchent"
+    },
+    "imparfait": {
+      "je": "cherchais",
+      "tu": "cherchais",
+      "il_elle": "cherchait",
+      "nous": "cherchions",
+      "vous": "cherchiez",
+      "ils": "cherchaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "cherché"
+    }
+  },
+  "acheter": {
+    "présent": {
+      "je": "achète",
+      "tu": "achètes",
+      "il_elle": "achète",
+      "nous": "achetons",
+      "vous": "achetez",
+      "ils": "achètent"
+    },
+    "imparfait": {
+      "je": "achetais",
+      "tu": "achetais",
+      "il_elle": "achetait",
+      "nous": "achetions",
+      "vous": "achetiez",
+      "ils": "achetaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "acheté"
+    }
+  },
+  "vendre": {
+    "présent": {
+      "je": "vends",
+      "tu": "vends",
+      "il_elle": "vend",
+      "nous": "vendons",
+      "vous": "vendez",
+      "ils": "vendent"
+    },
+    "imparfait": {
+      "je": "vendais",
+      "tu": "vendais",
+      "il_elle": "vendait",
+      "nous": "vendions",
+      "vous": "vendiez",
+      "ils": "vendaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "vendu"
+    }
+  },
+  "ouvrir": {
+    "présent": {
+      "je": "ouvre",
+      "tu": "ouvres",
+      "il_elle": "ouvre",
+      "nous": "ouvrons",
+      "vous": "ouvrez",
+      "ils": "ouvrent"
+    },
+    "imparfait": {
+      "je": "ouvrais",
+      "tu": "ouvrais",
+      "il_elle": "ouvrait",
+      "nous": "ouvrions",
+      "vous": "ouvriez",
+      "ils": "ouvraient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "ouvert"
+    }
+  },
+  "fermer": {
+    "présent": {
+      "je": "ferme",
+      "tu": "fermes",
+      "il_elle": "ferme",
+      "nous": "fermons",
+      "vous": "fermez",
+      "ils": "ferment"
+    },
+    "imparfait": {
+      "je": "fermais",
+      "tu": "fermais",
+      "il_elle": "fermait",
+      "nous": "fermions",
+      "vous": "fermiez",
+      "ils": "fermaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "fermé"
+    }
+  },
+  "commencer": {
+    "présent": {
+      "je": "commence",
+      "tu": "commences",
+      "il_elle": "commence",
+      "nous": "commençons",
+      "vous": "commencez",
+      "ils": "commencent"
+    },
+    "imparfait": {
+      "je": "commençais",
+      "tu": "commençais",
+      "il_elle": "commençait",
+      "nous": "commencions",
+      "vous": "commenciez",
+      "ils": "commençaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "commencé"
+    }
+  },
+  "finir": {
+    "présent": {
+      "je": "finis",
+      "tu": "finis",
+      "il_elle": "finit",
+      "nous": "finissons",
+      "vous": "finissez",
+      "ils": "finissent"
+    },
+    "imparfait": {
+      "je": "finissais",
+      "tu": "finissais",
+      "il_elle": "finissait",
+      "nous": "finissions",
+      "vous": "finissiez",
+      "ils": "finissaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "fini"
+    }
+  },
+  "jouer": {
+    "présent": {
+      "je": "joue",
+      "tu": "joues",
+      "il_elle": "joue",
+      "nous": "jouons",
+      "vous": "jouez",
+      "ils": "jouent"
+    },
+    "imparfait": {
+      "je": "jouais",
+      "tu": "jouais",
+      "il_elle": "jouait",
+      "nous": "jouions",
+      "vous": "jouiez",
+      "ils": "jouaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "joué"
+    }
+  },
+  "mettre": {
+    "présent": {
+      "je": "mets",
+      "tu": "mets",
+      "il_elle": "met",
+      "nous": "mettons",
+      "vous": "mettez",
+      "ils": "mettent"
+    },
+    "imparfait": {
+      "je": "mettais",
+      "tu": "mettais",
+      "il_elle": "mettait",
+      "nous": "mettions",
+      "vous": "mettiez",
+      "ils": "mettaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "mis"
+    }
+  },
+  "sentir": {
+    "présent": {
+      "je": "sens",
+      "tu": "sens",
+      "il_elle": "sent",
+      "nous": "sentons",
+      "vous": "sentez",
+      "ils": "sentent"
+    },
+    "imparfait": {
+      "je": "sentais",
+      "tu": "sentais",
+      "il_elle": "sentait",
+      "nous": "sentions",
+      "vous": "sentiez",
+      "ils": "sentaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "senti"
+    }
+  },
+  "connaître": {
+    "présent": {
+      "je": "connais",
+      "tu": "connais",
+      "il_elle": "connaît",
+      "nous": "connaissons",
+      "vous": "connaissez",
+      "ils": "connaissent"
+    },
+    "imparfait": {
+      "je": "connaissais",
+      "tu": "connaissais",
+      "il_elle": "connaissait",
+      "nous": "connaissions",
+      "vous": "connaissiez",
+      "ils": "connaissaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "connu"
+    }
+  },
+  "penser": {
+    "présent": {
+      "je": "pense",
+      "tu": "penses",
+      "il_elle": "pense",
+      "nous": "pensons",
+      "vous": "pensez",
+      "ils": "pensent"
+    },
+    "imparfait": {
+      "je": "pensais",
+      "tu": "pensais",
+      "il_elle": "pensait",
+      "nous": "pensions",
+      "vous": "pensiez",
+      "ils": "pensaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "pensé"
+    }
+  },
+  "croire": {
+    "présent": {
+      "je": "crois",
+      "tu": "crois",
+      "il_elle": "croit",
+      "nous": "croyons",
+      "vous": "croyez",
+      "ils": "croient"
+    },
+    "imparfait": {
+      "je": "croyais",
+      "tu": "croyais",
+      "il_elle": "croyait",
+      "nous": "croyions",
+      "vous": "croyiez",
+      "ils": "croyaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "cru"
+    }
+  },
+  "passer": {
+    "présent": {
+      "je": "passe",
+      "tu": "passes",
+      "il_elle": "passe",
+      "nous": "passons",
+      "vous": "passez",
+      "ils": "passent"
+    },
+    "imparfait": {
+      "je": "passais",
+      "tu": "passais",
+      "il_elle": "passait",
+      "nous": "passions",
+      "vous": "passiez",
+      "ils": "passaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "passé"
+    }
+  },
+  "porter": {
+    "présent": {
+      "je": "porte",
+      "tu": "portes",
+      "il_elle": "porte",
+      "nous": "portons",
+      "vous": "portez",
+      "ils": "portent"
+    },
+    "imparfait": {
+      "je": "portais",
+      "tu": "portais",
+      "il_elle": "portait",
+      "nous": "portions",
+      "vous": "portiez",
+      "ils": "portaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "porté"
+    }
+  },
+  "tenir": {
+    "présent": {
+      "je": "tiens",
+      "tu": "tiens",
+      "il_elle": "tient",
+      "nous": "tenons",
+      "vous": "tenez",
+      "ils": "tiennent"
+    },
+    "imparfait": {
+      "je": "tenais",
+      "tu": "tenais",
+      "il_elle": "tenait",
+      "nous": "tenions",
+      "vous": "teniez",
+      "ils": "tenaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "tenu"
+    }
+  },
+  "suivre": {
+    "présent": {
+      "je": "suis",
+      "tu": "suis",
+      "il_elle": "suit",
+      "nous": "suivons",
+      "vous": "suivez",
+      "ils": "suivent"
+    },
+    "imparfait": {
+      "je": "suivais",
+      "tu": "suivais",
+      "il_elle": "suivait",
+      "nous": "suivions",
+      "vous": "suiviez",
+      "ils": "suivaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "suivi"
+    }
+  },
+  "attendre": {
+    "présent": {
+      "je": "attends",
+      "tu": "attends",
+      "il_elle": "attend",
+      "nous": "attendons",
+      "vous": "attendez",
+      "ils": "attendent"
+    },
+    "imparfait": {
+      "je": "attendais",
+      "tu": "attendais",
+      "il_elle": "attendait",
+      "nous": "attendions",
+      "vous": "attendiez",
+      "ils": "attendaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "attendu"
+    }
+  },
+  "perdre": {
+    "présent": {
+      "je": "perds",
+      "tu": "perds",
+      "il_elle": "perd",
+      "nous": "perdons",
+      "vous": "perdez",
+      "ils": "perdent"
+    },
+    "imparfait": {
+      "je": "perdais",
+      "tu": "perdais",
+      "il_elle": "perdait",
+      "nous": "perdions",
+      "vous": "perdiez",
+      "ils": "perdaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "perdu"
+    }
+  },
+  "rendre": {
+    "présent": {
+      "je": "rends",
+      "tu": "rends",
+      "il_elle": "rend",
+      "nous": "rendons",
+      "vous": "rendez",
+      "ils": "rendent"
+    },
+    "imparfait": {
+      "je": "rendais",
+      "tu": "rendais",
+      "il_elle": "rendait",
+      "nous": "rendions",
+      "vous": "rendiez",
+      "ils": "rendaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "rendu"
+    }
+  },
+  "descendre": {
+    "présent": {
+      "je": "descends",
+      "tu": "descends",
+      "il_elle": "descend",
+      "nous": "descendons",
+      "vous": "descendez",
+      "ils": "descendent"
+    },
+    "imparfait": {
+      "je": "descendais",
+      "tu": "descendais",
+      "il_elle": "descendait",
+      "nous": "descendions",
+      "vous": "descendiez",
+      "ils": "descendaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "descendu"
+    }
+  },
+  "monter": {
+    "présent": {
+      "je": "monte",
+      "tu": "montes",
+      "il_elle": "monte",
+      "nous": "montons",
+      "vous": "montez",
+      "ils": "montent"
+    },
+    "imparfait": {
+      "je": "montais",
+      "tu": "montais",
+      "il_elle": "montait",
+      "nous": "montions",
+      "vous": "montiez",
+      "ils": "montaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "monté"
+    }
+  },
+  "tomber": {
+    "présent": {
+      "je": "tombe",
+      "tu": "tombes",
+      "il_elle": "tombe",
+      "nous": "tombons",
+      "vous": "tombez",
+      "ils": "tombent"
+    },
+    "imparfait": {
+      "je": "tombais",
+      "tu": "tombais",
+      "il_elle": "tombait",
+      "nous": "tombions",
+      "vous": "tombiez",
+      "ils": "tombaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "tombé"
+    }
+  },
+  "rentrer": {
+    "présent": {
+      "je": "rentre",
+      "tu": "rentres",
+      "il_elle": "rentre",
+      "nous": "rentrons",
+      "vous": "rentrez",
+      "ils": "rentrent"
+    },
+    "imparfait": {
+      "je": "rentrais",
+      "tu": "rentrais",
+      "il_elle": "rentrait",
+      "nous": "rentrions",
+      "vous": "rentriez",
+      "ils": "rentraient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "rentré"
+    }
+  },
+  "retourner": {
+    "présent": {
+      "je": "retourne",
+      "tu": "retournes",
+      "il_elle": "retourne",
+      "nous": "retournons",
+      "vous": "retournez",
+      "ils": "retournent"
+    },
+    "imparfait": {
+      "je": "retournais",
+      "tu": "retournais",
+      "il_elle": "retournait",
+      "nous": "retournions",
+      "vous": "retourniez",
+      "ils": "retournaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "être",
+      "participe": "retourné"
+    }
+  },
+  "aider": {
+    "présent": {
+      "je": "aide",
+      "tu": "aides",
+      "il_elle": "aide",
+      "nous": "aidons",
+      "vous": "aidez",
+      "ils": "aident"
+    },
+    "imparfait": {
+      "je": "aidais",
+      "tu": "aidais",
+      "il_elle": "aidait",
+      "nous": "aidions",
+      "vous": "aidiez",
+      "ils": "aidaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "aidé"
+    }
+  },
+  "appeler": {
+    "présent": {
+      "je": "appelle",
+      "tu": "appelles",
+      "il_elle": "appelle",
+      "nous": "appelons",
+      "vous": "appelez",
+      "ils": "appellent"
+    },
+    "imparfait": {
+      "je": "appelais",
+      "tu": "appelais",
+      "il_elle": "appelait",
+      "nous": "appelions",
+      "vous": "appeliez",
+      "ils": "appelaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "appelé"
+    }
+  },
+  "essayer": {
+    "présent": {
+      "je": "essaie",
+      "tu": "essaies",
+      "il_elle": "essaie",
+      "nous": "essayons",
+      "vous": "essayez",
+      "ils": "essaient"
+    },
+    "imparfait": {
+      "je": "essayais",
+      "tu": "essayais",
+      "il_elle": "essayait",
+      "nous": "essayions",
+      "vous": "essayiez",
+      "ils": "essayaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "essayé"
+    }
+  },
+  "payer": {
+    "présent": {
+      "je": "paie",
+      "tu": "paies",
+      "il_elle": "paie",
+      "nous": "payons",
+      "vous": "payez",
+      "ils": "paient"
+    },
+    "imparfait": {
+      "je": "payais",
+      "tu": "payais",
+      "il_elle": "payait",
+      "nous": "payions",
+      "vous": "payiez",
+      "ils": "payaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "payé"
+    }
+  },
+  "envoyer": {
+    "présent": {
+      "je": "envoie",
+      "tu": "envoies",
+      "il_elle": "envoie",
+      "nous": "envoyons",
+      "vous": "envoyez",
+      "ils": "envoient"
+    },
+    "imparfait": {
+      "je": "envoyais",
+      "tu": "envoyais",
+      "il_elle": "envoyait",
+      "nous": "envoyions",
+      "vous": "envoyiez",
+      "ils": "envoyaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "envoyé"
+    }
+  },
+  "recevoir": {
+    "présent": {
+      "je": "reçois",
+      "tu": "reçois",
+      "il_elle": "reçoit",
+      "nous": "recevons",
+      "vous": "recevez",
+      "ils": "reçoivent"
+    },
+    "imparfait": {
+      "je": "recevais",
+      "tu": "recevais",
+      "il_elle": "recevait",
+      "nous": "recevions",
+      "vous": "receviez",
+      "ils": "recevaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "reçu"
+    }
+  },
+  "offrir": {
+    "présent": {
+      "je": "offre",
+      "tu": "offres",
+      "il_elle": "offre",
+      "nous": "offrons",
+      "vous": "offrez",
+      "ils": "offrent"
+    },
+    "imparfait": {
+      "je": "offrais",
+      "tu": "offrais",
+      "il_elle": "offrait",
+      "nous": "offrions",
+      "vous": "offriez",
+      "ils": "offraient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "offert"
+    }
+  },
+  "souffrir": {
+    "présent": {
+      "je": "souffre",
+      "tu": "souffres",
+      "il_elle": "souffre",
+      "nous": "souffrons",
+      "vous": "souffrez",
+      "ils": "souffrent"
+    },
+    "imparfait": {
+      "je": "souffrais",
+      "tu": "souffrais",
+      "il_elle": "souffrait",
+      "nous": "souffrions",
+      "vous": "souffriez",
+      "ils": "souffraient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "souffert"
+    }
+  },
+  "courir": {
+    "présent": {
+      "je": "cours",
+      "tu": "cours",
+      "il_elle": "court",
+      "nous": "courons",
+      "vous": "courez",
+      "ils": "courent"
+    },
+    "imparfait": {
+      "je": "courais",
+      "tu": "courais",
+      "il_elle": "courait",
+      "nous": "courions",
+      "vous": "couriez",
+      "ils": "couraient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "couru"
+    }
+  },
+  "rire": {
+    "présent": {
+      "je": "ris",
+      "tu": "ris",
+      "il_elle": "rit",
+      "nous": "rions",
+      "vous": "riez",
+      "ils": "rient"
+    },
+    "imparfait": {
+      "je": "riais",
+      "tu": "riais",
+      "il_elle": "riait",
+      "nous": "riions",
+      "vous": "riiez",
+      "ils": "riaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "ri"
+    }
+  },
+  "pleurer": {
+    "présent": {
+      "je": "pleure",
+      "tu": "pleures",
+      "il_elle": "pleure",
+      "nous": "pleurons",
+      "vous": "pleurez",
+      "ils": "pleurent"
+    },
+    "imparfait": {
+      "je": "pleurais",
+      "tu": "pleurais",
+      "il_elle": "pleurait",
+      "nous": "pleurions",
+      "vous": "pleuriez",
+      "ils": "pleuraient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "pleuré"
+    }
+  },
+  "chanter": {
+    "présent": {
+      "je": "chante",
+      "tu": "chantes",
+      "il_elle": "chante",
+      "nous": "chantons",
+      "vous": "chantez",
+      "ils": "chantent"
+    },
+    "imparfait": {
+      "je": "chantais",
+      "tu": "chantais",
+      "il_elle": "chantait",
+      "nous": "chantions",
+      "vous": "chantiez",
+      "ils": "chantaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "chanté"
+    }
+  },
+  "danser": {
+    "présent": {
+      "je": "danse",
+      "tu": "danses",
+      "il_elle": "danse",
+      "nous": "dansons",
+      "vous": "dansez",
+      "ils": "dansent"
+    },
+    "imparfait": {
+      "je": "dansais",
+      "tu": "dansais",
+      "il_elle": "dansait",
+      "nous": "dansions",
+      "vous": "dansiez",
+      "ils": "dansaient"
+    },
+    "participe_passé": {
+      "auxiliaire": "avoir",
+      "participe": "dansé"
+    }
+  }
+}
