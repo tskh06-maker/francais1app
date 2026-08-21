@@ -99,6 +99,8 @@ with st.sidebar:
         go("home")
     if st.button("📝 動詞活用", use_container_width=True):
         go("conj_setup")
+    if st.button("🔤 単語クイズ", use_container_width=True):
+        go("word_setup")
     if st.button("📖 動詞一覧", use_container_width=True):
         go("verb_list")
     if st.button("📊 学習記録", use_container_width=True):
