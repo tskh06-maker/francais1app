@@ -1,166 +1,2952 @@
 [
-  { "fr": "être", "ja": "〜である", "pos": "verbe" },
-  { "fr": "avoir", "ja": "持つ", "pos": "verbe" },
-  { "fr": "faire", "ja": "する・作る", "pos": "verbe" },
-  { "fr": "aller", "ja": "行く", "pos": "verbe" },
-  { "fr": "venir", "ja": "来る", "pos": "verbe" },
-  { "fr": "voir", "ja": "見る", "pos": "verbe" },
-  { "fr": "savoir", "ja": "知る", "pos": "verbe" },
-  { "fr": "pouvoir", "ja": "できる", "pos": "verbe" },
-  { "fr": "vouloir", "ja": "欲しい・したい", "pos": "verbe" },
-  { "fr": "devoir", "ja": "しなければならない", "pos": "verbe" },
-  { "fr": "dire", "ja": "言う", "pos": "verbe" },
-  { "fr": "prendre", "ja": "取る", "pos": "verbe" },
-  { "fr": "donner", "ja": "与える", "pos": "verbe" },
-  { "fr": "parler", "ja": "話す", "pos": "verbe" },
-  { "fr": "aimer", "ja": "好き・愛する", "pos": "verbe" },
-  { "fr": "manger", "ja": "食べる", "pos": "verbe" },
-  { "fr": "boire", "ja": "飲む", "pos": "verbe" },
-  { "fr": "dormir", "ja": "眠る", "pos": "verbe" },
-  { "fr": "partir", "ja": "出発する", "pos": "verbe" },
-  { "fr": "sortir", "ja": "出る・外出する", "pos": "verbe" },
-  { "fr": "arriver", "ja": "到着する", "pos": "verbe" },
-  { "fr": "entrer", "ja": "入る", "pos": "verbe" },
-  { "fr": "rester", "ja": "留まる", "pos": "verbe" },
-  { "fr": "regarder", "ja": "見る・眺める", "pos": "verbe" },
-  { "fr": "écouter", "ja": "聞く", "pos": "verbe" },
-  { "fr": "lire", "ja": "読む", "pos": "verbe" },
-  { "fr": "écrire", "ja": "書く", "pos": "verbe" },
-  { "fr": "travailler", "ja": "働く", "pos": "verbe" },
-  { "fr": "étudier", "ja": "勉強する", "pos": "verbe" },
-  { "fr": "comprendre", "ja": "理解する", "pos": "verbe" },
-  { "fr": "demander", "ja": "尋ねる", "pos": "verbe" },
-  { "fr": "répondre", "ja": "答える", "pos": "verbe" },
-  { "fr": "trouver", "ja": "見つける", "pos": "verbe" },
-  { "fr": "chercher", "ja": "探す", "pos": "verbe" },
-  { "fr": "acheter", "ja": "買う", "pos": "verbe" },
-  { "fr": "vendre", "ja": "売る", "pos": "verbe" },
-  { "fr": "ouvrir", "ja": "開ける", "pos": "verbe" },
-  { "fr": "fermer", "ja": "閉める", "pos": "verbe" },
-  { "fr": "commencer", "ja": "始める", "pos": "verbe" },
-  { "fr": "finir", "ja": "終える", "pos": "verbe" },
-  { "fr": "jouer", "ja": "遊ぶ", "pos": "verbe" },
-  { "fr": "mettre", "ja": "置く・身につける", "pos": "verbe" },
-  { "fr": "sentir", "ja": "感じる", "pos": "verbe" },
-  { "fr": "connaître", "ja": "知っている", "pos": "verbe" },
-  { "fr": "penser", "ja": "考える", "pos": "verbe" },
-  { "fr": "croire", "ja": "信じる・思う", "pos": "verbe" },
-  { "fr": "passer", "ja": "過ごす・通る", "pos": "verbe" },
-  { "fr": "porter", "ja": "運ぶ・身につける", "pos": "verbe" },
-  { "fr": "tenir", "ja": "持つ", "pos": "verbe" },
-  { "fr": "suivre", "ja": "従う・ついて行く", "pos": "verbe" },
-  { "fr": "attendre", "ja": "待つ", "pos": "verbe" },
-  { "fr": "perdre", "ja": "失う", "pos": "verbe" },
-  { "fr": "rendre", "ja": "返す", "pos": "verbe" },
-  { "fr": "descendre", "ja": "降りる", "pos": "verbe" },
-  { "fr": "monter", "ja": "上る・乗る", "pos": "verbe" },
-  { "fr": "tomber", "ja": "転ぶ・落ちる", "pos": "verbe" },
-  { "fr": "rentrer", "ja": "帰宅する", "pos": "verbe" },
-  { "fr": "retourner", "ja": "戻る", "pos": "verbe" },
-  { "fr": "aider", "ja": "手伝う", "pos": "verbe" },
-  { "fr": "appeler", "ja": "呼ぶ・電話する", "pos": "verbe" },
-  { "fr": "essayer", "ja": "試す", "pos": "verbe" },
-  { "fr": "payer", "ja": "払う", "pos": "verbe" },
-  { "fr": "envoyer", "ja": "送る", "pos": "verbe" },
-  { "fr": "recevoir", "ja": "受け取る", "pos": "verbe" },
-  { "fr": "offrir", "ja": "贈る", "pos": "verbe" },
-  { "fr": "souffrir", "ja": "苦しむ", "pos": "verbe" },
-  { "fr": "courir", "ja": "走る", "pos": "verbe" },
-  { "fr": "rire", "ja": "笑う", "pos": "verbe" },
-  { "fr": "pleurer", "ja": "泣く", "pos": "verbe" },
-  { "fr": "chanter", "ja": "歌う", "pos": "verbe" },
-  { "fr": "danser", "ja": "踊る", "pos": "verbe" },
-
-  { "fr": "temps", "ja": "時間・天気", "pos": "nom" },
-  { "fr": "jour", "ja": "日", "pos": "nom" },
-  { "fr": "année", "ja": "年", "pos": "nom" },
-  { "fr": "homme", "ja": "男性", "pos": "nom" },
-  { "fr": "femme", "ja": "女性", "pos": "nom" },
-  { "fr": "enfant", "ja": "子供", "pos": "nom" },
-  { "fr": "famille", "ja": "家族", "pos": "nom" },
-  { "fr": "ami", "ja": "友達", "pos": "nom" },
-  { "fr": "travail", "ja": "仕事", "pos": "nom" },
-  { "fr": "maison", "ja": "家", "pos": "nom" },
-  { "fr": "ville", "ja": "街", "pos": "nom" },
-  { "fr": "pays", "ja": "国", "pos": "nom" },
-  { "fr": "monde", "ja": "世界", "pos": "nom" },
-  { "fr": "vie", "ja": "人生", "pos": "nom" },
-  { "fr": "main", "ja": "手", "pos": "nom" },
-  { "fr": "tête", "ja": "頭", "pos": "nom" },
-  { "fr": "œil", "ja": "目", "pos": "nom" },
-  { "fr": "eau", "ja": "水", "pos": "nom" },
-  { "fr": "pain", "ja": "パン", "pos": "nom" },
-  { "fr": "pomme", "ja": "りんご", "pos": "nom" },
-  { "fr": "livre", "ja": "本", "pos": "nom" },
-  { "fr": "école", "ja": "学校", "pos": "nom" },
-  { "fr": "table", "ja": "テーブル", "pos": "nom" },
-  { "fr": "porte", "ja": "ドア", "pos": "nom" },
-  { "fr": "voiture", "ja": "車", "pos": "nom" },
-  { "fr": "route", "ja": "道", "pos": "nom" },
-  { "fr": "argent", "ja": "お金", "pos": "nom" },
-  { "fr": "question", "ja": "質問", "pos": "nom" },
-  { "fr": "histoire", "ja": "物語・歴史", "pos": "nom" },
-  { "fr": "idée", "ja": "アイデア", "pos": "nom" },
-  { "fr": "moment", "ja": "瞬間", "pos": "nom" },
-  { "fr": "place", "ja": "場所・広場", "pos": "nom" },
-  { "fr": "chose", "ja": "もの・こと", "pos": "nom" },
-  { "fr": "nom", "ja": "名前", "pos": "nom" },
-  { "fr": "mot", "ja": "単語", "pos": "nom" },
-  { "fr": "langue", "ja": "言語", "pos": "nom" },
-  { "fr": "chat", "ja": "猫", "pos": "nom" },
-  { "fr": "chien", "ja": "犬", "pos": "nom" },
-  { "fr": "soleil", "ja": "太陽", "pos": "nom" },
-  { "fr": "lune", "ja": "月", "pos": "nom" },
-
-  { "fr": "grand", "ja": "大きい", "pos": "adjectif" },
-  { "fr": "petit", "ja": "小さい", "pos": "adjectif" },
-  { "fr": "bon", "ja": "良い", "pos": "adjectif" },
-  { "fr": "mauvais", "ja": "悪い", "pos": "adjectif" },
-  { "fr": "beau", "ja": "美しい", "pos": "adjectif" },
-  { "fr": "joli", "ja": "かわいい・きれいな", "pos": "adjectif" },
-  { "fr": "nouveau", "ja": "新しい", "pos": "adjectif" },
-  { "fr": "vieux", "ja": "古い", "pos": "adjectif" },
-  { "fr": "jeune", "ja": "若い", "pos": "adjectif" },
-  { "fr": "long", "ja": "長い", "pos": "adjectif" },
-  { "fr": "court", "ja": "短い", "pos": "adjectif" },
-  { "fr": "haut", "ja": "高い", "pos": "adjectif" },
-  { "fr": "bas", "ja": "低い", "pos": "adjectif" },
-  { "fr": "large", "ja": "幅広い", "pos": "adjectif" },
-  { "fr": "étroit", "ja": "狭い", "pos": "adjectif" },
-  { "fr": "facile", "ja": "簡単な", "pos": "adjectif" },
-  { "fr": "difficile", "ja": "難しい", "pos": "adjectif" },
-  { "fr": "important", "ja": "重要な", "pos": "adjectif" },
-  { "fr": "possible", "ja": "可能な", "pos": "adjectif" },
-  { "fr": "content", "ja": "満足した・嬉しい", "pos": "adjectif" },
-  { "fr": "heureux", "ja": "幸せな", "pos": "adjectif" },
-  { "fr": "triste", "ja": "悲しい", "pos": "adjectif" },
-  { "fr": "fatigué", "ja": "疲れた", "pos": "adjectif" },
-  { "fr": "malade", "ja": "病気の", "pos": "adjectif" },
-  { "fr": "fort", "ja": "強い", "pos": "adjectif" },
-  { "fr": "faible", "ja": "弱い", "pos": "adjectif" },
-  { "fr": "riche", "ja": "裕福な", "pos": "adjectif" },
-  { "fr": "pauvre", "ja": "貧しい", "pos": "adjectif" },
-  { "fr": "chaud", "ja": "熱い・暑い", "pos": "adjectif" },
-  { "fr": "froid", "ja": "冷たい・寒い", "pos": "adjectif" },
-
-  { "fr": "très", "ja": "とても", "pos": "adverbe" },
-  { "fr": "bien", "ja": "よく・上手に", "pos": "adverbe" },
-  { "fr": "mal", "ja": "悪く", "pos": "adverbe" },
-  { "fr": "beaucoup", "ja": "たくさん", "pos": "adverbe" },
-  { "fr": "peu", "ja": "少し", "pos": "adverbe" },
-  { "fr": "trop", "ja": "あまりにも", "pos": "adverbe" },
-  { "fr": "aussi", "ja": "〜も", "pos": "adverbe" },
-  { "fr": "encore", "ja": "まだ・もう一度", "pos": "adverbe" },
-  { "fr": "déjà", "ja": "すでに", "pos": "adverbe" },
-  { "fr": "toujours", "ja": "いつも", "pos": "adverbe" },
-  { "fr": "souvent", "ja": "よく（頻度）", "pos": "adverbe" },
-  { "fr": "parfois", "ja": "時々", "pos": "adverbe" },
-  { "fr": "jamais", "ja": "決して〜ない", "pos": "adverbe" },
-  { "fr": "maintenant", "ja": "今", "pos": "adverbe" },
-  { "fr": "aujourd'hui", "ja": "今日", "pos": "adverbe" },
-  { "fr": "hier", "ja": "昨日", "pos": "adverbe" },
-  { "fr": "demain", "ja": "明日", "pos": "adverbe" },
-  { "fr": "ici", "ja": "ここ", "pos": "adverbe" },
-  { "fr": "là", "ja": "そこ・あそこ", "pos": "adverbe" },
-  { "fr": "vite", "ja": "速く", "pos": "adverbe" }
+  {
+    "fr": "être",
+    "ja": "〜である",
+    "pos": "verbe"
+  },
+  {
+    "fr": "avoir",
+    "ja": "持つ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "faire",
+    "ja": "する・作る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "aller",
+    "ja": "行く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "venir",
+    "ja": "来る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "voir",
+    "ja": "見る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "savoir",
+    "ja": "知る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "pouvoir",
+    "ja": "できる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "vouloir",
+    "ja": "欲しい・したい",
+    "pos": "verbe"
+  },
+  {
+    "fr": "devoir",
+    "ja": "しなければならない",
+    "pos": "verbe"
+  },
+  {
+    "fr": "dire",
+    "ja": "言う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "prendre",
+    "ja": "取る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "donner",
+    "ja": "与える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "parler",
+    "ja": "話す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "aimer",
+    "ja": "好き・愛する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "manger",
+    "ja": "食べる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "boire",
+    "ja": "飲む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "dormir",
+    "ja": "眠る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "partir",
+    "ja": "出発する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "sortir",
+    "ja": "出る・外出する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "arriver",
+    "ja": "到着する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "entrer",
+    "ja": "入る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rester",
+    "ja": "留まる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "regarder",
+    "ja": "見る・眺める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "écouter",
+    "ja": "聞く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "lire",
+    "ja": "読む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "écrire",
+    "ja": "書く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "travailler",
+    "ja": "働く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "étudier",
+    "ja": "勉強する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "comprendre",
+    "ja": "理解する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "demander",
+    "ja": "尋ねる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "répondre",
+    "ja": "答える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "trouver",
+    "ja": "見つける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "chercher",
+    "ja": "探す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "acheter",
+    "ja": "買う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "vendre",
+    "ja": "売る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "ouvrir",
+    "ja": "開ける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "fermer",
+    "ja": "閉める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "commencer",
+    "ja": "始める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "finir",
+    "ja": "終える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "jouer",
+    "ja": "遊ぶ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "mettre",
+    "ja": "置く・身につける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "sentir",
+    "ja": "感じる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "connaître",
+    "ja": "知っている",
+    "pos": "verbe"
+  },
+  {
+    "fr": "penser",
+    "ja": "考える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "croire",
+    "ja": "信じる・思う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "passer",
+    "ja": "過ごす・通る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "porter",
+    "ja": "運ぶ・身につける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "tenir",
+    "ja": "持つ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "suivre",
+    "ja": "従う・ついて行く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "attendre",
+    "ja": "待つ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "perdre",
+    "ja": "失う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rendre",
+    "ja": "返す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "descendre",
+    "ja": "降りる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "monter",
+    "ja": "上る・乗る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "tomber",
+    "ja": "転ぶ・落ちる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rentrer",
+    "ja": "帰宅する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "retourner",
+    "ja": "戻る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "aider",
+    "ja": "手伝う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "appeler",
+    "ja": "呼ぶ・電話する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "essayer",
+    "ja": "試す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "payer",
+    "ja": "払う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "envoyer",
+    "ja": "送る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "recevoir",
+    "ja": "受け取る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "offrir",
+    "ja": "贈る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "souffrir",
+    "ja": "苦しむ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "courir",
+    "ja": "走る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rire",
+    "ja": "笑う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "pleurer",
+    "ja": "泣く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "chanter",
+    "ja": "歌う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "danser",
+    "ja": "踊る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "apercevoir",
+    "ja": "気づく・見かける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "décevoir",
+    "ja": "がっかりさせる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "revoir",
+    "ja": "また会う・見直す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "prévoir",
+    "ja": "予測する・予定する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "valoir",
+    "ja": "価値がある",
+    "pos": "verbe"
+  },
+  {
+    "fr": "concevoir",
+    "ja": "考案する・企画する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "mentir",
+    "ja": "嘘をつく",
+    "pos": "verbe"
+  },
+  {
+    "fr": "servir",
+    "ja": "仕える・役立つ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "repartir",
+    "ja": "再出発する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "ressentir",
+    "ja": "感じる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "endormir",
+    "ja": "眠らせる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "consentir",
+    "ja": "同意する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "ressortir",
+    "ja": "再び出る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "pressentir",
+    "ja": "予感する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "revenir",
+    "ja": "戻ってくる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "devenir",
+    "ja": "〜になる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "parvenir",
+    "ja": "到達する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "prévenir",
+    "ja": "警告する・予防する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "convenir",
+    "ja": "適する・合意する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "retenir",
+    "ja": "引き止める・覚えておく",
+    "pos": "verbe"
+  },
+  {
+    "fr": "obtenir",
+    "ja": "得る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "maintenir",
+    "ja": "維持する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "contenir",
+    "ja": "含む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "appartenir",
+    "ja": "〜に属する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "soutenir",
+    "ja": "支える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "entretenir",
+    "ja": "維持する・世話をする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "couvrir",
+    "ja": "覆う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "découvrir",
+    "ja": "発見する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "recouvrir",
+    "ja": "覆い直す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rouvrir",
+    "ja": "再び開ける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "entrouvrir",
+    "ja": "半分開ける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "mourir",
+    "ja": "死ぬ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "acquérir",
+    "ja": "獲得する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "parcourir",
+    "ja": "走破する・巡る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "secourir",
+    "ja": "救助する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "conquérir",
+    "ja": "征服する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "apprendre",
+    "ja": "学ぶ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "surprendre",
+    "ja": "驚かせる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "reprendre",
+    "ja": "取り戻す・再開する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "entreprendre",
+    "ja": "着手する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "permettre",
+    "ja": "許可する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "promettre",
+    "ja": "約束する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "remettre",
+    "ja": "延期する・手渡す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "admettre",
+    "ja": "認める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "soumettre",
+    "ja": "提出する・従わせる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "commettre",
+    "ja": "犯す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "transmettre",
+    "ja": "伝える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "reconnaître",
+    "ja": "認識する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "paraître",
+    "ja": "現れる・〜のようだ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "apparaître",
+    "ja": "現れる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "disparaître",
+    "ja": "消える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "décrire",
+    "ja": "描写する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "inscrire",
+    "ja": "登録する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "redire",
+    "ja": "繰り返して言う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "interdire",
+    "ja": "禁止する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "prédire",
+    "ja": "予言する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "contredire",
+    "ja": "反論する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "relire",
+    "ja": "読み返す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "élire",
+    "ja": "選出する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "conduire",
+    "ja": "運転する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "construire",
+    "ja": "建てる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "détruire",
+    "ja": "破壊する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "produire",
+    "ja": "生産する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "réduire",
+    "ja": "減らす",
+    "pos": "verbe"
+  },
+  {
+    "fr": "traduire",
+    "ja": "翻訳する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "introduire",
+    "ja": "導入する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "séduire",
+    "ja": "魅了する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "battre",
+    "ja": "打つ・叩く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "combattre",
+    "ja": "戦う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "débattre",
+    "ja": "討論する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "craindre",
+    "ja": "恐れる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "peindre",
+    "ja": "描く（絵を）",
+    "pos": "verbe"
+  },
+  {
+    "fr": "atteindre",
+    "ja": "到達する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "éteindre",
+    "ja": "消す（火・電気）",
+    "pos": "verbe"
+  },
+  {
+    "fr": "plaindre",
+    "ja": "気の毒に思う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rejoindre",
+    "ja": "合流する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "vivre",
+    "ja": "生きる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "naître",
+    "ja": "生まれる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "plaire",
+    "ja": "気に入る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "résoudre",
+    "ja": "解決する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "entendre",
+    "ja": "聞こえる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "défendre",
+    "ja": "禁じる・守る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "dépendre",
+    "ja": "依存する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "suspendre",
+    "ja": "中断する・吊るす",
+    "pos": "verbe"
+  },
+  {
+    "fr": "étendre",
+    "ja": "広げる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "prétendre",
+    "ja": "主張する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "tendre",
+    "ja": "差し出す・伸ばす",
+    "pos": "verbe"
+  },
+  {
+    "fr": "détendre",
+    "ja": "リラックスさせる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "répandre",
+    "ja": "広める・こぼす",
+    "pos": "verbe"
+  },
+  {
+    "fr": "pendre",
+    "ja": "吊るす",
+    "pos": "verbe"
+  },
+  {
+    "fr": "fendre",
+    "ja": "割る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "mordre",
+    "ja": "噛む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "tordre",
+    "ja": "ねじる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "tondre",
+    "ja": "刈る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "fondre",
+    "ja": "溶ける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "confondre",
+    "ja": "混同する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "correspondre",
+    "ja": "一致する・文通する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "revendre",
+    "ja": "転売する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "redescendre",
+    "ja": "再び降りる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rompre",
+    "ja": "壊す・断つ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "interrompre",
+    "ja": "中断する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "corrompre",
+    "ja": "堕落させる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "pondre",
+    "ja": "(卵を)産む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "sous-entendre",
+    "ja": "ほのめかす",
+    "pos": "verbe"
+  },
+  {
+    "fr": "conclure",
+    "ja": "結論づける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "exclure",
+    "ja": "除外する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "inclure",
+    "ja": "含める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "convaincre",
+    "ja": "説得する・納得させる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "vaincre",
+    "ja": "打ち負かす",
+    "pos": "verbe"
+  },
+  {
+    "fr": "choisir",
+    "ja": "選ぶ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "réussir",
+    "ja": "成功する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "réfléchir",
+    "ja": "よく考える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "remplir",
+    "ja": "満たす・記入する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "grandir",
+    "ja": "成長する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "grossir",
+    "ja": "太る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "maigrir",
+    "ja": "痩せる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "vieillir",
+    "ja": "年をとる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rougir",
+    "ja": "赤面する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "agir",
+    "ja": "行動する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "réagir",
+    "ja": "反応する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "punir",
+    "ja": "罰する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "avertir",
+    "ja": "警告する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "établir",
+    "ja": "確立する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "investir",
+    "ja": "投資する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "saisir",
+    "ja": "つかむ・理解する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "bâtir",
+    "ja": "建てる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "guérir",
+    "ja": "治す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "nourrir",
+    "ja": "養う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "accomplir",
+    "ja": "達成する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "définir",
+    "ja": "定義する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "unir",
+    "ja": "結合する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "réunir",
+    "ja": "集める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "envahir",
+    "ja": "侵略する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "trahir",
+    "ja": "裏切る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "obéir",
+    "ja": "従う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "désobéir",
+    "ja": "従わない",
+    "pos": "verbe"
+  },
+  {
+    "fr": "franchir",
+    "ja": "乗り越える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "élargir",
+    "ja": "広げる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "approfondir",
+    "ja": "深める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "ralentir",
+    "ja": "減速する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "fournir",
+    "ja": "供給する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "démolir",
+    "ja": "取り壊す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "abolir",
+    "ja": "廃止する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "atterrir",
+    "ja": "着陸する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "affaiblir",
+    "ja": "弱める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "épaissir",
+    "ja": "濃くする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "adoucir",
+    "ja": "和らげる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "durcir",
+    "ja": "硬くする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "salir",
+    "ja": "汚す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "polir",
+    "ja": "磨く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "pâlir",
+    "ja": "青ざめる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "jaillir",
+    "ja": "ほとばしる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "haïr",
+    "ja": "憎む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "lever",
+    "ja": "持ち上げる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "emmener",
+    "ja": "連れて行く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "amener",
+    "ja": "持ってくる・連れてくる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "promener",
+    "ja": "散歩させる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "peser",
+    "ja": "重さを量る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "mener",
+    "ja": "導く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "jeter",
+    "ja": "投げる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rejeter",
+    "ja": "拒絶する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rappeler",
+    "ja": "呼び戻す・電話し直す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "épeler",
+    "ja": "綴りを言う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "renouveler",
+    "ja": "更新する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "avancer",
+    "ja": "前進する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "annoncer",
+    "ja": "発表する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "lancer",
+    "ja": "投げる・始める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "placer",
+    "ja": "置く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "remplacer",
+    "ja": "取り替える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "prononcer",
+    "ja": "発音する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "effacer",
+    "ja": "消す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "forcer",
+    "ja": "強制する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "nager",
+    "ja": "泳ぐ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "voyager",
+    "ja": "旅行する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "changer",
+    "ja": "変える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "partager",
+    "ja": "分け合う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "ranger",
+    "ja": "片付ける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "mélanger",
+    "ja": "混ぜる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "déranger",
+    "ja": "邪魔する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "bouger",
+    "ja": "動く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "employer",
+    "ja": "雇う・使う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "ennuyer",
+    "ja": "退屈させる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "nettoyer",
+    "ja": "掃除する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "appuyer",
+    "ja": "押す・支持する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "essuyer",
+    "ja": "拭く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "renvoyer",
+    "ja": "送り返す・解雇する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "préférer",
+    "ja": "好む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "espérer",
+    "ja": "望む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "répéter",
+    "ja": "繰り返す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "considérer",
+    "ja": "考慮する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "célébrer",
+    "ja": "祝う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "habiter",
+    "ja": "住む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "adorer",
+    "ja": "大好きだ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "détester",
+    "ja": "大嫌いだ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "préparer",
+    "ja": "準備する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "présenter",
+    "ja": "紹介する・提示する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "montrer",
+    "ja": "見せる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "expliquer",
+    "ja": "説明する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "continuer",
+    "ja": "続ける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "commander",
+    "ja": "注文する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "accepter",
+    "ja": "受け入れる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "refuser",
+    "ja": "拒否する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "proposer",
+    "ja": "提案する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "décider",
+    "ja": "決める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "oublier",
+    "ja": "忘れる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "imaginer",
+    "ja": "想像する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rêver",
+    "ja": "夢見る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "crier",
+    "ja": "叫ぶ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "discuter",
+    "ja": "議論する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "raconter",
+    "ja": "物語る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "inviter",
+    "ja": "招待する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "remercier",
+    "ja": "感謝する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "saluer",
+    "ja": "挨拶する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "embrasser",
+    "ja": "キスする・抱擁する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "toucher",
+    "ja": "触れる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "laver",
+    "ja": "洗う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "couper",
+    "ja": "切る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "casser",
+    "ja": "壊す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "réparer",
+    "ja": "修理する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "installer",
+    "ja": "設置する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "organiser",
+    "ja": "組織する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "participer",
+    "ja": "参加する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "former",
+    "ja": "形成する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "créer",
+    "ja": "創造する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "dessiner",
+    "ja": "描く（デッサン）",
+    "pos": "verbe"
+  },
+  {
+    "fr": "photographier",
+    "ja": "写真を撮る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "filmer",
+    "ja": "撮影する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "enregistrer",
+    "ja": "録音・登録する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "imprimer",
+    "ja": "印刷する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "signer",
+    "ja": "署名する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "noter",
+    "ja": "メモする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "calculer",
+    "ja": "計算する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "compter",
+    "ja": "数える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "mesurer",
+    "ja": "測る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "estimer",
+    "ja": "見積もる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "indiquer",
+    "ja": "示す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "marquer",
+    "ja": "印をつける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "souligner",
+    "ja": "強調する・下線を引く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "préciser",
+    "ja": "明確にする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "confirmer",
+    "ja": "確認する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "vérifier",
+    "ja": "確かめる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "voler",
+    "ja": "飛ぶ・盗む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "sauter",
+    "ja": "跳ぶ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "tirer",
+    "ja": "引く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "pousser",
+    "ja": "押す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "tourner",
+    "ja": "曲がる・回る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rouler",
+    "ja": "転がる・車で走る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "glisser",
+    "ja": "滑る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "flotter",
+    "ja": "浮かぶ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "couler",
+    "ja": "流れる・沈む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "brûler",
+    "ja": "燃える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "mouiller",
+    "ja": "濡らす",
+    "pos": "verbe"
+  },
+  {
+    "fr": "chauffer",
+    "ja": "温める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "allumer",
+    "ja": "点ける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "brancher",
+    "ja": "接続する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "débrancher",
+    "ja": "切断する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "utiliser",
+    "ja": "使う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "gaspiller",
+    "ja": "浪費する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "économiser",
+    "ja": "節約する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "dépenser",
+    "ja": "お金を使う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "coûter",
+    "ja": "値段がかかる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "gagner",
+    "ja": "勝つ・稼ぐ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "échouer",
+    "ja": "失敗する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "tenter",
+    "ja": "試みる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "tester",
+    "ja": "試す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "contrôler",
+    "ja": "管理する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "surveiller",
+    "ja": "監視する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "observer",
+    "ja": "観察する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "examiner",
+    "ja": "調べる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "analyser",
+    "ja": "分析する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "comparer",
+    "ja": "比較する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "séparer",
+    "ja": "分ける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "diviser",
+    "ja": "分割する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "multiplier",
+    "ja": "掛け算する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "additionner",
+    "ja": "足し算する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "emprunter",
+    "ja": "借りる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "prêter",
+    "ja": "貸す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rembourser",
+    "ja": "返済する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "louer",
+    "ja": "借りる・褒める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "livrer",
+    "ja": "配達する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "emballer",
+    "ja": "梱包する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "déballer",
+    "ja": "開梱する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "coller",
+    "ja": "貼る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "décoller",
+    "ja": "剥がす・離陸する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "plier",
+    "ja": "折る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "empiler",
+    "ja": "積み重ねる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "entasser",
+    "ja": "積み上げる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "classer",
+    "ja": "分類する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "trier",
+    "ja": "選別する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "archiver",
+    "ja": "保存する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "occuper",
+    "ja": "占める・従事させる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "marcher",
+    "ja": "歩く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "skier",
+    "ja": "スキーをする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "patiner",
+    "ja": "スケートをする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "camper",
+    "ja": "キャンプする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "pêcher",
+    "ja": "釣りをする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "chasser",
+    "ja": "狩る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "cultiver",
+    "ja": "栽培する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "planter",
+    "ja": "植える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "arroser",
+    "ja": "水をやる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "récolter",
+    "ja": "収穫する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "labourer",
+    "ja": "耕す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "soigner",
+    "ja": "世話する・治療する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "frotter",
+    "ja": "こする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "gratter",
+    "ja": "掻く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "secouer",
+    "ja": "振る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "agiter",
+    "ja": "振る・かき混ぜる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "remuer",
+    "ja": "動かす・かき混ぜる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "visser",
+    "ja": "ねじで締める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "clouer",
+    "ja": "釘を打つ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "creuser",
+    "ja": "掘る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "frapper",
+    "ja": "打つ・ノックする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "cogner",
+    "ja": "ぶつかる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "heurter",
+    "ja": "ぶつかる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "écraser",
+    "ja": "押しつぶす",
+    "pos": "verbe"
+  },
+  {
+    "fr": "presser",
+    "ja": "押す・急がせる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "serrer",
+    "ja": "締める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "desserrer",
+    "ja": "緩める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "traîner",
+    "ja": "引きずる・ぐずぐずする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "hisser",
+    "ja": "引き上げる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "lâcher",
+    "ja": "放す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "attraper",
+    "ja": "捕まえる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "rattraper",
+    "ja": "追いつく・取り戻す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "viser",
+    "ja": "狙う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "déposer",
+    "ja": "置く・預ける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "poser",
+    "ja": "置く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "reposer",
+    "ja": "休ませる・置き直す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "imposer",
+    "ja": "課す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "exposer",
+    "ja": "展示する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "opposer",
+    "ja": "対立させる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "supposer",
+    "ja": "仮定する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "disposer",
+    "ja": "配置する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "composer",
+    "ja": "構成する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "décomposer",
+    "ja": "分解する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "reculer",
+    "ja": "後退する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "dépasser",
+    "ja": "追い越す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "traverser",
+    "ja": "横断する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "contourner",
+    "ja": "迂回する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "isoler",
+    "ja": "孤立させる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "relier",
+    "ja": "つなぐ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "attacher",
+    "ja": "結びつける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "cliquer",
+    "ja": "クリックする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "naviguer",
+    "ja": "閲覧する・操縦する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "programmer",
+    "ja": "プログラムする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "connecter",
+    "ja": "接続する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "déconnecter",
+    "ja": "切断する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "sauvegarder",
+    "ja": "保存する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "supprimer",
+    "ja": "削除する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "modifier",
+    "ja": "修正する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "publier",
+    "ja": "公開する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "commenter",
+    "ja": "コメントする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "scanner",
+    "ja": "スキャンする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "numériser",
+    "ja": "デジタル化する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "formater",
+    "ja": "フォーマットする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "désinstaller",
+    "ja": "アンインストールする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "redémarrer",
+    "ja": "再起動する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "démarrer",
+    "ja": "起動する・出発する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "arrêter",
+    "ja": "止める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "terminer",
+    "ja": "終える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "réaliser",
+    "ja": "実現する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "planifier",
+    "ja": "計画する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "numéroter",
+    "ja": "番号を振る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "dater",
+    "ja": "日付をつける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "localiser",
+    "ja": "位置を特定する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "situer",
+    "ja": "位置づける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "orienter",
+    "ja": "方向づける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "administrer",
+    "ja": "管理する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "gouverner",
+    "ja": "統治する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "voter",
+    "ja": "投票する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "manifester",
+    "ja": "デモをする・表す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "protester",
+    "ja": "抗議する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "réclamer",
+    "ja": "要求する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "questionner",
+    "ja": "質問する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "informer",
+    "ja": "知らせる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "communiquer",
+    "ja": "伝える",
+    "pos": "verbe"
+  },
+  {
+    "fr": "diffuser",
+    "ja": "放送する・広める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "déclarer",
+    "ja": "宣言する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "affirmer",
+    "ja": "断言する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "nier",
+    "ja": "否定する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "avouer",
+    "ja": "告白する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "confesser",
+    "ja": "告白する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "cacher",
+    "ja": "隠す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "dissimuler",
+    "ja": "隠す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "dévoiler",
+    "ja": "明らかにする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "respecter",
+    "ja": "尊重する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "admirer",
+    "ja": "賞賛する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "mépriser",
+    "ja": "軽蔑する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "envier",
+    "ja": "羨む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "jalouser",
+    "ja": "妬む",
+    "pos": "verbe"
+  },
+  {
+    "fr": "pardonner",
+    "ja": "許す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "excuser",
+    "ja": "許す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "blâmer",
+    "ja": "非難する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "féliciter",
+    "ja": "祝福する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "consoler",
+    "ja": "慰める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "réconforter",
+    "ja": "元気づける",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se laver",
+    "ja": "体を洗う",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se doucher",
+    "ja": "シャワーを浴びる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se baigner",
+    "ja": "水浴びする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se raser",
+    "ja": "ひげを剃る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se maquiller",
+    "ja": "化粧する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se peigner",
+    "ja": "髪をとかす",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se brosser",
+    "ja": "磨く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "s'habiller",
+    "ja": "服を着る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se déshabiller",
+    "ja": "服を脱ぐ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se réveiller",
+    "ja": "目覚める",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se coucher",
+    "ja": "寝る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se dépêcher",
+    "ja": "急ぐ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "s'arrêter",
+    "ja": "止まる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se marier",
+    "ja": "結婚する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se séparer",
+    "ja": "別れる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se disputer",
+    "ja": "喧嘩する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se réconcilier",
+    "ja": "仲直りする",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se fâcher",
+    "ja": "怒る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "s'énerver",
+    "ja": "いらだつ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se calmer",
+    "ja": "落ち着く",
+    "pos": "verbe"
+  },
+  {
+    "fr": "s'amuser",
+    "ja": "楽しむ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "s'habituer",
+    "ja": "慣れる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "s'intéresser",
+    "ja": "興味を持つ",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se préparer",
+    "ja": "準備する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se trouver",
+    "ja": "位置する・〜にいる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se demander",
+    "ja": "自問する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se lever",
+    "ja": "起きる",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se promener",
+    "ja": "散歩する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "s'appeler",
+    "ja": "名前は〜という",
+    "pos": "verbe"
+  },
+  {
+    "fr": "s'ennuyer",
+    "ja": "退屈する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "s'inquiéter",
+    "ja": "心配する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se fiancer",
+    "ja": "婚約する",
+    "pos": "verbe"
+  },
+  {
+    "fr": "s'asseoir",
+    "ja": "座る",
+    "pos": "verbe"
+  },
+  {
+    "fr": "se souvenir",
+    "ja": "思い出す",
+    "pos": "verbe"
+  },
+  {
+    "fr": "temps",
+    "ja": "時間・天気",
+    "pos": "nom"
+  },
+  {
+    "fr": "jour",
+    "ja": "日",
+    "pos": "nom"
+  },
+  {
+    "fr": "année",
+    "ja": "年",
+    "pos": "nom"
+  },
+  {
+    "fr": "homme",
+    "ja": "男性",
+    "pos": "nom"
+  },
+  {
+    "fr": "femme",
+    "ja": "女性",
+    "pos": "nom"
+  },
+  {
+    "fr": "enfant",
+    "ja": "子供",
+    "pos": "nom"
+  },
+  {
+    "fr": "famille",
+    "ja": "家族",
+    "pos": "nom"
+  },
+  {
+    "fr": "ami",
+    "ja": "友達",
+    "pos": "nom"
+  },
+  {
+    "fr": "travail",
+    "ja": "仕事",
+    "pos": "nom"
+  },
+  {
+    "fr": "maison",
+    "ja": "家",
+    "pos": "nom"
+  },
+  {
+    "fr": "ville",
+    "ja": "街",
+    "pos": "nom"
+  },
+  {
+    "fr": "pays",
+    "ja": "国",
+    "pos": "nom"
+  },
+  {
+    "fr": "monde",
+    "ja": "世界",
+    "pos": "nom"
+  },
+  {
+    "fr": "vie",
+    "ja": "人生",
+    "pos": "nom"
+  },
+  {
+    "fr": "main",
+    "ja": "手",
+    "pos": "nom"
+  },
+  {
+    "fr": "tête",
+    "ja": "頭",
+    "pos": "nom"
+  },
+  {
+    "fr": "œil",
+    "ja": "目",
+    "pos": "nom"
+  },
+  {
+    "fr": "eau",
+    "ja": "水",
+    "pos": "nom"
+  },
+  {
+    "fr": "pain",
+    "ja": "パン",
+    "pos": "nom"
+  },
+  {
+    "fr": "pomme",
+    "ja": "りんご",
+    "pos": "nom"
+  },
+  {
+    "fr": "livre",
+    "ja": "本",
+    "pos": "nom"
+  },
+  {
+    "fr": "école",
+    "ja": "学校",
+    "pos": "nom"
+  },
+  {
+    "fr": "table",
+    "ja": "テーブル",
+    "pos": "nom"
+  },
+  {
+    "fr": "porte",
+    "ja": "ドア",
+    "pos": "nom"
+  },
+  {
+    "fr": "voiture",
+    "ja": "車",
+    "pos": "nom"
+  },
+  {
+    "fr": "route",
+    "ja": "道",
+    "pos": "nom"
+  },
+  {
+    "fr": "argent",
+    "ja": "お金",
+    "pos": "nom"
+  },
+  {
+    "fr": "question",
+    "ja": "質問",
+    "pos": "nom"
+  },
+  {
+    "fr": "histoire",
+    "ja": "物語・歴史",
+    "pos": "nom"
+  },
+  {
+    "fr": "idée",
+    "ja": "アイデア",
+    "pos": "nom"
+  },
+  {
+    "fr": "moment",
+    "ja": "瞬間",
+    "pos": "nom"
+  },
+  {
+    "fr": "place",
+    "ja": "場所・広場",
+    "pos": "nom"
+  },
+  {
+    "fr": "chose",
+    "ja": "もの・こと",
+    "pos": "nom"
+  },
+  {
+    "fr": "nom",
+    "ja": "名前",
+    "pos": "nom"
+  },
+  {
+    "fr": "mot",
+    "ja": "単語",
+    "pos": "nom"
+  },
+  {
+    "fr": "langue",
+    "ja": "言語",
+    "pos": "nom"
+  },
+  {
+    "fr": "chat",
+    "ja": "猫",
+    "pos": "nom"
+  },
+  {
+    "fr": "chien",
+    "ja": "犬",
+    "pos": "nom"
+  },
+  {
+    "fr": "soleil",
+    "ja": "太陽",
+    "pos": "nom"
+  },
+  {
+    "fr": "lune",
+    "ja": "月",
+    "pos": "nom"
+  },
+  {
+    "fr": "grand",
+    "ja": "大きい",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "petit",
+    "ja": "小さい",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "bon",
+    "ja": "良い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "mauvais",
+    "ja": "悪い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "beau",
+    "ja": "美しい",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "joli",
+    "ja": "かわいい・きれいな",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "nouveau",
+    "ja": "新しい",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "vieux",
+    "ja": "古い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "jeune",
+    "ja": "若い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "long",
+    "ja": "長い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "court",
+    "ja": "短い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "haut",
+    "ja": "高い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "bas",
+    "ja": "低い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "large",
+    "ja": "幅広い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "étroit",
+    "ja": "狭い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "facile",
+    "ja": "簡単な",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "difficile",
+    "ja": "難しい",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "important",
+    "ja": "重要な",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "possible",
+    "ja": "可能な",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "content",
+    "ja": "満足した・嬉しい",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "heureux",
+    "ja": "幸せな",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "triste",
+    "ja": "悲しい",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "fatigué",
+    "ja": "疲れた",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "malade",
+    "ja": "病気の",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "fort",
+    "ja": "強い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "faible",
+    "ja": "弱い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "riche",
+    "ja": "裕福な",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "pauvre",
+    "ja": "貧しい",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "chaud",
+    "ja": "熱い・暑い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "froid",
+    "ja": "冷たい・寒い",
+    "pos": "adjectif"
+  },
+  {
+    "fr": "très",
+    "ja": "とても",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "bien",
+    "ja": "よく・上手に",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "mal",
+    "ja": "悪く",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "beaucoup",
+    "ja": "たくさん",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "peu",
+    "ja": "少し",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "trop",
+    "ja": "あまりにも",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "aussi",
+    "ja": "〜も",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "encore",
+    "ja": "まだ・もう一度",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "déjà",
+    "ja": "すでに",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "toujours",
+    "ja": "いつも",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "souvent",
+    "ja": "よく（頻度）",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "parfois",
+    "ja": "時々",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "jamais",
+    "ja": "決して〜ない",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "maintenant",
+    "ja": "今",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "aujourd'hui",
+    "ja": "今日",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "hier",
+    "ja": "昨日",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "demain",
+    "ja": "明日",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "ici",
+    "ja": "ここ",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "là",
+    "ja": "そこ・あそこ",
+    "pos": "adverbe"
+  },
+  {
+    "fr": "vite",
+    "ja": "速く",
+    "pos": "adverbe"
+  }
 ]

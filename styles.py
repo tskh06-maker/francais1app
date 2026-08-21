@@ -38,6 +38,11 @@ h2, h3 { letter-spacing: -0.01em; font-weight: 700 !important; }
     border-radius: 2px;
     background: linear-gradient(90deg, var(--color-primary), var(--color-accent-gold));
 }
+@media (max-width: 480px) {
+    .app-hero { padding: 1.25rem 1.25rem; }
+    .app-hero h1 { font-size: 1.5rem !important; }
+    .app-hero p { font-size: 0.88rem; }
+}
 
 .stButton > button {
     border-radius: 10px !important;
@@ -93,8 +98,9 @@ h2, h3 { letter-spacing: -0.01em; font-weight: 700 !important; }
 .conj-table-wrap {
     border: 1px solid var(--color-border);
     border-radius: 12px;
-    overflow: hidden;
+    overflow-x: auto;
     margin: 0.4rem 0 0.2rem;
+    -webkit-overflow-scrolling: touch;
 }
 .conj-table {
     width: 100%;
@@ -108,10 +114,12 @@ h2, h3 { letter-spacing: -0.01em; font-weight: 700 !important; }
     text-align: left;
     padding: 0.5rem 0.7rem;
     border-bottom: 1px solid var(--color-border);
+    white-space: nowrap;
 }
 .conj-table td {
     padding: 0.45rem 0.7rem;
     border-bottom: 1px solid var(--color-border);
+    white-space: nowrap;
 }
 .conj-table tr:last-child td { border-bottom: none; }
 .conj-table tr:nth-child(even) td { background: #FBFBFE; }

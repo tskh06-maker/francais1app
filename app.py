@@ -1,25 +1,32 @@
 import random
 
+import requests
 import streamlit as st
 
 from conjugation_quiz import (
     AUXILIARIES,
     COMPOUND_TENSES,
+    GROUP_LABELS,
+    GROUP_ORDER,
+    LEVEL_LABELS,
+    LEVELS,
     PRONOUNS,
+    REFLEXIVE_PRONOUNS,
     TENSES,
     get_verb_blocks,
     get_verbs_for_tense,
+    grade_pronoun_answer,
     load_conjugations,
     load_verb_meanings,
     normalize,
     strip_accents,
-    strip_pronoun,
 )
+from context_quiz import build_quiz as build_context_quiz
+from context_quiz import load_sentences
 from history import get_review_verbs, get_stats, record_result
-from quiz import POS_LABELS, load_words, make_choices
+from quiz import load_words, make_choices
+from settings import DEFAULT_STRICT_ACCENT, STRICT_ACCENT_LABELS
 from styles import inject_custom_css, render_conjugation_table_html, render_hero, render_ring
-
-CATEGORIES = ["verbe", "nom", "adjectif", "adverbe"]
 
 st.set_page_config(page_title="フランス語学習アプリ", page_icon="🇫🇷", layout="centered")
 inject_custom_css()
@@ -39,6 +46,13 @@ defaults = {
     "conj_results": None,
     "conj_wrong_verbs": [],
     "history_data": {},
+    "strict_accent": DEFAULT_STRICT_ACCENT,
+    "context_questions": [],
+    "context_index": 0,
+    "context_score": 0,
+    "context_selected": None,
+    "context_answered": False,
+    "context_wrong_verbs": [],
 }
 for key, value in defaults.items():
     st.session_state.setdefault(key, value)
@@ -60,14 +74,47 @@ def start_conj_session(tense, verbs):
     go("conj_quiz")
 
 
+def start_context_quiz_session(tense, level, count):
+    conjugations = load_conjugations()
+    sentences_index = load_sentences()
+    questions = build_context_quiz(tense, level, count, conjugations, sentences_index)
+    st.session_state.context_questions = questions
+    st.session_state.context_index = 0
+    st.session_state.context_score = 0
+    st.session_state.context_selected = None
+    st.session_state.context_answered = False
+    st.session_state.context_wrong_verbs = []
+    go("context_quiz")
+
+
+def get_formspree_url():
+    try:
+        return st.secrets.get("formspree_url")
+    except Exception:
+        return None
+
+
 with st.sidebar:
     if st.button("🏠 ホームに戻る", use_container_width=True):
         go("home")
+    if st.button("📝 動詞活用", use_container_width=True):
+        go("conj_setup")
+    if st.button("📖 動詞一覧", use_container_width=True):
+        go("verb_list")
+    if st.button("📊 学習記録", use_container_width=True):
+        go("history_view")
+    if st.button("⚙️ 設定", use_container_width=True):
+        go("settings")
 
 if st.session_state.screen == "home":
     render_hero("🇫🇷 フランス語学習アプリ", "動詞の活用を、練習・クイズ・復習でしっかり身につける")
 else:
-    st.markdown("##### 🇫🇷 フランス語学習アプリ")
+    top_col1, top_col2 = st.columns([1, 4])
+    with top_col1:
+        if st.button("← ホーム", key="top_home_button"):
+            go("home")
+    with top_col2:
+        st.markdown("##### 🇫🇷 フランス語学習アプリ")
 
 # ---------- ホーム ----------
 if st.session_state.screen == "home":
@@ -83,8 +130,9 @@ if st.session_state.screen == "home":
         with st.container(border=True):
             st.markdown('<div class="card-icon">🔤</div>', unsafe_allow_html=True)
             st.markdown('<div class="card-title">単語クイズ</div>', unsafe_allow_html=True)
-            st.markdown('<div class="card-caption">名詞・形容詞などは今後追加予定</div>', unsafe_allow_html=True)
-            st.button("単語クイズ（準備中）", use_container_width=True, disabled=True)
+            st.markdown('<div class="card-caption">動詞の意味を4択で確認（名詞・形容詞などは今後追加予定）</div>', unsafe_allow_html=True)
+            if st.button("単語クイズ（動詞）", use_container_width=True):
+                go("word_setup")
 
     col3, col4 = st.columns(2)
     with col3:
@@ -102,6 +150,34 @@ if st.session_state.screen == "home":
             if st.button("学習記録を見る", use_container_width=True):
                 go("history_view")
 
+    with st.expander("💬 ご意見・ご感想"):
+        with st.form("feedback_form", clear_on_submit=True):
+            feedback_message = st.text_area("メッセージ", height=80, label_visibility="collapsed", placeholder="バグ報告やご要望など")
+            feedback_submitted = st.form_submit_button("送信する", type="primary")
+
+        if feedback_submitted:
+            message_clean = feedback_message.strip()
+            if not message_clean:
+                st.warning("メッセージを入力してください。")
+            else:
+                endpoint = get_formspree_url()
+                if not endpoint:
+                    st.error("送信先が未設定です。管理者にお問い合わせください。")
+                else:
+                    try:
+                        response = requests.post(
+                            endpoint,
+                            data={"message": message_clean},
+                            headers={"Accept": "application/json"},
+                            timeout=10,
+                        )
+                        if response.ok:
+                            st.success("送信しました。ありがとうございます！")
+                        else:
+                            st.error("送信に失敗しました。時間をおいて再度お試しください。")
+                    except requests.RequestException:
+                        st.error("送信に失敗しました。時間をおいて再度お試しください。")
+
 
 # ---------- 動詞一覧 ----------
 elif st.session_state.screen == "verb_list":
@@ -115,14 +191,30 @@ elif st.session_state.screen == "verb_list":
 
     pronoun_words = {"je": "je", "tu": "tu", "il_elle": "il/elle", "nous": "nous", "vous": "vous", "ils": "ils"}
     vowels = "aeiouyàâäéèêëîïôöùûüh"
+    reflexive_elisions = {"me": "m’", "te": "t’", "se": "s’"}
 
-    def compound_form(aux_forms, key, participe):
+    def reflexive_prefix(key, next_word):
+        pronoun = REFLEXIVE_PRONOUNS[key]
+        if pronoun in reflexive_elisions and next_word[:1].lower() in vowels:
+            return reflexive_elisions[pronoun]
+        return pronoun + " "
+
+    def tense_form_display(forms, key, reflexive):
+        form = forms[key]
+        return (reflexive_prefix(key, form) + form) if reflexive else form
+
+    def compound_form(aux_forms, key, participe, reflexive=False):
         aux_form = aux_forms[key]
         if key == "je":
-            pronoun = "j’" if aux_form[:1].lower() in vowels else "je "
+            # 再帰動詞では je の直後は常に me/m'（子音扱い）なので je はエリジオンしない
+            if reflexive:
+                pronoun = "je "
+            else:
+                pronoun = "j’" if aux_form[:1].lower() in vowels else "je "
         else:
             pronoun = pronoun_words[key] + " "
-        return f"{pronoun}{aux_form} {participe}"
+        reflexive_part = reflexive_prefix(key, aux_form) if reflexive else ""
+        return f"{pronoun}{reflexive_part}{aux_form} {participe}"
 
     if query.strip():
         q_norm = strip_accents(query.strip().lower())
@@ -130,11 +222,24 @@ elif st.session_state.screen == "verb_list":
             v for v in verbs if q_norm in strip_accents(v.lower()) or query.strip() in meanings.get(v, "")
         ]
         st.caption(f"検索結果: {len(matched)}件")
+        grouped = False
     else:
-        matched = verbs
+        matched = sorted(verbs, key=lambda v: GROUP_ORDER.index(conjugations[v]["conjugationGroup"]))
+        grouped = True
 
+    previous_group = None
     for verb in matched:
         info = conjugations[verb]
+        group = info.get("conjugationGroup")
+
+        if grouped and group != previous_group:
+            group_count = sum(1 for v in matched if conjugations[v].get("conjugationGroup") == group)
+            if previous_group is not None:
+                st.divider()
+            st.markdown(f"##### {GROUP_LABELS.get(group, group)}（{group_count}語）")
+            previous_group = group
+
+        reflexive = info.get("reflexive", False)
         with st.expander(f"{verb} — {meanings.get(verb, '')}"):
             présent = info["présent"]
             imparfait = info["imparfait"]
@@ -145,6 +250,7 @@ elif st.session_state.screen == "verb_list":
             aux_imparfait = conjugations[aux]["imparfait"]
 
             st.markdown(
+                f'<span class="badge">{GROUP_LABELS.get(group, group)}</span>'
                 f'<span class="badge">助動詞: {aux}</span><span class="badge">過去分詞: {participe}</span>',
                 unsafe_allow_html=True,
             )
@@ -152,10 +258,10 @@ elif st.session_state.screen == "verb_list":
             pronoun_rows = [
                 (
                     label,
-                    présent[key],
-                    imparfait[key],
-                    compound_form(aux_présent, key, participe),
-                    compound_form(aux_imparfait, key, participe),
+                    tense_form_display(présent, key, reflexive),
+                    tense_form_display(imparfait, key, reflexive),
+                    compound_form(aux_présent, key, participe, reflexive),
+                    compound_form(aux_imparfait, key, participe, reflexive),
                 )
                 for key, label in PRONOUNS
             ]
@@ -210,19 +316,51 @@ elif st.session_state.screen == "history_view":
                             start_conj_session(tense, random.sample(review_verbs, n))
 
 
+# ---------- 設定 ----------
+elif st.session_state.screen == "settings":
+    st.subheader("設定")
+
+    with st.container(border=True):
+        st.markdown("**アクセント記号の採点基準**")
+        st.caption("動詞活用の採点で、アクセント記号だけが間違っている場合（例: e → é）の扱いを選べます。")
+        accent_options = list(STRICT_ACCENT_LABELS.keys())
+        current_index = accent_options.index(st.session_state.strict_accent)
+        choice = st.radio(
+            "アクセント記号の採点基準",
+            accent_options,
+            index=current_index,
+            format_func=lambda v: STRICT_ACCENT_LABELS[v],
+            label_visibility="collapsed",
+        )
+        if choice != st.session_state.strict_accent:
+            st.session_state.strict_accent = choice
+            st.rerun()
+        st.caption("※ 「厳しめ」にすると、アクセント抜けも間違い扱いになり復習リストに追加されます。この設定はブラウザのセッション内でのみ有効です。")
+
+
 # ---------- 単語クイズ: 設定 ----------
 elif st.session_state.screen == "word_setup":
     st.subheader("単語クイズの設定")
-    pos_choice = st.radio(
-        "分野を選んでください",
-        CATEGORIES + [None],
-        format_func=lambda p: POS_LABELS.get(p, "すべて"),
-    )
-    count_choice = st.radio("問題数を選んでください", [10, 20], format_func=lambda c: f"{c}問")
+    st.caption("現在は動詞のみ対応しています（名詞・形容詞などは今後追加予定）。")
+    pos_choice = "verbe"
 
-    if st.button("スタート", type="primary"):
-        all_words = load_words()
-        available = [w for w in all_words if pos_choice is None or w["pos"] == pos_choice]
+    conjugations = load_conjugations()
+    level_keys = [None] + LEVELS
+    level = st.segmented_control(
+        "レベル", level_keys, format_func=lambda lv: LEVEL_LABELS.get(lv, "すべて"), default=None,
+    )
+    available_preview = [
+        w for w in load_words()
+        if w["pos"] == pos_choice and (level is None or conjugations.get(w["fr"], {}).get("level") == level)
+    ]
+    st.caption(f"対象: {len(available_preview)}語")
+
+    count_choice = st.segmented_control(
+        "問題数", [10, 20], format_func=lambda c: f"{c}問", default=10, label_visibility="collapsed",
+    ) or 10
+
+    if st.button("スタート", type="primary", disabled=not available_preview):
+        available = available_preview
         n = min(count_choice, len(available))
         st.session_state.word_list = random.sample(available, n)
         st.session_state.word_index = 0
@@ -305,11 +443,12 @@ elif st.session_state.screen == "conj_setup":
     all_tense_labels = {**TENSES, **COMPOUND_TENSES}
     tense_keys = list(TENSES.keys()) + list(COMPOUND_TENSES.keys())
 
-    MODE_LABELS = {"practice": "練習", "quiz": "クイズ", "review": "復習"}
+    MODE_LABELS = {"practice": "練習", "quiz": "クイズ", "review": "復習", "context_quiz": "文脈クイズ"}
     MODE_CAPTIONS = {
         "practice": "グループの動詞が順番に出ます",
         "quiz": "ランダムに出ます",
         "review": "間違えた動詞だけ出ます",
+        "context_quiz": "例文の穴埋めで活用形を4択から選びます（現在形・半過去のみ）",
     }
 
     with st.container(border=True):
@@ -322,7 +461,17 @@ elif st.session_state.screen == "conj_setup":
             st.caption("助動詞（avoir/être）の選択と、過去分詞（être の場合は男性形）を答える形式です。")
 
     with st.container(border=True):
-        st.markdown("**② モード**")
+        st.markdown("**② レベル**")
+        level_keys = [None] + LEVELS
+        level = st.segmented_control(
+            "レベル", level_keys, format_func=lambda lv: LEVEL_LABELS.get(lv, "すべて"),
+            default=None, label_visibility="collapsed",
+        )
+        level_verb_count = len(get_verbs_for_tense(tense, level=level))
+        st.caption(f"対象: {level_verb_count}語")
+
+    with st.container(border=True):
+        st.markdown("**③ モード**")
         mode = st.segmented_control(
             "モード", list(MODE_LABELS.keys()), format_func=lambda m: MODE_LABELS[m],
             default="practice", label_visibility="collapsed",
@@ -330,18 +479,20 @@ elif st.session_state.screen == "conj_setup":
         st.caption(MODE_CAPTIONS[mode])
 
     with st.container(border=True):
-        st.markdown("**③ 内容を決めてスタート**")
-        if mode == "quiz":
+        st.markdown("**④ 内容を決めてスタート**")
+        if level_verb_count == 0:
+            st.info("このレベル・時制の組み合わせに該当する動詞がありません。")
+        elif mode == "quiz":
             count_choice = st.segmented_control(
                 "問題数", [10, 20], format_func=lambda c: f"{c}問", default=10, label_visibility="collapsed",
             ) or 10
             if st.button("スタート", type="primary", use_container_width=True):
-                verbs = get_verbs_for_tense(tense)
+                verbs = get_verbs_for_tense(tense, level=level)
                 n = min(count_choice, len(verbs))
                 start_conj_session(tense, random.sample(verbs, n))
         elif mode == "review":
             history = st.session_state.history_data
-            review_verbs = get_review_verbs(history, tense, get_verbs_for_tense(tense))
+            review_verbs = get_review_verbs(history, tense, get_verbs_for_tense(tense, level=level))
             if not review_verbs:
                 st.info("復習する動詞はありません（間違えた記録がまだないか、すべて復習済みです）。")
             elif len(review_verbs) <= 10:
@@ -356,8 +507,17 @@ elif st.session_state.screen == "conj_setup":
                 if st.button("スタート", type="primary", use_container_width=True):
                     n = min(review_count, len(review_verbs))
                     start_conj_session(tense, random.sample(review_verbs, n))
+        elif mode == "context_quiz":
+            if tense in COMPOUND_TENSES:
+                st.info("文脈クイズは現在形・半過去のみ対応しています。①で時制を変更してください。")
+            else:
+                count_choice = st.segmented_control(
+                    "問題数", [10, 20], format_func=lambda c: f"{c}問", default=10, label_visibility="collapsed",
+                ) or 10
+                if st.button("スタート", type="primary", use_container_width=True):
+                    start_context_quiz_session(tense, level, count_choice)
         else:
-            blocks = get_verb_blocks(tense)
+            blocks = get_verb_blocks(tense, level=level)
             block_option_map = {}
             start = 1
             for block in blocks:
@@ -385,6 +545,7 @@ elif st.session_state.screen == "conj_quiz":
     meanings = load_verb_meanings()
     meaning = meanings.get(verb, "")
     compound = tense in COMPOUND_TENSES
+    reflexive = conjugations[verb].get("reflexive", False)
     all_tense_labels = {**TENSES, **COMPOUND_TENSES}
 
     st.progress((idx) / len(verbs))
@@ -408,15 +569,25 @@ elif st.session_state.screen == "conj_quiz":
         else:
             correct_forms = conjugations[verb][tense]
             st.caption("好きな人称から自由に入力できます。全部入力し終わったら「採点する」を押してください。")
+            if reflexive:
+                st.caption("再帰代名詞（me/te/se/nous/vous/se）も含めて答えてください。")
 
             for i in range(0, len(PRONOUNS), 2):
                 col1, col2 = st.columns(2)
                 key1, label1 = PRONOUNS[i]
                 key2, label2 = PRONOUNS[i + 1]
                 with col1:
-                    st.text_input(label1, key=f"conj_{idx}_{key1}", disabled=st.session_state.conj_graded)
+                    placeholder1 = f"{REFLEXIVE_PRONOUNS[key1]} ..." if reflexive else ""
+                    st.text_input(
+                        label1, key=f"conj_{idx}_{key1}", disabled=st.session_state.conj_graded,
+                        placeholder=placeholder1,
+                    )
                 with col2:
-                    st.text_input(label2, key=f"conj_{idx}_{key2}", disabled=st.session_state.conj_graded)
+                    placeholder2 = f"{REFLEXIVE_PRONOUNS[key2]} ..." if reflexive else ""
+                    st.text_input(
+                        label2, key=f"conj_{idx}_{key2}", disabled=st.session_state.conj_graded,
+                        placeholder=placeholder2,
+                    )
 
     if not st.session_state.conj_graded:
         if st.button("採点する", type="primary"):
@@ -437,7 +608,8 @@ elif st.session_state.screen == "conj_quiz":
                 if part_norm == part_correct_norm:
                     results.append(("過去分詞", part_user, info["participe"], "○"))
                 elif strip_accents(part_norm) == strip_accents(part_correct_norm):
-                    all_correct = False
+                    if st.session_state.strict_accent:
+                        all_correct = False
                     results.append(("過去分詞", part_user, info["participe"], "△"))
                 else:
                     all_correct = False
@@ -445,17 +617,11 @@ elif st.session_state.screen == "conj_quiz":
             else:
                 for key, label in PRONOUNS:
                     user_answer = st.session_state.get(f"conj_{idx}_{key}", "") or ""
-                    user_norm = strip_pronoun(normalize(user_answer), key)
-                    correct_norm = normalize(correct_forms[key])
-                    if user_norm == correct_norm:
-                        status = "○"
-                    elif strip_accents(user_norm) == strip_accents(correct_norm):
-                        status = "△"
+                    status = grade_pronoun_answer(user_answer, key, correct_forms[key], reflexive)
+                    if status == "×" or (status == "△" and st.session_state.strict_accent):
                         all_correct = False
-                    else:
-                        status = "×"
-                        all_correct = False
-                    results.append((label, user_answer, correct_forms[key], status))
+                    expected = f"{REFLEXIVE_PRONOUNS[key]} {correct_forms[key]}" if reflexive else correct_forms[key]
+                    results.append((label, user_answer, expected, status))
 
             st.session_state.conj_results = results
             st.session_state.conj_graded = True
@@ -497,6 +663,91 @@ elif st.session_state.screen == "conj_result":
         )
 
     wrong_verbs = st.session_state.conj_wrong_verbs
+    if wrong_verbs:
+        meanings = load_verb_meanings()
+        st.markdown("##### 間違えた動詞（自動的に復習リストに追加されました）")
+        badges = "".join(f'<span class="badge">{v}　{meanings.get(v, "")}</span>' for v in wrong_verbs)
+        st.markdown(f'<div style="line-height:2.4;">{badges}</div>', unsafe_allow_html=True)
+
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("もう一度", use_container_width=True):
+            go("conj_setup")
+    with col2:
+        if st.button("ホームに戻る", use_container_width=True):
+            go("home")
+
+
+# ---------- 動詞活用: 文脈クイズ ----------
+elif st.session_state.screen == "context_quiz":
+    questions = st.session_state.context_questions
+    idx = st.session_state.context_index
+
+    if idx >= len(questions):
+        go("context_result")
+
+    q = questions[idx]
+    meanings = load_verb_meanings()
+    meaning = meanings.get(q["verb"], "")
+    person_label = dict(PRONOUNS)[q["key"]]
+
+    st.progress(idx / len(questions))
+    st.caption(f"問題 {idx + 1} / {len(questions)}")
+
+    with st.container(border=True):
+        st.markdown(f"### 『{q['verb']}』（{meaning}）")
+        st.caption(f"{person_label} の活用形を選んでください")
+        if q["context"]:
+            st.markdown(f"#### {q['blanked_sentence']}")
+            st.caption(f"訳: {q['translation']}")
+        else:
+            st.info("この組み合わせにはまだ例文がありません。活用形のみで出題します。")
+
+    selected = st.radio(
+        "選択肢",
+        q["choices"],
+        index=None,
+        key=f"context_radio_{idx}",
+        disabled=st.session_state.context_answered,
+        label_visibility="collapsed",
+    )
+
+    if not st.session_state.context_answered:
+        if st.button("回答する", type="primary", disabled=selected is None):
+            st.session_state.context_answered = True
+            st.session_state.context_selected = selected
+            correct = selected == q["correct_form"]
+            if correct:
+                st.session_state.context_score += 1
+            else:
+                st.session_state.context_wrong_verbs.append(q["verb"])
+            record_result(st.session_state.history_data, q["verb"], q["tense"], correct)
+            st.rerun()
+    else:
+        if st.session_state.context_selected == q["correct_form"]:
+            st.success("正解！")
+        else:
+            st.error(f"不正解… 正解は「{q['correct_form']}」でした。")
+        next_label = "次へ" if idx + 1 < len(questions) else "結果を見る"
+        if st.button(next_label, type="primary"):
+            st.session_state.context_index += 1
+            st.session_state.context_answered = False
+            st.session_state.context_selected = None
+            st.rerun()
+
+
+# ---------- 動詞活用: 文脈クイズ結果 ----------
+elif st.session_state.screen == "context_result":
+    st.subheader("結果")
+    total = len(st.session_state.context_questions)
+    score = st.session_state.context_score
+    with st.container(border=True):
+        st.markdown(
+            render_ring(100 * score / total if total else 0, "正答率", f"{total}問中 {score}問正解"),
+            unsafe_allow_html=True,
+        )
+
+    wrong_verbs = list(dict.fromkeys(st.session_state.context_wrong_verbs))
     if wrong_verbs:
         meanings = load_verb_meanings()
         st.markdown("##### 間違えた動詞（自動的に復習リストに追加されました）")

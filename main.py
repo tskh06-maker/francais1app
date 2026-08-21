@@ -2,6 +2,8 @@ import random
 
 from conjugation_quiz import (
     COMPOUND_TENSES,
+    LEVEL_LABELS,
+    LEVELS,
     TENSES,
     get_verb_blocks,
     get_verbs_for_tense,
@@ -42,6 +44,14 @@ if __name__ == "__main__":
         tense_options = list(TENSES.items()) + list(COMPOUND_TENSES.items())
         tense = choose("\n時制を選んでください", tense_options)
 
+        level_options = [(None, "すべて")] + [(lv, LEVEL_LABELS[lv]) for lv in LEVELS]
+        level = choose("\nレベルを選んでください", level_options)
+        level_verb_count = len(get_verbs_for_tense(tense, level=level))
+        print(f"対象: {level_verb_count}語")
+        if level_verb_count == 0:
+            print("このレベル・時制の組み合わせに該当する動詞がありません。")
+            raise SystemExit
+
         practice_or_quiz = choose("\n練習・クイズ・復習を選んでください", [
             ("practice", "練習（グループの動詞が順番に出る）"),
             ("quiz", "クイズ（ランダムに出る）"),
@@ -50,10 +60,10 @@ if __name__ == "__main__":
 
         if practice_or_quiz == "quiz":
             count = choose("\n問題数を選んでください", [(10, "10問"), (20, "20問")])
-            run_conjugation_quiz(count, tense)
+            run_conjugation_quiz(count, tense, level)
         elif practice_or_quiz == "review":
             history = load_history()
-            review_verbs = get_review_verbs(history, tense, get_verbs_for_tense(tense))
+            review_verbs = get_review_verbs(history, tense, get_verbs_for_tense(tense, level=level))
             if not review_verbs:
                 print("\n復習する動詞はありません（間違えた記録がまだないか、すべて復習済みです）。")
             elif len(review_verbs) <= 10:
@@ -66,7 +76,7 @@ if __name__ == "__main__":
                 n = min(count, len(review_verbs))
                 run_conjugation_practice(random.sample(review_verbs, n), tense)
         else:
-            blocks = get_verb_blocks(tense)
+            blocks = get_verb_blocks(tense, level=level)
             block_options = []
             start = 1
             for block in blocks:
