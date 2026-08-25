@@ -21,6 +21,7 @@ from conjugation_quiz import (
     normalize,
     strip_accents,
 )
+import cloud_history
 from context_quiz import build_quiz as build_context_quiz
 from context_quiz import load_sentences
 from history import get_review_verbs, get_stats, record_result
@@ -53,6 +54,10 @@ defaults = {
     "context_selected": None,
     "context_answered": False,
     "context_wrong_verbs": [],
+    "auth_uid": None,
+    "auth_email": None,
+    "auth_id_token": None,
+    "auth_refresh_token": None,
 }
 for key, value in defaults.items():
     st.session_state.setdefault(key, value)
@@ -61,6 +66,31 @@ for key, value in defaults.items():
 def go(screen):
     st.session_state.screen = screen
     st.rerun()
+
+
+def sync_history_if_logged_in():
+    """ログイン中ならFirestoreへ学習記録を保存する。失敗してもクイズは止めない。"""
+    if not st.session_state.auth_uid:
+        return
+    try:
+        id_token, refresh_token = cloud_history.save_history(
+            st.session_state.auth_uid,
+            st.session_state.auth_id_token,
+            st.session_state.auth_refresh_token,
+            st.session_state.history_data,
+        )
+        st.session_state.auth_id_token = id_token
+        st.session_state.auth_refresh_token = refresh_token
+    except cloud_history.CloudAuthError:
+        st.toast("学習記録のクラウド保存に失敗しました。次回の回答時に再度お試しします。", icon="⚠️")
+
+
+def logout():
+    st.session_state.auth_uid = None
+    st.session_state.auth_email = None
+    st.session_state.auth_id_token = None
+    st.session_state.auth_refresh_token = None
+    st.session_state.history_data = {}
 
 
 def start_conj_session(tense, verbs):
@@ -107,6 +137,16 @@ with st.sidebar:
         go("history_view")
     if st.button("⚙️ 設定", use_container_width=True):
         go("settings")
+
+    st.divider()
+    if st.session_state.auth_uid:
+        st.caption(f"ログイン中: {st.session_state.auth_email}")
+        if st.button("ログアウト", use_container_width=True):
+            logout()
+            go("home")
+    else:
+        if st.button("🔐 ログイン", use_container_width=True):
+            go("account")
 
 if st.session_state.screen == "home":
     render_hero("🇫🇷 フランス語学習アプリ", "動詞の活用を、練習・クイズ・復習でしっかり身につける")
@@ -338,6 +378,68 @@ elif st.session_state.screen == "settings":
             st.session_state.strict_accent = choice
             st.rerun()
         st.caption("※ 「厳しめ」にすると、アクセント抜けも間違い扱いになり復習リストに追加されます。この設定はブラウザのセッション内でのみ有効です。")
+
+
+# ---------- アカウント ----------
+elif st.session_state.screen == "account":
+    st.subheader("ログイン / 新規登録")
+    st.caption("ログインすると学習記録がクラウドに保存され、ブラウザを閉じたり別の端末からでも記録を引き継げます。ログインしなくても今まで通り利用できます。")
+    st.caption("※ 自動ログイン保持はしていません。ブラウザを閉じた場合は再度ログインが必要です。")
+
+    def _apply_login(result):
+        st.session_state.auth_uid = result["uid"]
+        st.session_state.auth_email = result["email"]
+        st.session_state.auth_id_token = result["id_token"]
+        st.session_state.auth_refresh_token = result["refresh_token"]
+
+        cloud_data, id_token, refresh_token = cloud_history.load_history(
+            result["uid"], result["id_token"], result["refresh_token"]
+        )
+        st.session_state.auth_id_token = id_token
+        st.session_state.auth_refresh_token = refresh_token
+
+        if cloud_data:
+            st.session_state.history_data = cloud_data
+            st.info("クラウドに保存されていた学習記録を読み込みました。")
+        elif st.session_state.history_data:
+            sync_history_if_logged_in()
+            st.info("これまでの学習記録をこのアカウントに保存しました。")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        with st.container(border=True):
+            st.markdown("**ログイン**")
+            with st.form("login_form"):
+                login_email = st.text_input("メールアドレス", key="login_email")
+                login_password = st.text_input("パスワード", type="password", key="login_password")
+                login_submitted = st.form_submit_button("ログイン", type="primary", use_container_width=True)
+            if login_submitted:
+                try:
+                    result = cloud_history.sign_in(login_email, login_password)
+                    _apply_login(result)
+                    go("home")
+                except cloud_history.CloudAuthError as e:
+                    st.error(str(e))
+
+    with col2:
+        with st.container(border=True):
+            st.markdown("**新規登録**")
+            with st.form("signup_form"):
+                signup_email = st.text_input("メールアドレス", key="signup_email")
+                signup_password = st.text_input(
+                    "パスワード（6文字以上）", type="password", key="signup_password"
+                )
+                signup_submitted = st.form_submit_button("新規登録", type="primary", use_container_width=True)
+            if signup_submitted:
+                try:
+                    result = cloud_history.sign_up(signup_email, signup_password)
+                    _apply_login(result)
+                    go("home")
+                except cloud_history.CloudAuthError as e:
+                    st.error(str(e))
+
+    if st.button("ゲストとして続ける（ログインしない）"):
+        go("home")
 
 
 # ---------- 単語クイズ: 設定 ----------
@@ -633,6 +735,7 @@ elif st.session_state.screen == "conj_quiz":
                 st.session_state.conj_wrong_verbs.append(verb)
 
             record_result(st.session_state.history_data, verb, tense, all_correct)
+            sync_history_if_logged_in()
             st.rerun()
     else:
         st.markdown("#### 採点結果")
@@ -724,6 +827,7 @@ elif st.session_state.screen == "context_quiz":
             else:
                 st.session_state.context_wrong_verbs.append(q["verb"])
             record_result(st.session_state.history_data, q["verb"], q["tense"], correct)
+            sync_history_if_logged_in()
             st.rerun()
     else:
         if st.session_state.context_selected == q["correct_form"]:
