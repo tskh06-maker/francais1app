@@ -21,6 +21,7 @@ from conjugation_quiz import (
     normalize,
     strip_accents,
 )
+from audio import render_speech_player, speak_button
 import cloud_history
 from context_quiz import build_quiz as build_context_quiz
 from context_quiz import load_sentences
@@ -296,6 +297,7 @@ elif st.session_state.screen == "verb_list":
                 f'<span class="badge">助動詞: {aux}</span><span class="badge">過去分詞: {participe}</span>',
                 unsafe_allow_html=True,
             )
+            speak_button(verb, button_key=f"speak_verblist_{verb}")
 
             pronoun_rows = [
                 (
@@ -308,6 +310,8 @@ elif st.session_state.screen == "verb_list":
                 for key, label in PRONOUNS
             ]
             st.markdown(render_conjugation_table_html(pronoun_rows), unsafe_allow_html=True)
+
+    render_speech_player()
 
 
 # ---------- 学習記録 ----------
