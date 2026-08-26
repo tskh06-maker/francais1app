@@ -224,13 +224,3 @@ def render_ring(percent, title="", sub="", size=128, stroke=13):
       <div class="ring-sub">{sub}</div>
     </div>
     """
-
-
-def render_conjugation_table_html(pronoun_rows):
-    header = "<tr><th>人称</th><th>現在形</th><th>半過去</th><th>複合過去</th><th>大過去</th></tr>"
-    body = "".join(
-        f'<tr><td class="pronoun">{label}</td><td>{présent}</td><td>{imparfait}</td>'
-        f"<td>{compose}</td><td>{plusque}</td></tr>"
-        for label, présent, imparfait, compose, plusque in pronoun_rows
-    )
-    return f'<div class="conj-table-wrap"><table class="conj-table">{header}{body}</table></div>'
