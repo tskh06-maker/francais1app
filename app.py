@@ -385,6 +385,7 @@ elif st.session_state.screen == "account":
     st.subheader("ログイン / 新規登録")
     st.caption("ログインすると学習記録がクラウドに保存され、ブラウザを閉じたり別の端末からでも記録を引き継げます。ログインしなくても今まで通り利用できます。")
     st.caption("※ 自動ログイン保持はしていません。ブラウザを閉じた場合は再度ログインが必要です。")
+    st.caption("※ 登録されたメールアドレスと学習記録は、記録の保存・復元の目的のみに利用し、第三者へは提供しません。")
 
     def _apply_login(result):
         st.session_state.auth_uid = result["uid"]
