@@ -15420,5 +15420,127 @@
       "mp": "morts",
       "fp": "mortes"
     }
+  },
+  {
+    "fr": "gens",
+    "ja": "人々",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "coup",
+    "ja": "一撃",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "bout",
+    "ja": "端",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "coin",
+    "ja": "角・場所",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "ordre",
+    "ja": "順序・命令",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "forme",
+    "ja": "形",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "état",
+    "ja": "状態",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "cause",
+    "ja": "原因",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "effet",
+    "ja": "効果",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "but",
+    "ja": "目的",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "limite",
+    "ja": "限界",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "profession",
+    "ja": "職業",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "trajet",
+    "ja": "道のり",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "accord",
+    "ja": "協定・同意",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "inévitable",
+    "ja": "避けられない",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "inévitable",
+      "fs": "inévitable",
+      "mp": "inévitables",
+      "fp": "inévitables"
+    }
+  },
+  {
+    "fr": "net",
+    "ja": "はっきりした",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "net",
+      "fs": "nette",
+      "mp": "nets",
+      "fp": "nettes"
+    }
   }
 ]
