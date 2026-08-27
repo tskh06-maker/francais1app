@@ -15637,5 +15637,99 @@
       "mp": "valables",
       "fp": "valables"
     }
+  },
+  {
+    "fr": "visite",
+    "ja": "訪問",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "rencontre",
+    "ja": "出会い",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "promenade",
+    "ja": "散歩",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "sortie",
+    "ja": "外出",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "demande",
+    "ja": "要求",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "changement",
+    "ja": "変化",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "succès",
+    "ja": "成功",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "échec",
+    "ja": "失敗",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "valeur",
+    "ja": "価値",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "art",
+    "ja": "美術",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "profitable",
+    "ja": "有益な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "profitable",
+      "fs": "profitable",
+      "mp": "profitables",
+      "fp": "profitables"
+    }
+  },
+  {
+    "fr": "réussi",
+    "ja": "成功した",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "réussi",
+      "fs": "réussie",
+      "mp": "réussis",
+      "fp": "réussies"
+    }
   }
 ]
