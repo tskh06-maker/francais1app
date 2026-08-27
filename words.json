@@ -13530,5 +13530,264 @@
       "mp": "ruraux",
       "fp": "rurales"
     }
+  },
+  {
+    "fr": "lave-linge",
+    "ja": "洗濯機",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "sèche-linge",
+    "ja": "乾燥機",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "lave-vaisselle",
+    "ja": "食洗機",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "grille-pain",
+    "ja": "トースター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "bouilloire",
+    "ja": "電気ケトル",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "climatiseur",
+    "ja": "エアコン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "chauffage",
+    "ja": "暖房",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "comète",
+    "ja": "彗星",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "satellite",
+    "ja": "衛星",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "fusée",
+    "ja": "ロケット",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "hémisphère",
+    "ja": "半球",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "équateur",
+    "ja": "赤道",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "chirurgie",
+    "ja": "外科手術",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "ordonnance",
+    "ja": "処方箋",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "prêt",
+    "ja": "融資",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "investissement",
+    "ja": "投資",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "épargne",
+    "ja": "貯金",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "revenu",
+    "ja": "収入",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "donnée",
+    "ja": "データ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "algorithme",
+    "ja": "アルゴリズム",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "puce",
+    "ja": "チップ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "épice",
+    "ja": "スパイス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "divorce",
+    "ja": "離婚",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "bracelet",
+    "ja": "ブレスレット",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "cyclisme",
+    "ja": "サイクリング",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "athlétisme",
+    "ja": "陸上競技",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "cantine",
+    "ja": "食堂",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "sens unique",
+    "ja": "一方通行",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "astronaute",
+    "ja": "宇宙飛行士",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "pharmacien",
+    "ja": "薬剤師",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "pharmacienne"
+  },
+  {
+    "fr": "électrique",
+    "ja": "電気の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "électrique",
+      "fs": "électrique",
+      "mp": "électriques",
+      "fp": "électriques"
+    }
+  },
+  {
+    "fr": "numérique",
+    "ja": "デジタルの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "numérique",
+      "fs": "numérique",
+      "mp": "numériques",
+      "fp": "numériques"
+    }
+  },
+  {
+    "fr": "urgent",
+    "ja": "緊急の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "urgent",
+      "fs": "urgente",
+      "mp": "urgents",
+      "fp": "urgentes"
+    }
+  },
+  {
+    "fr": "mondial",
+    "ja": "世界的な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "mondial",
+      "fs": "mondiale",
+      "mp": "mondiaux",
+      "fp": "mondiales"
+    }
   }
 ]
