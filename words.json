@@ -13789,5 +13789,176 @@
       "mp": "mondiaux",
       "fp": "mondiales"
     }
+  },
+  {
+    "fr": "mathématiques",
+    "ja": "数学",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "géographie",
+    "ja": "地理",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "sciences",
+    "ja": "理科",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "physique",
+    "ja": "物理",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "chimie",
+    "ja": "化学",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "biologie",
+    "ja": "生物",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "philosophie",
+    "ja": "哲学",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "littérature",
+    "ja": "文学",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "humidité",
+    "ja": "湿度",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "lunettes de soleil",
+    "ja": "サングラス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "soulagement",
+    "ja": "安心",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "épicerie",
+    "ja": "食料品店",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "fatigue",
+    "ja": "疲労",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Écosse",
+    "ja": "スコットランド",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "chômage",
+    "ja": "失業",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "pauvreté",
+    "ja": "貧困",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "richesse",
+    "ja": "富",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "entrepreneur",
+    "ja": "起業家",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "entrepreneuse"
+  },
+  {
+    "fr": "écossais",
+    "ja": "スコットランド人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "écossaise"
+  },
+  {
+    "fr": "écossais",
+    "ja": "スコットランドの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "écossais",
+      "fs": "écossaise",
+      "mp": "écossais",
+      "fp": "écossaises"
+    }
+  },
+  {
+    "fr": "scientifique",
+    "ja": "科学的な",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "scientifique",
+      "fs": "scientifique",
+      "mp": "scientifiques",
+      "fp": "scientifiques"
+    }
+  },
+  {
+    "fr": "historique",
+    "ja": "歴史的な",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "historique",
+      "fs": "historique",
+      "mp": "historiques",
+      "fp": "historiques"
+    }
   }
 ]
