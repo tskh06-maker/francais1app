@@ -14325,5 +14325,445 @@
     "gender": "m",
     "level": "B1",
     "fem": "supérieure"
+  },
+  {
+    "fr": "minuit",
+    "ja": "真夜中",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "midi",
+    "ja": "正午",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "héritage",
+    "ja": "遺産",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "garage",
+    "ja": "ガレージ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "abri",
+    "ja": "避難所",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "nourriture",
+    "ja": "食べ物",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "manche",
+    "ja": "袖",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "col",
+    "ja": "襟",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "immunité",
+    "ja": "免疫",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "paysage",
+    "ja": "風景",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "banlieue",
+    "ja": "郊外",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Algérie",
+    "ja": "アルジェリア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Tunisie",
+    "ja": "チュニジア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "fournisseur",
+    "ja": "供給者",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "transport",
+    "ja": "交通機関",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "bug",
+    "ja": "バグ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "nid",
+    "ja": "巣",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "adversaire",
+    "ja": "対戦相手",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "humeur",
+    "ja": "機嫌",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "virgule",
+    "ja": "カンマ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "algérien",
+    "ja": "アルジェリア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "algérienne"
+  },
+  {
+    "fr": "tunisien",
+    "ja": "チュニジア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "tunisienne"
+  },
+  {
+    "fr": "réfugié",
+    "ja": "難民",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "réfugiée"
+  },
+  {
+    "fr": "algérien",
+    "ja": "アルジェリアの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "algérien",
+      "fs": "algérienne",
+      "mp": "algériens",
+      "fp": "algériennes"
+    }
+  },
+  {
+    "fr": "tunisien",
+    "ja": "チュニジアの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "tunisien",
+      "fs": "tunisienne",
+      "mp": "tunisiens",
+      "fp": "tunisiennes"
+    }
+  },
+  {
+    "fr": "sage",
+    "ja": "賢明な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "sage",
+      "fs": "sage",
+      "mp": "sages",
+      "fp": "sages"
+    }
+  },
+  {
+    "fr": "désordonné",
+    "ja": "だらしない",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "désordonné",
+      "fs": "désordonnée",
+      "mp": "désordonnés",
+      "fp": "désordonnées"
+    }
+  },
+  {
+    "fr": "organisé",
+    "ja": "几帳面な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "organisé",
+      "fs": "organisée",
+      "mp": "organisés",
+      "fp": "organisées"
+    }
+  },
+  {
+    "fr": "raisonnable",
+    "ja": "合理的な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "raisonnable",
+      "fs": "raisonnable",
+      "mp": "raisonnables",
+      "fp": "raisonnables"
+    }
+  },
+  {
+    "fr": "convenable",
+    "ja": "適切な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "convenable",
+      "fs": "convenable",
+      "mp": "convenables",
+      "fp": "convenables"
+    }
+  },
+  {
+    "fr": "flexible",
+    "ja": "柔軟な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "flexible",
+      "fs": "flexible",
+      "mp": "flexibles",
+      "fp": "flexibles"
+    }
+  },
+  {
+    "fr": "rigide",
+    "ja": "硬直した",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "rigide",
+      "fs": "rigide",
+      "mp": "rigides",
+      "fp": "rigides"
+    }
+  },
+  {
+    "fr": "transparent",
+    "ja": "透明な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "transparent",
+      "fs": "transparente",
+      "mp": "transparents",
+      "fp": "transparentes"
+    }
+  },
+  {
+    "fr": "opaque",
+    "ja": "不透明な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "opaque",
+      "fs": "opaque",
+      "mp": "opaques",
+      "fp": "opaques"
+    }
+  },
+  {
+    "fr": "spacieux",
+    "ja": "広々とした",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "spacieux",
+      "fs": "spacieuse",
+      "mp": "spacieux",
+      "fp": "spacieuses"
+    }
+  },
+  {
+    "fr": "pâle",
+    "ja": "薄い色の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "pâle",
+      "fs": "pâle",
+      "mp": "pâles",
+      "fp": "pâles"
+    }
+  },
+  {
+    "fr": "vif",
+    "ja": "鮮やかな",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "vif",
+      "fs": "vive",
+      "mp": "vifs",
+      "fp": "vives"
+    }
+  },
+  {
+    "fr": "déprimé",
+    "ja": "落ち込んだ",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "déprimé",
+      "fs": "déprimée",
+      "mp": "déprimés",
+      "fp": "déprimées"
+    }
+  },
+  {
+    "fr": "stressé",
+    "ja": "ストレスのある",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "stressé",
+      "fs": "stressée",
+      "mp": "stressés",
+      "fp": "stressées"
+    }
+  },
+  {
+    "fr": "détendu",
+    "ja": "リラックスした",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "détendu",
+      "fs": "détendue",
+      "mp": "détendus",
+      "fp": "détendues"
+    }
+  },
+  {
+    "fr": "précédent",
+    "ja": "前の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "précédent",
+      "fs": "précédente",
+      "mp": "précédents",
+      "fp": "précédentes"
+    }
+  },
+  {
+    "fr": "individuel",
+    "ja": "個人の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "individuel",
+      "fs": "individuelle",
+      "mp": "individuels",
+      "fp": "individuelles"
+    }
+  },
+  {
+    "fr": "collectif",
+    "ja": "集団の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "collectif",
+      "fs": "collective",
+      "mp": "collectifs",
+      "fp": "collectives"
+    }
+  },
+  {
+    "fr": "commun",
+    "ja": "共通の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "commun",
+      "fs": "commune",
+      "mp": "communs",
+      "fp": "communes"
+    }
+  },
+  {
+    "fr": "social",
+    "ja": "社会の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "social",
+      "fs": "sociale",
+      "mp": "sociaux",
+      "fp": "sociales"
+    }
+  },
+  {
+    "fr": "civil",
+    "ja": "市民の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "civil",
+      "fs": "civile",
+      "mp": "civils",
+      "fp": "civiles"
+    }
   }
 ]
