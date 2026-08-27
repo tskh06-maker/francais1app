@@ -16917,5 +16917,239 @@
       "mp": "croates",
       "fp": "croates"
     }
+  },
+  {
+    "fr": "compassion",
+    "ja": "思いやり",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "mépris",
+    "ja": "軽蔑",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "réflexion",
+    "ja": "考察",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "proverbe",
+    "ja": "ことわざ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "expression",
+    "ja": "表現",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "bourse d'études",
+    "ja": "奨学金",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "échange scolaire",
+    "ja": "留学",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "licenciement",
+    "ja": "解雇",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "embauche",
+    "ja": "雇用",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "capitalisme",
+    "ja": "資本主義",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "socialisme",
+    "ja": "社会主義",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Sénégal",
+    "ja": "セネガル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Côte d'Ivoire",
+    "ja": "コートジボワール",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "lynx",
+    "ja": "オオヤマネコ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "puma",
+    "ja": "ピューマ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "choucroute",
+    "ja": "ザワークラウト",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "cassoulet",
+    "ja": "カスレ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "stalactite",
+    "ja": "鍾乳石",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "geyser",
+    "ja": "間欠泉",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "plongeon",
+    "ja": "飛び込み",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "aviron",
+    "ja": "ボート漕ぎ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "réseau social",
+    "ja": "SNS",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "hashtag",
+    "ja": "ハッシュタグ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "belvédère",
+    "ja": "展望台",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "antenne",
+    "ja": "アンテナ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "cheminée",
+    "ja": "暖炉",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "sénégalais",
+    "ja": "セネガル人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "sénégalaise"
+  },
+  {
+    "fr": "ivoirien",
+    "ja": "コートジボワール人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "ivoirienne"
+  },
+  {
+    "fr": "sénégalais",
+    "ja": "セネガルの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "sénégalais",
+      "fs": "sénégalaise",
+      "mp": "sénégalais",
+      "fp": "sénégalaises"
+    }
+  },
+  {
+    "fr": "ivoirien",
+    "ja": "コートジボワールの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "ivoirien",
+      "fs": "ivoirienne",
+      "mp": "ivoiriens",
+      "fp": "ivoiriennes"
+    }
+  },
+  {
+    "fr": "capitaliste",
+    "ja": "資本主義の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "capitaliste",
+      "fs": "capitaliste",
+      "mp": "capitalistes",
+      "fp": "capitalistes"
+    }
   }
 ]
