@@ -18088,5 +18088,142 @@
       "mp": "corrompus",
       "fp": "corrompues"
     }
+  },
+  {
+    "fr": "crêperie",
+    "ja": "クレープ屋",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "boulette",
+    "ja": "肉団子",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "cursus",
+    "ja": "履修課程",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "collaboration",
+    "ja": "協力",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "nationalisme",
+    "ja": "国家主義",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "étonnement",
+    "ja": "驚き",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "faune",
+    "ja": "動物相",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "flore",
+    "ja": "植物相",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "loutre",
+    "ja": "カワウソ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "ruelle",
+    "ja": "路地",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Tanzanie",
+    "ja": "タンザニア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "parachutisme",
+    "ja": "スカイダイビング",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "firmware",
+    "ja": "ファームウェア",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "cicatrisation",
+    "ja": "傷の治癒",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "locution",
+    "ja": "慣用句",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "tanzanien",
+    "ja": "タンザニア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "tanzanienne"
+  },
+  {
+    "fr": "tanzanien",
+    "ja": "タンザニアの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "tanzanien",
+      "fs": "tanzanienne",
+      "mp": "tanzaniens",
+      "fp": "tanzaniennes"
+    }
+  },
+  {
+    "fr": "étonnant",
+    "ja": "驚くべき",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "étonnant",
+      "fs": "étonnante",
+      "mp": "étonnants",
+      "fp": "étonnantes"
+    }
   }
 ]
