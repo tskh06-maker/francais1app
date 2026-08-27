@@ -15847,5 +15847,85 @@
       "mp": "insuffisants",
       "fp": "insuffisantes"
     }
+  },
+  {
+    "fr": "contrat",
+    "ja": "契約",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "âge",
+    "ja": "年齢",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "prénom",
+    "ja": "名前（下の名前）",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "adresse",
+    "ja": "住所",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "numéro",
+    "ja": "番号",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "occasion",
+    "ja": "機会",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "risque",
+    "ja": "リスク",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "séjour",
+    "ja": "滞在",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "probable",
+    "ja": "あり得る",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "probable",
+      "fs": "probable",
+      "mp": "probables",
+      "fp": "probables"
+    }
+  },
+  {
+    "fr": "général",
+    "ja": "一般的な",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "général",
+      "fs": "générale",
+      "mp": "généraux",
+      "fp": "générales"
+    }
   }
 ]
