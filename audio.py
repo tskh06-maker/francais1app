@@ -18,9 +18,9 @@ import streamlit.components.v1 as components
 _PENDING_KEY = "_pending_speech_text"
 
 
-def speak_button(text, button_key=None):
+def speak_button(text, button_key=None, label="▶️ 発音を聞く", use_container_width=False):
     """textを読み上げるボタンを描画する。押されたら実際の読み上げを予約する。"""
-    if st.button("🔊 発音を聞く", key=button_key or f"speak_{text}"):
+    if st.button(label, key=button_key or f"speak_{text}", use_container_width=use_container_width):
         st.session_state[_PENDING_KEY] = text
 
 
