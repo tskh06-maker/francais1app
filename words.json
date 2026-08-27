@@ -17716,5 +17716,205 @@
       "mp": "productifs",
       "fp": "productives"
     }
+  },
+  {
+    "fr": "synonyme",
+    "ja": "同義語",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "antonyme",
+    "ja": "反意語",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "abréviation",
+    "ja": "略語",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "cours particulier",
+    "ja": "個人授業",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "devoir maison",
+    "ja": "宿題（家での）",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "télétravail",
+    "ja": "テレワーク",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "horaire flexible",
+    "ja": "フレックスタイム",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "référendum",
+    "ja": "国民投票",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "scrutin",
+    "ja": "投票",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "cybersécurité",
+    "ja": "サイバーセキュリティ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "pare-feu",
+    "ja": "ファイアウォール",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "sérénité",
+    "ja": "平静",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "panique",
+    "ja": "パニック",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "gratte-ciel",
+    "ja": "超高層ビル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "récolte",
+    "ja": "収穫",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "bélier",
+    "ja": "雄羊",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "brioche",
+    "ja": "ブリオッシュ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "croissant",
+    "ja": "クロワッサン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "Éthiopie",
+    "ja": "エチオピア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "marathon",
+    "ja": "マラソン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "volet roulant",
+    "ja": "シャッター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "carie",
+    "ja": "虫歯",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "péage",
+    "ja": "料金所",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "cabine d'essayage",
+    "ja": "試着室",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "éthiopien",
+    "ja": "エチオピア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "éthiopienne"
+  },
+  {
+    "fr": "éthiopien",
+    "ja": "エチオピアの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "éthiopien",
+      "fs": "éthiopienne",
+      "mp": "éthiopiens",
+      "fp": "éthiopiennes"
+    }
+  },
+  {
+    "fr": "serein",
+    "ja": "穏やかな",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "serein",
+      "fs": "sereine",
+      "mp": "sereins",
+      "fp": "sereines"
+    }
   }
 ]
