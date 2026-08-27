@@ -18225,5 +18225,189 @@
       "mp": "étonnants",
       "fp": "étonnantes"
     }
+  },
+  {
+    "fr": "bureaucratie",
+    "ja": "官僚制",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "réglementation",
+    "ja": "規制",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "désillusion",
+    "ja": "幻滅",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "émerveillement",
+    "ja": "感嘆",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "polycopié",
+    "ja": "配布資料",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "examen blanc",
+    "ja": "模擬試験",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "préavis",
+    "ja": "予告期間",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "cache",
+    "ja": "キャッシュ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "serveur",
+    "ja": "サーバー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "lémurien",
+    "ja": "キツネザル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "wombat",
+    "ja": "ウォンバット",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "gratin",
+    "ja": "グラタン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "velouté",
+    "ja": "ポタージュ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "météorite",
+    "ja": "隕石",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "nébuleuse",
+    "ja": "星雲",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "cité universitaire",
+    "ja": "学生寮",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Zambie",
+    "ja": "ザンビア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "aire de repos",
+    "ja": "サービスエリア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "acronyme",
+    "ja": "頭字語",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "moustiquaire",
+    "ja": "蚊帳",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "zambien",
+    "ja": "ザンビア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "zambienne"
+  },
+  {
+    "fr": "zambien",
+    "ja": "ザンビアの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "zambien",
+      "fs": "zambienne",
+      "mp": "zambiens",
+      "fp": "zambiennes"
+    }
+  },
+  {
+    "fr": "désillusionné",
+    "ja": "幻滅した",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "désillusionné",
+      "fs": "désillusionnée",
+      "mp": "désillusionnés",
+      "fp": "désillusionnées"
+    }
+  },
+  {
+    "fr": "bureaucratique",
+    "ja": "官僚的な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "bureaucratique",
+      "fs": "bureaucratique",
+      "mp": "bureaucratiques",
+      "fp": "bureaucratiques"
+    }
   }
 ]
