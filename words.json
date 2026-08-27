@@ -15112,5 +15112,163 @@
       "mp": "malhonnêtes",
       "fp": "malhonnêtes"
     }
+  },
+  {
+    "fr": "beau-frère",
+    "ja": "義兄・義弟",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "belle-sœur",
+    "ja": "義姉・義妹",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "spatule",
+    "ja": "へら",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "fouet",
+    "ja": "泡立て器",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "passoire",
+    "ja": "ざる",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "planche à découper",
+    "ja": "まな板",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "sous-sol",
+    "ja": "地下室",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "plateau",
+    "ja": "高原",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "éclaircie",
+    "ja": "晴れ間",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "soupir",
+    "ja": "ため息",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "vétérinaire",
+    "ja": "獣医",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "dentiste",
+    "ja": "歯科医",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "dizaine",
+    "ja": "10ほど",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "centaine",
+    "ja": "100ほど",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "douzaine",
+    "ja": "ダース",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "glaçon",
+    "ja": "角氷",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "sommeil",
+    "ja": "睡眠",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "vitesse",
+    "ja": "速度",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "champion",
+    "ja": "チャンピオン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "championne"
+  },
+  {
+    "fr": "réel",
+    "ja": "現実の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "réel",
+      "fs": "réelle",
+      "mp": "réels",
+      "fp": "réelles"
+    }
+  },
+  {
+    "fr": "superficiel",
+    "ja": "表面的な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "superficiel",
+      "fs": "superficielle",
+      "mp": "superficiels",
+      "fp": "superficielles"
+    }
   }
 ]
