@@ -26,7 +26,7 @@ import cloud_history
 from context_quiz import build_quiz as build_context_quiz
 from context_quiz import load_sentences
 from history import get_review_verbs, get_stats, record_result
-from quiz import load_words, make_choices
+from quiz import POS_LABELS, load_words, make_choices
 from settings import DEFAULT_STRICT_ACCENT, STRICT_ACCENT_LABELS
 from styles import inject_custom_css, render_conjugation_table_html, render_hero, render_ring
 
@@ -173,7 +173,7 @@ if st.session_state.screen == "home":
         with st.container(border=True):
             st.markdown('<div class="card-icon">🔤</div>', unsafe_allow_html=True)
             st.markdown('<div class="card-title">単語クイズ</div>', unsafe_allow_html=True)
-            st.markdown('<div class="card-caption">動詞の意味を4択で確認（名詞・形容詞などは今後追加予定）</div>', unsafe_allow_html=True)
+            st.markdown('<div class="card-caption">動詞・名詞・形容詞の意味を4択で確認</div>', unsafe_allow_html=True)
             if st.button("単語クイズ（動詞）", use_container_width=True):
                 go("word_setup")
 
@@ -453,17 +453,27 @@ elif st.session_state.screen == "account":
 # ---------- 単語クイズ: 設定 ----------
 elif st.session_state.screen == "word_setup":
     st.subheader("単語クイズの設定")
-    st.caption("現在は動詞のみ対応しています（名詞・形容詞などは今後追加予定）。")
-    pos_choice = "verbe"
+
+    pos_options = ["verbe", "nom", "adjectif"]
+    pos_choice = st.segmented_control(
+        "品詞", pos_options, format_func=lambda p: POS_LABELS.get(p, p), default="verbe",
+    ) or "verbe"
 
     conjugations = load_conjugations()
     level_keys = [None] + LEVELS
     level = st.segmented_control(
         "レベル", level_keys, format_func=lambda lv: LEVEL_LABELS.get(lv, "すべて"), default=None,
     )
+
+    def _word_level(w):
+        # 動詞のレベルは conjugations.json 側にあるが、名詞・形容詞は words.json 内に直接持たせている
+        if w["pos"] == "verbe":
+            return conjugations.get(w["fr"], {}).get("level")
+        return w.get("level")
+
     available_preview = [
         w for w in load_words()
-        if w["pos"] == pos_choice and (level is None or conjugations.get(w["fr"], {}).get("level") == level)
+        if w["pos"] == pos_choice and (level is None or _word_level(w) == level)
     ]
     st.caption(f"対象: {len(available_preview)}語")
 
