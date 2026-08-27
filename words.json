@@ -6948,5 +6948,3208 @@
       "mp": "pessimistes",
       "fp": "pessimistes"
     }
+  },
+  {
+    "fr": "français",
+    "ja": "フランスの",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "français",
+      "fs": "française",
+      "mp": "français",
+      "fp": "françaises"
+    }
+  },
+  {
+    "fr": "japonais",
+    "ja": "日本の",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "japonais",
+      "fs": "japonaise",
+      "mp": "japonais",
+      "fp": "japonaises"
+    }
+  },
+  {
+    "fr": "américain",
+    "ja": "アメリカの",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "américain",
+      "fs": "américaine",
+      "mp": "américains",
+      "fp": "américaines"
+    }
+  },
+  {
+    "fr": "anglais",
+    "ja": "イギリスの",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "anglais",
+      "fs": "anglaise",
+      "mp": "anglais",
+      "fp": "anglaises"
+    }
+  },
+  {
+    "fr": "allemand",
+    "ja": "ドイツの",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "allemand",
+      "fs": "allemande",
+      "mp": "allemands",
+      "fp": "allemandes"
+    }
+  },
+  {
+    "fr": "italien",
+    "ja": "イタリアの",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "italien",
+      "fs": "italienne",
+      "mp": "italiens",
+      "fp": "italiennes"
+    }
+  },
+  {
+    "fr": "espagnol",
+    "ja": "スペインの",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "espagnol",
+      "fs": "espagnole",
+      "mp": "espagnols",
+      "fp": "espagnoles"
+    }
+  },
+  {
+    "fr": "chinois",
+    "ja": "中国の",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "chinois",
+      "fs": "chinoise",
+      "mp": "chinois",
+      "fp": "chinoises"
+    }
+  },
+  {
+    "fr": "coréen",
+    "ja": "韓国の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "coréen",
+      "fs": "coréenne",
+      "mp": "coréens",
+      "fp": "coréennes"
+    }
+  },
+  {
+    "fr": "canadien",
+    "ja": "カナダの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "canadien",
+      "fs": "canadienne",
+      "mp": "canadiens",
+      "fp": "canadiennes"
+    }
+  },
+  {
+    "fr": "russe",
+    "ja": "ロシアの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "russe",
+      "fs": "russe",
+      "mp": "russes",
+      "fp": "russes"
+    }
+  },
+  {
+    "fr": "belge",
+    "ja": "ベルギーの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "belge",
+      "fs": "belge",
+      "mp": "belges",
+      "fp": "belges"
+    }
+  },
+  {
+    "fr": "étranger",
+    "ja": "外国の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "étranger",
+      "fs": "étrangère",
+      "mp": "étrangers",
+      "fp": "étrangères"
+    }
+  },
+  {
+    "fr": "un",
+    "ja": "1（一つの）",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "un",
+      "fs": "une",
+      "mp": "un",
+      "fp": "une"
+    }
+  },
+  {
+    "fr": "deux",
+    "ja": "2",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "deux",
+      "fs": "deux",
+      "mp": "deux",
+      "fp": "deux"
+    }
+  },
+  {
+    "fr": "trois",
+    "ja": "3",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "trois",
+      "fs": "trois",
+      "mp": "trois",
+      "fp": "trois"
+    }
+  },
+  {
+    "fr": "quatre",
+    "ja": "4",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "quatre",
+      "fs": "quatre",
+      "mp": "quatre",
+      "fp": "quatre"
+    }
+  },
+  {
+    "fr": "cinq",
+    "ja": "5",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "cinq",
+      "fs": "cinq",
+      "mp": "cinq",
+      "fp": "cinq"
+    }
+  },
+  {
+    "fr": "six",
+    "ja": "6",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "six",
+      "fs": "six",
+      "mp": "six",
+      "fp": "six"
+    }
+  },
+  {
+    "fr": "sept",
+    "ja": "7",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "sept",
+      "fs": "sept",
+      "mp": "sept",
+      "fp": "sept"
+    }
+  },
+  {
+    "fr": "huit",
+    "ja": "8",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "huit",
+      "fs": "huit",
+      "mp": "huit",
+      "fp": "huit"
+    }
+  },
+  {
+    "fr": "neuf",
+    "ja": "9",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "neuf",
+      "fs": "neuf",
+      "mp": "neuf",
+      "fp": "neuf"
+    }
+  },
+  {
+    "fr": "dix",
+    "ja": "10",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "dix",
+      "fs": "dix",
+      "mp": "dix",
+      "fp": "dix"
+    }
+  },
+  {
+    "fr": "onze",
+    "ja": "11",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "onze",
+      "fs": "onze",
+      "mp": "onze",
+      "fp": "onze"
+    }
+  },
+  {
+    "fr": "douze",
+    "ja": "12",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "douze",
+      "fs": "douze",
+      "mp": "douze",
+      "fp": "douze"
+    }
+  },
+  {
+    "fr": "treize",
+    "ja": "13",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "treize",
+      "fs": "treize",
+      "mp": "treize",
+      "fp": "treize"
+    }
+  },
+  {
+    "fr": "quatorze",
+    "ja": "14",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "quatorze",
+      "fs": "quatorze",
+      "mp": "quatorze",
+      "fp": "quatorze"
+    }
+  },
+  {
+    "fr": "quinze",
+    "ja": "15",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "quinze",
+      "fs": "quinze",
+      "mp": "quinze",
+      "fp": "quinze"
+    }
+  },
+  {
+    "fr": "seize",
+    "ja": "16",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "seize",
+      "fs": "seize",
+      "mp": "seize",
+      "fp": "seize"
+    }
+  },
+  {
+    "fr": "dix-sept",
+    "ja": "17",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "dix-sept",
+      "fs": "dix-sept",
+      "mp": "dix-sept",
+      "fp": "dix-sept"
+    }
+  },
+  {
+    "fr": "dix-huit",
+    "ja": "18",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "dix-huit",
+      "fs": "dix-huit",
+      "mp": "dix-huit",
+      "fp": "dix-huit"
+    }
+  },
+  {
+    "fr": "dix-neuf",
+    "ja": "19",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "dix-neuf",
+      "fs": "dix-neuf",
+      "mp": "dix-neuf",
+      "fp": "dix-neuf"
+    }
+  },
+  {
+    "fr": "vingt",
+    "ja": "20",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "vingt",
+      "fs": "vingt",
+      "mp": "vingt",
+      "fp": "vingt"
+    }
+  },
+  {
+    "fr": "trente",
+    "ja": "30",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "trente",
+      "fs": "trente",
+      "mp": "trente",
+      "fp": "trente"
+    }
+  },
+  {
+    "fr": "quarante",
+    "ja": "40",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "quarante",
+      "fs": "quarante",
+      "mp": "quarante",
+      "fp": "quarante"
+    }
+  },
+  {
+    "fr": "cinquante",
+    "ja": "50",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "cinquante",
+      "fs": "cinquante",
+      "mp": "cinquante",
+      "fp": "cinquante"
+    }
+  },
+  {
+    "fr": "soixante",
+    "ja": "60",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "soixante",
+      "fs": "soixante",
+      "mp": "soixante",
+      "fp": "soixante"
+    }
+  },
+  {
+    "fr": "soixante-dix",
+    "ja": "70",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "soixante-dix",
+      "fs": "soixante-dix",
+      "mp": "soixante-dix",
+      "fp": "soixante-dix"
+    }
+  },
+  {
+    "fr": "quatre-vingts",
+    "ja": "80",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "quatre-vingts",
+      "fs": "quatre-vingts",
+      "mp": "quatre-vingts",
+      "fp": "quatre-vingts"
+    }
+  },
+  {
+    "fr": "quatre-vingt-dix",
+    "ja": "90",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "quatre-vingt-dix",
+      "fs": "quatre-vingt-dix",
+      "mp": "quatre-vingt-dix",
+      "fp": "quatre-vingt-dix"
+    }
+  },
+  {
+    "fr": "cent",
+    "ja": "100",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "cent",
+      "fs": "cent",
+      "mp": "cent",
+      "fp": "cent"
+    }
+  },
+  {
+    "fr": "deux cents",
+    "ja": "200",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "deux cents",
+      "fs": "deux cents",
+      "mp": "deux cents",
+      "fp": "deux cents"
+    }
+  },
+  {
+    "fr": "trois cents",
+    "ja": "300",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "trois cents",
+      "fs": "trois cents",
+      "mp": "trois cents",
+      "fp": "trois cents"
+    }
+  },
+  {
+    "fr": "quatre cents",
+    "ja": "400",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "quatre cents",
+      "fs": "quatre cents",
+      "mp": "quatre cents",
+      "fp": "quatre cents"
+    }
+  },
+  {
+    "fr": "cinq cents",
+    "ja": "500",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "cinq cents",
+      "fs": "cinq cents",
+      "mp": "cinq cents",
+      "fp": "cinq cents"
+    }
+  },
+  {
+    "fr": "six cents",
+    "ja": "600",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "six cents",
+      "fs": "six cents",
+      "mp": "six cents",
+      "fp": "six cents"
+    }
+  },
+  {
+    "fr": "sept cents",
+    "ja": "700",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "sept cents",
+      "fs": "sept cents",
+      "mp": "sept cents",
+      "fp": "sept cents"
+    }
+  },
+  {
+    "fr": "huit cents",
+    "ja": "800",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "huit cents",
+      "fs": "huit cents",
+      "mp": "huit cents",
+      "fp": "huit cents"
+    }
+  },
+  {
+    "fr": "neuf cents",
+    "ja": "900",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "neuf cents",
+      "fs": "neuf cents",
+      "mp": "neuf cents",
+      "fp": "neuf cents"
+    }
+  },
+  {
+    "fr": "mille",
+    "ja": "1000",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "mille",
+      "fs": "mille",
+      "mp": "mille",
+      "fp": "mille"
+    }
+  },
+  {
+    "fr": "deuxième",
+    "ja": "2番目の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "deuxième",
+      "fs": "deuxième",
+      "mp": "deuxièmes",
+      "fp": "deuxièmes"
+    }
+  },
+  {
+    "fr": "troisième",
+    "ja": "3番目の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "troisième",
+      "fs": "troisième",
+      "mp": "troisièmes",
+      "fp": "troisièmes"
+    }
+  },
+  {
+    "fr": "quatrième",
+    "ja": "4番目の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "quatrième",
+      "fs": "quatrième",
+      "mp": "quatrièmes",
+      "fp": "quatrièmes"
+    }
+  },
+  {
+    "fr": "cinquième",
+    "ja": "5番目の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "cinquième",
+      "fs": "cinquième",
+      "mp": "cinquièmes",
+      "fp": "cinquièmes"
+    }
+  },
+  {
+    "fr": "sixième",
+    "ja": "6番目の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "sixième",
+      "fs": "sixième",
+      "mp": "sixièmes",
+      "fp": "sixièmes"
+    }
+  },
+  {
+    "fr": "septième",
+    "ja": "7番目の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "septième",
+      "fs": "septième",
+      "mp": "septièmes",
+      "fp": "septièmes"
+    }
+  },
+  {
+    "fr": "huitième",
+    "ja": "8番目の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "huitième",
+      "fs": "huitième",
+      "mp": "huitièmes",
+      "fp": "huitièmes"
+    }
+  },
+  {
+    "fr": "neuvième",
+    "ja": "9番目の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "neuvième",
+      "fs": "neuvième",
+      "mp": "neuvièmes",
+      "fp": "neuvièmes"
+    }
+  },
+  {
+    "fr": "dixième",
+    "ja": "10番目の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "dixième",
+      "fs": "dixième",
+      "mp": "dixièmes",
+      "fp": "dixièmes"
+    }
+  },
+  {
+    "fr": "France",
+    "ja": "フランス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "Japon",
+    "ja": "日本",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "Chine",
+    "ja": "中国",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "Allemagne",
+    "ja": "ドイツ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "Italie",
+    "ja": "イタリア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "Espagne",
+    "ja": "スペイン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "Angleterre",
+    "ja": "イギリス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "Corée",
+    "ja": "韓国",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Canada",
+    "ja": "カナダ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "Russie",
+    "ja": "ロシア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Belgique",
+    "ja": "ベルギー",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Asie",
+    "ja": "アジア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Europe",
+    "ja": "ヨーロッパ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Afrique",
+    "ja": "アフリカ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Amérique",
+    "ja": "アメリカ大陸",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Océanie",
+    "ja": "オセアニア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Français",
+    "ja": "フランス人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1",
+    "fem": "Française"
+  },
+  {
+    "fr": "Japonais",
+    "ja": "日本人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1",
+    "fem": "Japonaise"
+  },
+  {
+    "fr": "Américain",
+    "ja": "アメリカ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1",
+    "fem": "Américaine"
+  },
+  {
+    "fr": "Anglais",
+    "ja": "イギリス人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1",
+    "fem": "Anglaise"
+  },
+  {
+    "fr": "Allemand",
+    "ja": "ドイツ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1",
+    "fem": "Allemande"
+  },
+  {
+    "fr": "Italien",
+    "ja": "イタリア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1",
+    "fem": "Italienne"
+  },
+  {
+    "fr": "Espagnol",
+    "ja": "スペイン人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1",
+    "fem": "Espagnole"
+  },
+  {
+    "fr": "Chinois",
+    "ja": "中国人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1",
+    "fem": "Chinoise"
+  },
+  {
+    "fr": "Coréen",
+    "ja": "韓国人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Coréenne"
+  },
+  {
+    "fr": "Canadien",
+    "ja": "カナダ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Canadienne"
+  },
+  {
+    "fr": "Russe",
+    "ja": "ロシア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "Belge",
+    "ja": "ベルギー人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "Européen",
+    "ja": "ヨーロッパ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Européenne"
+  },
+  {
+    "fr": "Africain",
+    "ja": "アフリカ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Africaine"
+  },
+  {
+    "fr": "Asiatique",
+    "ja": "アジア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "étranger",
+    "ja": "外国人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "étrangère"
+  },
+  {
+    "fr": "autre",
+    "ja": "他の",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "autre",
+      "fs": "autre",
+      "mp": "autres",
+      "fp": "autres"
+    }
+  },
+  {
+    "fr": "beau-père",
+    "ja": "義父",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "belle-mère",
+    "ja": "義母",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "demi-frère",
+    "ja": "異母・異父兄弟",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "demi-sœur",
+    "ja": "異母・異父姉妹",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "célibataire",
+    "ja": "独身者",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "étagère",
+    "ja": "棚",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "canapé",
+    "ja": "ソファ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "oreiller",
+    "ja": "枕",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "couverture",
+    "ja": "毛布",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "rideau",
+    "ja": "カーテン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "poubelle",
+    "ja": "ゴミ箱",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "balai",
+    "ja": "ほうき",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "aspirateur",
+    "ja": "掃除機",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "four",
+    "ja": "オーブン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "réfrigérateur",
+    "ja": "冷蔵庫",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "congélateur",
+    "ja": "冷凍庫",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "évier",
+    "ja": "流し台",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "robinet",
+    "ja": "蛇口",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "douche",
+    "ja": "シャワー",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "baignoire",
+    "ja": "浴槽",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "savon",
+    "ja": "石鹸",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "serviette",
+    "ja": "タオル",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "brosse à dents",
+    "ja": "歯ブラシ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "dentifrice",
+    "ja": "歯磨き粉",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "shampooing",
+    "ja": "シャンプー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "beurre",
+    "ja": "バター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "confiture",
+    "ja": "ジャム",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "yaourt",
+    "ja": "ヨーグルト",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "jambon",
+    "ja": "ハム",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "saucisse",
+    "ja": "ソーセージ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "crevette",
+    "ja": "エビ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "huître",
+    "ja": "牡蠣",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "champignon",
+    "ja": "きのこ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "carotte",
+    "ja": "にんじん",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "tomate",
+    "ja": "トマト",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "oignon",
+    "ja": "玉ねぎ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "ail",
+    "ja": "にんにく",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "citron",
+    "ja": "レモン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "banane",
+    "ja": "バナナ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "fraise",
+    "ja": "いちご",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "raisin",
+    "ja": "ぶどう",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "pêche",
+    "ja": "桃",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "poire",
+    "ja": "梨",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "melon",
+    "ja": "メロン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "noix",
+    "ja": "くるみ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "cacahuète",
+    "ja": "ピーナッツ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "biscuit",
+    "ja": "ビスケット",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "bonbon",
+    "ja": "飴",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "miel",
+    "ja": "はちみつ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "farine",
+    "ja": "小麦粉",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "huile",
+    "ja": "油",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "vinaigre",
+    "ja": "酢",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "poivre",
+    "ja": "胡椒",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "short",
+    "ja": "短パン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "jupe",
+    "ja": "スカート",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "veste",
+    "ja": "ジャケット",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "pull",
+    "ja": "セーター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "maillot de bain",
+    "ja": "水着",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "pyjama",
+    "ja": "パジャマ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "chaussette",
+    "ja": "靴下",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "botte",
+    "ja": "ブーツ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "sandale",
+    "ja": "サンダル",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "casquette",
+    "ja": "キャップ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "cravate",
+    "ja": "ネクタイ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "sac à main",
+    "ja": "ハンドバッグ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "peau",
+    "ja": "肌",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "sang",
+    "ja": "血",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "os",
+    "ja": "骨",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "muscle",
+    "ja": "筋肉",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "cerveau",
+    "ja": "脳",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "poumon",
+    "ja": "肺",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "estomac",
+    "ja": "胃",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "foie",
+    "ja": "肝臓",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "gorge",
+    "ja": "喉",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "épaule",
+    "ja": "肩",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "coude",
+    "ja": "肘",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "poignet",
+    "ja": "手首",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "genou",
+    "ja": "膝",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "cheville",
+    "ja": "足首",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "ongle",
+    "ja": "爪",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "menton",
+    "ja": "あご",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "joue",
+    "ja": "頬",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "front",
+    "ja": "額",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "sable",
+    "ja": "砂",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "boue",
+    "ja": "泥",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "brume",
+    "ja": "もや",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "tonnerre",
+    "ja": "雷（音）",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "éclair",
+    "ja": "稲妻",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "arc-en-ciel",
+    "ja": "虹",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "marée",
+    "ja": "潮",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "vague",
+    "ja": "波",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "volcan",
+    "ja": "火山",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "tremblement de terre",
+    "ja": "地震",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "cascade",
+    "ja": "滝",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "falaise",
+    "ja": "崖",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "mairie",
+    "ja": "市役所",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "commissariat",
+    "ja": "警察署",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "pont",
+    "ja": "橋",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "monument",
+    "ja": "記念碑",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "statue",
+    "ja": "像",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "fontaine",
+    "ja": "噴水",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "trottoir",
+    "ja": "歩道",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "panneau",
+    "ja": "標識",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "ambassade",
+    "ja": "大使館",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Suisse",
+    "ja": "スイス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Portugal",
+    "ja": "ポルトガル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "Pays-Bas",
+    "ja": "オランダ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Suède",
+    "ja": "スウェーデン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Norvège",
+    "ja": "ノルウェー",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Grèce",
+    "ja": "ギリシャ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Égypte",
+    "ja": "エジプト",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Inde",
+    "ja": "インド",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Brésil",
+    "ja": "ブラジル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "Mexique",
+    "ja": "メキシコ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "Australie",
+    "ja": "オーストラリア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "prix",
+    "ja": "値段",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "réduction",
+    "ja": "割引",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "solde",
+    "ja": "セール",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "caisse",
+    "ja": "レジ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "taille",
+    "ja": "サイズ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "ticket",
+    "ja": "領収書・チケット",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "panier",
+    "ja": "かご",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "chariot",
+    "ja": "カート",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "monnaie",
+    "ja": "小銭・お釣り",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "addition",
+    "ja": "お会計",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "métro",
+    "ja": "地下鉄",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "tramway",
+    "ja": "路面電車",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "ferry",
+    "ja": "フェリー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "hélicoptère",
+    "ja": "ヘリコプター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "scooter",
+    "ja": "スクーター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "autoroute",
+    "ja": "高速道路",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "embouteillage",
+    "ja": "渋滞",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "parking",
+    "ja": "駐車場",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "essence",
+    "ja": "ガソリン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "permis de conduire",
+    "ja": "運転免許",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "stylo",
+    "ja": "ペン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "crayon",
+    "ja": "鉛筆",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "cahier",
+    "ja": "ノート",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "gomme",
+    "ja": "消しゴム",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "règle",
+    "ja": "定規",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "calculatrice",
+    "ja": "電卓",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "tableau",
+    "ja": "黒板",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "leçon",
+    "ja": "レッスン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "dictée",
+    "ja": "書き取り",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "rédaction",
+    "ja": "作文",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "matière",
+    "ja": "教科",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "emploi du temps",
+    "ja": "時間割",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "récréation",
+    "ja": "休み時間",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "bulletin",
+    "ja": "通知表",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "secrétaire",
+    "ja": "秘書",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "comptable",
+    "ja": "会計士",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "collègue",
+    "ja": "同僚",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "stage",
+    "ja": "研修・インターン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "CV",
+    "ja": "履歴書",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "formation",
+    "ja": "研修・教育",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "congé",
+    "ja": "休暇",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "retraite",
+    "ja": "退職・年金",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "application",
+    "ja": "アプリ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "logiciel",
+    "ja": "ソフトウェア",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "réseau",
+    "ja": "ネットワーク",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "mot de passe",
+    "ja": "パスワード",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "fichier",
+    "ja": "ファイル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "dossier",
+    "ja": "フォルダー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "imprimante",
+    "ja": "プリンター",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "chargeur",
+    "ja": "充電器",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "wifi",
+    "ja": "ワイファイ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "lien",
+    "ja": "リンク",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "email",
+    "ja": "メール",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "éléphant",
+    "ja": "象",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "lion",
+    "ja": "ライオン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "tigre",
+    "ja": "虎",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "singe",
+    "ja": "猿",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "girafe",
+    "ja": "キリン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "zèbre",
+    "ja": "シマウマ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "ours",
+    "ja": "熊",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "loup",
+    "ja": "オオカミ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "renard",
+    "ja": "キツネ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "écureuil",
+    "ja": "リス",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "serpent",
+    "ja": "ヘビ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "grenouille",
+    "ja": "カエル",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "tortue",
+    "ja": "亀",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "papillon",
+    "ja": "蝶",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "abeille",
+    "ja": "ハチ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "mouche",
+    "ja": "ハエ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "moustique",
+    "ja": "蚊",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "dauphin",
+    "ja": "イルカ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "baleine",
+    "ja": "クジラ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "requin",
+    "ja": "サメ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "aigle",
+    "ja": "鷲",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "hibou",
+    "ja": "フクロウ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "canard",
+    "ja": "アヒル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "âne",
+    "ja": "ロバ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "chèvre",
+    "ja": "ヤギ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "mouton",
+    "ja": "羊",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "escargot",
+    "ja": "カタツムリ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "natation",
+    "ja": "水泳",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "football",
+    "ja": "サッカー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "basketball",
+    "ja": "バスケットボール",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "tennis",
+    "ja": "テニス",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "ski",
+    "ja": "スキー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "randonnée",
+    "ja": "ハイキング",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "camping",
+    "ja": "キャンプ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "plongée",
+    "ja": "ダイビング",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "danse",
+    "ja": "ダンス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "dessin",
+    "ja": "絵・デッサン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "terrain",
+    "ja": "グラウンド",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "stade",
+    "ja": "スタジアム",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "gymnase",
+    "ja": "体育館",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "entraînement",
+    "ja": "トレーニング",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "compétition",
+    "ja": "大会",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "arbitre",
+    "ja": "審判",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "courage",
+    "ja": "勇気",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "patience",
+    "ja": "忍耐",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "curiosité",
+    "ja": "好奇心",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "honte",
+    "ja": "恥",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "fierté",
+    "ja": "誇り",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "satisfaction",
+    "ja": "満足",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "déception",
+    "ja": "失望",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "admiration",
+    "ja": "尊敬",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "respect",
+    "ja": "敬意",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "confiance",
+    "ja": "信頼",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "doute",
+    "ja": "疑い",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "imagination",
+    "ja": "想像力",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "mémoire",
+    "ja": "記憶",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "phrase",
+    "ja": "文",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "paragraphe",
+    "ja": "段落",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "chapitre",
+    "ja": "章",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "titre",
+    "ja": "タイトル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "auteur",
+    "ja": "著者",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "traduction",
+    "ja": "翻訳",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "grammaire",
+    "ja": "文法",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "vocabulaire",
+    "ja": "語彙",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "orthographe",
+    "ja": "綴り",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "prononciation",
+    "ja": "発音",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "accent",
+    "ja": "アクセント",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "symbole",
+    "ja": "記号",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "signe",
+    "ja": "印・記号",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "résumé",
+    "ja": "要約",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "veuf",
+    "ja": "未亡人・男やもめ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "veuve"
+  },
+  {
+    "fr": "jumeau",
+    "ja": "双子",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "jumelle"
+  },
+  {
+    "fr": "boulanger",
+    "ja": "パン職人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "boulangère"
+  },
+  {
+    "fr": "boucher",
+    "ja": "肉屋",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "bouchère"
+  },
+  {
+    "fr": "coiffeur",
+    "ja": "美容師",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "coiffeuse"
+  },
+  {
+    "fr": "mécanicien",
+    "ja": "整備士",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "mécanicienne"
+  },
+  {
+    "fr": "électricien",
+    "ja": "電気技師",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "électricienne"
+  },
+  {
+    "fr": "plombier",
+    "ja": "配管工",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "plombière"
+  },
+  {
+    "fr": "jardinier",
+    "ja": "庭師",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "jardinière"
+  },
+  {
+    "fr": "directeur",
+    "ja": "部長・館長",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "directrice"
+  },
+  {
+    "fr": "Portugais",
+    "ja": "ポルトガル人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Portugaise"
+  },
+  {
+    "fr": "Néerlandais",
+    "ja": "オランダ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "Néerlandaise"
+  },
+  {
+    "fr": "Suédois",
+    "ja": "スウェーデン人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "Suédoise"
+  },
+  {
+    "fr": "Norvégien",
+    "ja": "ノルウェー人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "Norvégienne"
+  },
+  {
+    "fr": "Grec",
+    "ja": "ギリシャ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Grecque"
+  },
+  {
+    "fr": "Égyptien",
+    "ja": "エジプト人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Égyptienne"
+  },
+  {
+    "fr": "Indien",
+    "ja": "インド人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Indienne"
+  },
+  {
+    "fr": "Brésilien",
+    "ja": "ブラジル人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Brésilienne"
+  },
+  {
+    "fr": "Mexicain",
+    "ja": "メキシコ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Mexicaine"
+  },
+  {
+    "fr": "Australien",
+    "ja": "オーストラリア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "Australienne"
+  },
+  {
+    "fr": "violet",
+    "ja": "紫の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "violet",
+      "fs": "violette",
+      "mp": "violets",
+      "fp": "violettes"
+    }
+  },
+  {
+    "fr": "doré",
+    "ja": "金色の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "doré",
+      "fs": "dorée",
+      "mp": "dorés",
+      "fp": "dorées"
+    }
+  },
+  {
+    "fr": "argenté",
+    "ja": "銀色の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "argenté",
+      "fs": "argentée",
+      "mp": "argentés",
+      "fp": "argentées"
+    }
+  },
+  {
+    "fr": "lourd",
+    "ja": "重い",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "lourd",
+      "fs": "lourde",
+      "mp": "lourds",
+      "fp": "lourdes"
+    }
+  },
+  {
+    "fr": "léger",
+    "ja": "軽い",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "léger",
+      "fs": "légère",
+      "mp": "légers",
+      "fp": "légères"
+    }
+  },
+  {
+    "fr": "vaste",
+    "ja": "広大な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "vaste",
+      "fs": "vaste",
+      "mp": "vastes",
+      "fp": "vastes"
+    }
+  },
+  {
+    "fr": "aimable",
+    "ja": "愛想の良い",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "aimable",
+      "fs": "aimable",
+      "mp": "aimables",
+      "fp": "aimables"
+    }
+  },
+  {
+    "fr": "sérieux",
+    "ja": "真面目な",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "sérieux",
+      "fs": "sérieuse",
+      "mp": "sérieux",
+      "fp": "sérieuses"
+    }
+  },
+  {
+    "fr": "drôle",
+    "ja": "面白い",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "drôle",
+      "fs": "drôle",
+      "mp": "drôles",
+      "fp": "drôles"
+    }
+  },
+  {
+    "fr": "naïf",
+    "ja": "素朴な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "naïf",
+      "fs": "naïve",
+      "mp": "naïfs",
+      "fp": "naïves"
+    }
+  },
+  {
+    "fr": "courageux",
+    "ja": "勇敢な",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "courageux",
+      "fs": "courageuse",
+      "mp": "courageux",
+      "fp": "courageuses"
+    }
+  },
+  {
+    "fr": "prudent",
+    "ja": "慎重な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "prudent",
+      "fs": "prudente",
+      "mp": "prudents",
+      "fp": "prudentes"
+    }
+  },
+  {
+    "fr": "distrait",
+    "ja": "注意散漫な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "distrait",
+      "fs": "distraite",
+      "mp": "distraits",
+      "fp": "distraites"
+    }
+  },
+  {
+    "fr": "ému",
+    "ja": "感動した",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "ému",
+      "fs": "émue",
+      "mp": "émus",
+      "fp": "émues"
+    }
+  },
+  {
+    "fr": "gêné",
+    "ja": "恥ずかしい",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "gêné",
+      "fs": "gênée",
+      "mp": "gênés",
+      "fp": "gênées"
+    }
+  },
+  {
+    "fr": "soulagé",
+    "ja": "ホッとした",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "soulagé",
+      "fs": "soulagée",
+      "mp": "soulagés",
+      "fp": "soulagées"
+    }
+  },
+  {
+    "fr": "épuisé",
+    "ja": "疲れ果てた",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "épuisé",
+      "fs": "épuisée",
+      "mp": "épuisés",
+      "fp": "épuisées"
+    }
+  },
+  {
+    "fr": "excellent",
+    "ja": "優れた",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "excellent",
+      "fs": "excellente",
+      "mp": "excellents",
+      "fp": "excellentes"
+    }
+  },
+  {
+    "fr": "parfait",
+    "ja": "完璧な",
+    "pos": "adjectif",
+    "level": "A1",
+    "forms": {
+      "ms": "parfait",
+      "fs": "parfaite",
+      "mp": "parfaits",
+      "fp": "parfaites"
+    }
+  },
+  {
+    "fr": "horrible",
+    "ja": "恐ろしい",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "horrible",
+      "fs": "horrible",
+      "mp": "horribles",
+      "fp": "horribles"
+    }
+  },
+  {
+    "fr": "magnifique",
+    "ja": "素晴らしい",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "magnifique",
+      "fs": "magnifique",
+      "mp": "magnifiques",
+      "fp": "magnifiques"
+    }
+  },
+  {
+    "fr": "formidable",
+    "ja": "すごい",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "formidable",
+      "fs": "formidable",
+      "mp": "formidables",
+      "fp": "formidables"
+    }
+  },
+  {
+    "fr": "terrible",
+    "ja": "ひどい",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "terrible",
+      "fs": "terrible",
+      "mp": "terribles",
+      "fp": "terribles"
+    }
+  },
+  {
+    "fr": "génial",
+    "ja": "最高の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "génial",
+      "fs": "géniale",
+      "mp": "géniaux",
+      "fp": "géniales"
+    }
+  },
+  {
+    "fr": "suisse",
+    "ja": "スイスの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "suisse",
+      "fs": "suisse",
+      "mp": "suisses",
+      "fp": "suisses"
+    }
+  },
+  {
+    "fr": "portugais",
+    "ja": "ポルトガルの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "portugais",
+      "fs": "portugaise",
+      "mp": "portugais",
+      "fp": "portugaises"
+    }
+  },
+  {
+    "fr": "néerlandais",
+    "ja": "オランダの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "néerlandais",
+      "fs": "néerlandaise",
+      "mp": "néerlandais",
+      "fp": "néerlandaises"
+    }
+  },
+  {
+    "fr": "suédois",
+    "ja": "スウェーデンの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "suédois",
+      "fs": "suédoise",
+      "mp": "suédois",
+      "fp": "suédoises"
+    }
+  },
+  {
+    "fr": "norvégien",
+    "ja": "ノルウェーの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "norvégien",
+      "fs": "norvégienne",
+      "mp": "norvégiens",
+      "fp": "norvégiennes"
+    }
+  },
+  {
+    "fr": "grec",
+    "ja": "ギリシャの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "grec",
+      "fs": "grecque",
+      "mp": "grecs",
+      "fp": "grecques"
+    }
+  },
+  {
+    "fr": "égyptien",
+    "ja": "エジプトの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "égyptien",
+      "fs": "égyptienne",
+      "mp": "égyptiens",
+      "fp": "égyptiennes"
+    }
+  },
+  {
+    "fr": "indien",
+    "ja": "インドの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "indien",
+      "fs": "indienne",
+      "mp": "indiens",
+      "fp": "indiennes"
+    }
+  },
+  {
+    "fr": "brésilien",
+    "ja": "ブラジルの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "brésilien",
+      "fs": "brésilienne",
+      "mp": "brésiliens",
+      "fp": "brésiliennes"
+    }
+  },
+  {
+    "fr": "mexicain",
+    "ja": "メキシコの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "mexicain",
+      "fs": "mexicaine",
+      "mp": "mexicains",
+      "fp": "mexicaines"
+    }
+  },
+  {
+    "fr": "australien",
+    "ja": "オーストラリアの",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "australien",
+      "fs": "australienne",
+      "mp": "australiens",
+      "fp": "australiennes"
+    }
   }
 ]
