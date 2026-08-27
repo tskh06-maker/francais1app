@@ -17916,5 +17916,177 @@
       "mp": "sereins",
       "fp": "sereines"
     }
+  },
+  {
+    "fr": "citoyenneté",
+    "ja": "市民権",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "liberté d'expression",
+    "ja": "表現の自由",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "orientation",
+    "ja": "進路指導",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "congé maladie",
+    "ja": "病気休暇",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "congé parental",
+    "ja": "育児休暇",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "corruption",
+    "ja": "汚職",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "transparence",
+    "ja": "透明性",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "fierté nationale",
+    "ja": "国民の誇り",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "écosystème",
+    "ja": "生態系",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "biodiversité",
+    "ja": "生物多様性",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "panthère",
+    "ja": "ヒョウ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "guépard",
+    "ja": "チーター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "omelette",
+    "ja": "オムレツ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "quiche",
+    "ja": "キッシュ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "place de marché",
+    "ja": "市場広場",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Ghana",
+    "ja": "ガーナ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "snowboard",
+    "ja": "スノーボード",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "code source",
+    "ja": "ソースコード",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "vaccin",
+    "ja": "ワクチン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "épidémie",
+    "ja": "流行病",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "ghanéen",
+    "ja": "ガーナ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "ghanéenne"
+  },
+  {
+    "fr": "ghanéen",
+    "ja": "ガーナの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "ghanéen",
+      "fs": "ghanéenne",
+      "mp": "ghanéens",
+      "fp": "ghanéennes"
+    }
+  },
+  {
+    "fr": "corrompu",
+    "ja": "腐敗した",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "corrompu",
+      "fs": "corrompue",
+      "mp": "corrompus",
+      "fp": "corrompues"
+    }
   }
 ]
