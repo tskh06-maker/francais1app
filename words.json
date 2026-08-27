@@ -14765,5 +14765,180 @@
       "mp": "civils",
       "fp": "civiles"
     }
+  },
+  {
+    "fr": "petit-fils",
+    "ja": "孫息子",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "petite-fille",
+    "ja": "孫娘",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "marteau",
+    "ja": "ハンマー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "tournevis",
+    "ja": "ドライバー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "échelle",
+    "ja": "はしご",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "corde",
+    "ja": "ロープ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "portefeuille",
+    "ja": "財布",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "péninsule",
+    "ja": "半島",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "archipel",
+    "ja": "群島",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "golfe",
+    "ja": "湾",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "glacier",
+    "ja": "氷河",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "quotidien",
+    "ja": "日常",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "sourire",
+    "ja": "笑顔",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "larme",
+    "ja": "涙",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "rire",
+    "ja": "笑い",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "victime",
+    "ja": "被害者",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "témoin",
+    "ja": "証人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "accusé",
+    "ja": "被告",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "accusée"
+  },
+  {
+    "fr": "million",
+    "ja": "100万",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "million",
+      "fs": "million",
+      "mp": "millions",
+      "fp": "millions"
+    }
+  },
+  {
+    "fr": "milliard",
+    "ja": "10億",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "milliard",
+      "fs": "milliard",
+      "mp": "milliards",
+      "fp": "milliards"
+    }
+  },
+  {
+    "fr": "brillant",
+    "ja": "輝く",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "brillant",
+      "fs": "brillante",
+      "mp": "brillants",
+      "fp": "brillantes"
+    }
+  },
+  {
+    "fr": "précieux",
+    "ja": "貴重な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "précieux",
+      "fs": "précieuse",
+      "mp": "précieux",
+      "fp": "précieuses"
+    }
   }
 ]
