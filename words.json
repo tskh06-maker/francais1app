@@ -14940,5 +14940,177 @@
       "mp": "précieux",
       "fp": "précieuses"
     }
+  },
+  {
+    "fr": "brosse à cheveux",
+    "ja": "ヘアブラシ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "peigne",
+    "ja": "くし",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "rasoir",
+    "ja": "かみそり",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "maquillage",
+    "ja": "化粧",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "parfum",
+    "ja": "香水",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "chou",
+    "ja": "キャベツ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "laitue",
+    "ja": "レタス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "radis",
+    "ja": "ラディッシュ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "prune",
+    "ja": "プラム",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "jus",
+    "ja": "ジュース",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "limonade",
+    "ja": "レモネード",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "cocktail",
+    "ja": "カクテル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "raquette",
+    "ja": "ラケット",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "verglas",
+    "ja": "路面凍結",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "grêle",
+    "ja": "雹",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "crime",
+    "ja": "犯罪",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "vol",
+    "ja": "盗み",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "meurtre",
+    "ja": "殺人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "prison",
+    "ja": "刑務所",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "rentrée",
+    "ja": "新学期",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "voleur",
+    "ja": "泥棒",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "voleuse"
+  },
+  {
+    "fr": "fiable",
+    "ja": "信頼できる",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "fiable",
+      "fs": "fiable",
+      "mp": "fiables",
+      "fp": "fiables"
+    }
+  },
+  {
+    "fr": "malhonnête",
+    "ja": "不誠実な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "malhonnête",
+      "fs": "malhonnête",
+      "mp": "malhonnêtes",
+      "fp": "malhonnêtes"
+    }
   }
 ]
