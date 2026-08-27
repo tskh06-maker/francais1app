@@ -17151,5 +17151,302 @@
       "mp": "capitalistes",
       "fp": "capitalistes"
     }
+  },
+  {
+    "fr": "chouette",
+    "ja": "フクロウ（種）",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "faucon",
+    "ja": "ハヤブサ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "vautour",
+    "ja": "ハゲワシ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "flamant rose",
+    "ja": "フラミンゴ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "bison",
+    "ja": "バイソン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "élan",
+    "ja": "ヘラジカ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "pomme de terre",
+    "ja": "じゃがいも",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "macaron",
+    "ja": "マカロン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "mille-feuille",
+    "ja": "ミルフィーユ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "baguette",
+    "ja": "バゲット",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "commode",
+    "ja": "たんす",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "armoire",
+    "ja": "洋服だんす",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "bibliothèque meuble",
+    "ja": "本棚（家具）",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "robe de mariée",
+    "ja": "ウェディングドレス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "smoking",
+    "ja": "タキシード",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "place publique",
+    "ja": "公共広場",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "rond point",
+    "ja": "ロータリー広場",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "littoral",
+    "ja": "沿岸",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "estuaire",
+    "ja": "河口",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "gymnastique",
+    "ja": "体操",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "escrime",
+    "ja": "フェンシング",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "plateforme",
+    "ja": "プラットフォーム",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "interface",
+    "ja": "インターフェース",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "thèse",
+    "ja": "論文",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "mémoire de fin d'études",
+    "ja": "卒業論文",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "responsabilité",
+    "ja": "責任",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "initiative",
+    "ja": "率先",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "orgueil",
+    "ja": "自尊心",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "modestie",
+    "ja": "謙虚さ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "réfugié politique",
+    "ja": "政治難民",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "asile",
+    "ja": "亡命",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Liban",
+    "ja": "レバノン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Jordanie",
+    "ja": "ヨルダン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "nuance",
+    "ja": "ニュアンス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "contexte",
+    "ja": "文脈",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "libanais",
+    "ja": "レバノン人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "libanaise"
+  },
+  {
+    "fr": "jordanien",
+    "ja": "ヨルダン人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "jordanienne"
+  },
+  {
+    "fr": "libanais",
+    "ja": "レバノンの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "libanais",
+      "fs": "libanaise",
+      "mp": "libanais",
+      "fp": "libanaises"
+    }
+  },
+  {
+    "fr": "jordanien",
+    "ja": "ヨルダンの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "jordanien",
+      "fs": "jordanienne",
+      "mp": "jordaniens",
+      "fp": "jordaniennes"
+    }
+  },
+  {
+    "fr": "orgueilleux",
+    "ja": "自尊心の強い",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "orgueilleux",
+      "fs": "orgueilleuse",
+      "mp": "orgueilleux",
+      "fp": "orgueilleuses"
+    }
   }
 ]
