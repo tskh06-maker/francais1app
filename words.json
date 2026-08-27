@@ -16016,5 +16016,212 @@
       "mp": "impulsifs",
       "fp": "impulsives"
     }
+  },
+  {
+    "fr": "ver",
+    "ja": "虫",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "phasme",
+    "ja": "ナナフシ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "iguane",
+    "ja": "イグアナ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "dromadaire",
+    "ja": "ヒトコブラクダ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "gigot",
+    "ja": "羊もも肉",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "ragoût",
+    "ja": "シチュー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "bouillon",
+    "ja": "だし汁",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "pâté",
+    "ja": "パテ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "caviar",
+    "ja": "キャビア",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "truffe",
+    "ja": "トリュフ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "paillasson",
+    "ja": "玄関マット",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "porte-manteau",
+    "ja": "コート掛け",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "étendoir",
+    "ja": "物干し",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "nœud papillon",
+    "ja": "蝶ネクタイ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "kimono",
+    "ja": "着物",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "tableau blanc",
+    "ja": "ホワイトボード",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "projecteur",
+    "ja": "プロジェクター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "clé USB",
+    "ja": "USBメモリ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "imprimante 3D",
+    "ja": "3Dプリンター",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "échecs",
+    "ja": "チェス",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "cartes à jouer",
+    "ja": "トランプ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "ambassadeur",
+    "ja": "大使",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "diplomatie",
+    "ja": "外交",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Ukraine",
+    "ja": "ウクライナ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Singapour",
+    "ja": "シンガポール",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "ukrainien",
+    "ja": "ウクライナ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "ukrainienne"
+  },
+  {
+    "fr": "ukrainien",
+    "ja": "ウクライナの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "ukrainien",
+      "fs": "ukrainienne",
+      "mp": "ukrainiens",
+      "fp": "ukrainiennes"
+    }
+  },
+  {
+    "fr": "diplomatique",
+    "ja": "外交の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "diplomatique",
+      "fs": "diplomatique",
+      "mp": "diplomatiques",
+      "fp": "diplomatiques"
+    }
   }
 ]
