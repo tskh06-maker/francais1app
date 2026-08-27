@@ -62,6 +62,8 @@ defaults = {
     "noun_list_selected": None,
     "adj_list_selected": None,
     "word_list_tab": "noun",
+    "noun_list_category": None,
+    "adj_list_category": None,
 }
 for key, value in defaults.items():
     st.session_state.setdefault(key, value)
@@ -70,6 +72,54 @@ for key, value in defaults.items():
 def go(screen):
     st.session_state.screen = screen
     st.rerun()
+
+
+NOUN_CATEGORY_ORDER = [
+    "時間", "人・家族", "家・生活用品", "食べ物・飲み物", "衣類・身につけるもの", "体・健康",
+    "自然・天気", "街・公共施設", "世界・国", "ショッピング", "交通", "学校・勉強",
+    "仕事・職業", "テクノロジー・メディア", "動物", "スポーツ・余暇・旅行", "気持ち・考え方",
+    "政治・経済", "言葉・数・その他",
+]
+NOUN_CATEGORY_ICONS = {
+    "時間": "⏰", "人・家族": "👪", "家・生活用品": "🏠", "食べ物・飲み物": "🍽️",
+    "衣類・身につけるもの": "👕", "体・健康": "🩺", "自然・天気": "🌤️", "街・公共施設": "🏙️",
+    "世界・国": "🌍", "ショッピング": "🛍️", "交通": "🚗", "学校・勉強": "📚",
+    "仕事・職業": "💼", "テクノロジー・メディア": "💻", "動物": "🐾",
+    "スポーツ・余暇・旅行": "🎽", "気持ち・考え方": "💭", "政治・経済": "🏛️",
+    "言葉・数・その他": "🔤",
+}
+ADJ_CATEGORY_ORDER = [
+    "色", "大きさ・形・見た目", "性格", "感情・状態", "評価", "物の性質・感触",
+    "順序・時間", "序数形容詞", "不定形容詞", "比較・範囲", "政治・経済", "国籍", "基数形容詞",
+]
+ADJ_CATEGORY_ICONS = {
+    "色": "🎨", "大きさ・形・見た目": "📏", "性格": "🙂", "感情・状態": "😊",
+    "評価": "⭐", "物の性質・感触": "🧱", "順序・時間": "🕐", "序数形容詞": "🥇",
+    "不定形容詞": "🔀", "比較・範囲": "⚖️", "政治・経済": "🏛️", "国籍": "🌐",
+    "基数形容詞": "🔢",
+}
+
+
+def render_category_grid(words_in_pos, order, icons, session_key):
+    """カテゴリ未選択時に表示するタイル一覧。クリックするとそのカテゴリに絞り込む。"""
+    counts = {}
+    for w in words_in_pos:
+        counts[w["category"]] = counts.get(w["category"], 0) + 1
+
+    ordered_cats = [c for c in order if c in counts]
+    cols_per_row = 3
+    for i in range(0, len(ordered_cats), cols_per_row):
+        row_cats = ordered_cats[i:i + cols_per_row]
+        cols = st.columns(cols_per_row)
+        for col, cat in zip(cols, row_cats):
+            with col:
+                with st.container(border=True):
+                    st.markdown(f'<div class="cat-tile-icon">{icons.get(cat, "📘")}</div>', unsafe_allow_html=True)
+                    st.markdown(f'<div class="cat-tile-title">{cat}</div>', unsafe_allow_html=True)
+                    st.markdown(f'<div class="cat-tile-count">{counts[cat]}語</div>', unsafe_allow_html=True)
+                    if st.button("見る", key=f"{session_key}_tile_{cat}", use_container_width=True):
+                        st.session_state[session_key] = cat
+                        st.rerun()
 
 
 def sync_history_if_logged_in():
@@ -342,6 +392,7 @@ elif st.session_state.screen == "word_list":
 
         query = st.text_input("名詞を検索（原形または意味）", placeholder="例: maison、家", key="noun_search")
 
+        show_list = True
         if query.strip():
             q_norm = strip_accents(query.strip().lower())
             matched = [
@@ -352,75 +403,86 @@ elif st.session_state.screen == "word_list":
             ]
             st.caption(f"検索結果: {len(matched)}件")
             grouped = False
+        elif st.session_state.noun_list_category is None:
+            st.markdown("##### カテゴリで探す")
+            render_category_grid(nouns, NOUN_CATEGORY_ORDER, NOUN_CATEGORY_ICONS, "noun_list_category")
+            show_list = False
         else:
-            matched = sorted(nouns, key=lambda w: LEVELS.index(w["level"]))
+            cat = st.session_state.noun_list_category
+            if st.button("← カテゴリ一覧に戻る", key="noun_cat_back"):
+                st.session_state.noun_list_category = None
+                st.rerun()
+            cat_words = [w for w in nouns if w["category"] == cat]
+            st.markdown(f"##### {NOUN_CATEGORY_ICONS.get(cat, '')} {cat}（{len(cat_words)}語）")
+            matched = sorted(cat_words, key=lambda w: LEVELS.index(w["level"]))
             grouped = True
 
-        with st.container(key="noun_rows"):
-            previous_level = None
-            for w in matched:
-                level = w["level"]
-                if grouped and level != previous_level:
-                    level_count = sum(1 for x in matched if x["level"] == level)
-                    if previous_level is not None:
-                        st.divider()
-                    st.markdown(f"##### {LEVEL_LABELS.get(level, level)}（{level_count}語）")
-                    previous_level = level
+        if show_list:
+            with st.container(key="noun_rows"):
+                previous_level = None
+                for w in matched:
+                    level = w["level"]
+                    if grouped and level != previous_level:
+                        level_count = sum(1 for x in matched if x["level"] == level)
+                        if previous_level is not None:
+                            st.divider()
+                        st.markdown(f"##### {LEVEL_LABELS.get(level, level)}（{level_count}語）")
+                        previous_level = level
 
-                fr = w["fr"]
-                fem = w.get("fem")
-                is_selected = st.session_state.noun_list_selected == fr
-                arrow = "▾" if is_selected else "▸"
+                    fr = w["fr"]
+                    fem = w.get("fem")
+                    is_selected = st.session_state.noun_list_selected == fr
+                    arrow = "▾" if is_selected else "▸"
 
-                if fem:
-                    i = 0
-                    while i < len(fr) and i < len(fem) and fr[i] == fem[i]:
-                        i += 1
-                    compact = f"{fr}({fem[i:]})"
-                    chip_html = '<div class="gender-chip mf">M/F</div>'
-                    row_text = f"{arrow} {compact} — {w['ja']}"
-                else:
-                    g = "m" if w["gender"] == "m" else "f"
-                    chip_html = f'<div class="gender-chip {g}">{g.upper()}</div>'
-                    row_text = f"{arrow} {fr} — {w['ja']}"
+                    if fem:
+                        i = 0
+                        while i < len(fr) and i < len(fem) and fr[i] == fem[i]:
+                            i += 1
+                        compact = f"{fr}({fem[i:]})"
+                        chip_html = '<div class="gender-chip mf">M/F</div>'
+                        row_text = f"{arrow} {compact} — {w['ja']}"
+                    else:
+                        g = "m" if w["gender"] == "m" else "f"
+                        chip_html = f'<div class="gender-chip {g}">{g.upper()}</div>'
+                        row_text = f"{arrow} {fr} — {w['ja']}"
 
-                chip_col, row_col = st.columns([1, 11])
-                with chip_col:
-                    st.markdown(chip_html, unsafe_allow_html=True)
-                with row_col:
-                    if st.button(row_text, key=f"nounrow_{fr}", use_container_width=True):
-                        st.session_state.noun_list_selected = None if is_selected else fr
-                        st.rerun()
+                    chip_col, row_col = st.columns([1, 11])
+                    with chip_col:
+                        st.markdown(chip_html, unsafe_allow_html=True)
+                    with row_col:
+                        if st.button(row_text, key=f"nounrow_{fr}", use_container_width=True):
+                            st.session_state.noun_list_selected = None if is_selected else fr
+                            st.rerun()
 
-                if is_selected:
-                    with st.container(border=True):
-                        if fem:
-                            st.markdown(
-                                f'<span class="badge">男性形・女性形</span>'
-                                f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>',
-                                unsafe_allow_html=True,
-                            )
-                            col_m, col_f = st.columns(2)
-                            with col_m:
-                                st.caption(f"男性：{fr}")
-                                speak_button(
-                                    fr, button_key=f"speak_noun_{fr}_m",
-                                    label=f"{fr} ▶️", use_container_width=True,
+                    if is_selected:
+                        with st.container(border=True):
+                            if fem:
+                                st.markdown(
+                                    f'<span class="badge">男性形・女性形</span>'
+                                    f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>',
+                                    unsafe_allow_html=True,
                                 )
-                            with col_f:
-                                st.caption(f"女性：{fem}")
-                                speak_button(
-                                    fem, button_key=f"speak_noun_{fr}_f",
-                                    label=f"{fem} ▶️", use_container_width=True,
+                                col_m, col_f = st.columns(2)
+                                with col_m:
+                                    st.caption(f"男性：{fr}")
+                                    speak_button(
+                                        fr, button_key=f"speak_noun_{fr}_m",
+                                        label=f"{fr} ▶️", use_container_width=True,
+                                    )
+                                with col_f:
+                                    st.caption(f"女性：{fem}")
+                                    speak_button(
+                                        fem, button_key=f"speak_noun_{fr}_f",
+                                        label=f"{fem} ▶️", use_container_width=True,
+                                    )
+                            else:
+                                gender_label = "男性名詞" if w["gender"] == "m" else "女性名詞"
+                                st.markdown(
+                                    f'<span class="badge">{gender_label}</span>'
+                                    f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>',
+                                    unsafe_allow_html=True,
                                 )
-                        else:
-                            gender_label = "男性名詞" if w["gender"] == "m" else "女性名詞"
-                            st.markdown(
-                                f'<span class="badge">{gender_label}</span>'
-                                f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>',
-                                unsafe_allow_html=True,
-                            )
-                            speak_button(fr, button_key=f"speak_noun_{fr}")
+                                speak_button(fr, button_key=f"speak_noun_{fr}")
 
     else:
         adjs = [w for w in load_words() if w["pos"] == "adjectif"]
@@ -429,52 +491,64 @@ elif st.session_state.screen == "word_list":
 
         query = st.text_input("形容詞を検索（原形または意味）", placeholder="例: grand、大きい", key="adj_search")
 
+        show_list = True
         if query.strip():
             q_norm = strip_accents(query.strip().lower())
             matched = [w for w in adjs if q_norm in strip_accents(w["fr"].lower()) or query.strip() in w["ja"]]
             st.caption(f"検索結果: {len(matched)}件")
             grouped = False
+        elif st.session_state.adj_list_category is None:
+            st.markdown("##### カテゴリで探す")
+            render_category_grid(adjs, ADJ_CATEGORY_ORDER, ADJ_CATEGORY_ICONS, "adj_list_category")
+            show_list = False
         else:
-            matched = sorted(adjs, key=lambda w: LEVELS.index(w["level"]))
+            cat = st.session_state.adj_list_category
+            if st.button("← カテゴリ一覧に戻る", key="adj_cat_back"):
+                st.session_state.adj_list_category = None
+                st.rerun()
+            cat_words = [w for w in adjs if w["category"] == cat]
+            st.markdown(f"##### {ADJ_CATEGORY_ICONS.get(cat, '')} {cat}（{len(cat_words)}語）")
+            matched = sorted(cat_words, key=lambda w: LEVELS.index(w["level"]))
             grouped = True
 
-        with st.container(key="adj_rows"):
-            previous_level = None
-            for w in matched:
-                level = w["level"]
-                if grouped and level != previous_level:
-                    level_count = sum(1 for x in matched if x["level"] == level)
-                    if previous_level is not None:
-                        st.divider()
-                    st.markdown(f"##### {LEVEL_LABELS.get(level, level)}（{level_count}語）")
-                    previous_level = level
+        if show_list:
+            with st.container(key="adj_rows"):
+                previous_level = None
+                for w in matched:
+                    level = w["level"]
+                    if grouped and level != previous_level:
+                        level_count = sum(1 for x in matched if x["level"] == level)
+                        if previous_level is not None:
+                            st.divider()
+                        st.markdown(f"##### {LEVEL_LABELS.get(level, level)}（{level_count}語）")
+                        previous_level = level
 
-                fr = w["fr"]
-                forms = w["forms"]
-                is_selected = st.session_state.adj_list_selected == fr
-                arrow = "▾" if is_selected else "▸"
-                if st.button(f"{arrow} {fr} — {w['ja']}", key=f"adjrow_{fr}", use_container_width=True):
-                    st.session_state.adj_list_selected = None if is_selected else fr
-                    st.rerun()
+                    fr = w["fr"]
+                    forms = w["forms"]
+                    is_selected = st.session_state.adj_list_selected == fr
+                    arrow = "▾" if is_selected else "▸"
+                    if st.button(f"{arrow} {fr} — {w['ja']}", key=f"adjrow_{fr}", use_container_width=True):
+                        st.session_state.adj_list_selected = None if is_selected else fr
+                        st.rerun()
 
-                if is_selected:
-                    with st.container(border=True):
-                        st.markdown(f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>', unsafe_allow_html=True)
-                        st.caption(f"{forms['ms']} / {forms['fs']} / {forms['mp']} / {forms['fp']}")
-                        form_cols = st.columns(4)
-                        form_items = [
-                            ("男性単数", forms["ms"]), ("女性単数", forms["fs"]),
-                            ("男性複数", forms["mp"]), ("女性複数", forms["fp"]),
-                        ]
-                        for col, (form_label, form_value) in zip(form_cols, form_items):
-                            with col:
-                                st.caption(form_label)
-                                speak_button(
-                                    form_value,
-                                    button_key=f"speak_adj_{fr}_{form_label}",
-                                    label=f"{form_value} ▶️",
-                                    use_container_width=True,
-                                )
+                    if is_selected:
+                        with st.container(border=True):
+                            st.markdown(f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>', unsafe_allow_html=True)
+                            st.caption(f"{forms['ms']} / {forms['fs']} / {forms['mp']} / {forms['fp']}")
+                            form_cols = st.columns(4)
+                            form_items = [
+                                ("男性単数", forms["ms"]), ("女性単数", forms["fs"]),
+                                ("男性複数", forms["mp"]), ("女性複数", forms["fp"]),
+                            ]
+                            for col, (form_label, form_value) in zip(form_cols, form_items):
+                                with col:
+                                    st.caption(form_label)
+                                    speak_button(
+                                        form_value,
+                                        button_key=f"speak_adj_{fr}_{form_label}",
+                                        label=f"{form_value} ▶️",
+                                        use_container_width=True,
+                                    )
 
     render_speech_player()
 

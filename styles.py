@@ -101,6 +101,10 @@ h2, h3 { letter-spacing: -0.01em; font-weight: 700 !important; }
 .card-title { font-weight: 700; font-size: 1.02rem; margin-bottom: 0.15rem; }
 .card-caption { color: var(--color-muted); font-size: 0.85rem; margin-bottom: 0.7rem; min-height: 2.4em; }
 
+.cat-tile-icon { font-size: 1.4rem; margin-bottom: 0.15rem; }
+.cat-tile-title { font-weight: 700; font-size: 0.92rem; line-height: 1.3; margin-bottom: 0.15rem; min-height: 2.4em; }
+.cat-tile-count { color: var(--color-muted); font-size: 0.78rem; margin-bottom: 0.6rem; }
+
 .conj-table-wrap {
     border: 1px solid var(--color-border);
     border-radius: 12px;
