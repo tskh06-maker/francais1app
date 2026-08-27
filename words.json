@@ -15270,5 +15270,155 @@
       "mp": "superficiels",
       "fp": "superficielles"
     }
+  },
+  {
+    "fr": "euro",
+    "ja": "ユーロ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "centime",
+    "ja": "セント",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "départ",
+    "ja": "出発",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "arrivée",
+    "ja": "到着",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "chaleur",
+    "ja": "暑さ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "fleuve",
+    "ja": "大河",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "pièce",
+    "ja": "部屋",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "fois",
+    "ja": "回",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "façon",
+    "ja": "やり方",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "manière",
+    "ja": "方法",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "côté",
+    "ja": "側",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "fin",
+    "ja": "終わり",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "début",
+    "ja": "始まり",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "cas",
+    "ja": "場合",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "fait",
+    "ja": "事実",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "différence",
+    "ja": "違い",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "besoin",
+    "ja": "必要",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "moyen",
+    "ja": "手段",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "vivant",
+    "ja": "生きている",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "vivant",
+      "fs": "vivante",
+      "mp": "vivants",
+      "fp": "vivantes"
+    }
+  },
+  {
+    "fr": "mort",
+    "ja": "死んだ",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "mort",
+      "fs": "morte",
+      "mp": "morts",
+      "fp": "mortes"
+    }
   }
 ]
