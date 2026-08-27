@@ -13269,5 +13269,266 @@
       "mp": "artistiques",
       "fp": "artistiques"
     }
+  },
+  {
+    "fr": "nation",
+    "ja": "国家",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "constitution",
+    "ja": "憲法",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "réforme",
+    "ja": "改革",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "manifestation",
+    "ja": "デモ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "grève",
+    "ja": "ストライキ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "crise",
+    "ja": "危機",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "dette",
+    "ja": "借金・負債",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "kiosque",
+    "ja": "売店",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "passerelle",
+    "ja": "歩道橋",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "commerce",
+    "ja": "商業",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "signalisation",
+    "ja": "信号システム",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "covoiturage",
+    "ja": "カーシェア",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "embarquement",
+    "ja": "搭乗",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "campus",
+    "ja": "キャンパス",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Nouvelle-Zélande",
+    "ja": "ニュージーランド",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Afrique du Sud",
+    "ja": "南アフリカ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "solitude",
+    "ja": "孤独",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "nostalgie",
+    "ja": "郷愁",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "ponctuation",
+    "ja": "句読点",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "majuscule",
+    "ja": "大文字",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "minuscule",
+    "ja": "小文字",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "thermomètre",
+    "ja": "体温計",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "pollution",
+    "ja": "汚染",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "citoyen",
+    "ja": "市民",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "citoyenne"
+  },
+  {
+    "fr": "consommateur",
+    "ja": "消費者",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "consommatrice"
+  },
+  {
+    "fr": "diplômé",
+    "ja": "卒業生",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "diplômée"
+  },
+  {
+    "fr": "néo-zélandais",
+    "ja": "ニュージーランド人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "néo-zélandaise"
+  },
+  {
+    "fr": "sud-africain",
+    "ja": "南アフリカ人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "sud-africaine"
+  },
+  {
+    "fr": "néo-zélandais",
+    "ja": "ニュージーランドの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "néo-zélandais",
+      "fs": "néo-zélandaise",
+      "mp": "néo-zélandais",
+      "fp": "néo-zélandaises"
+    }
+  },
+  {
+    "fr": "sud-africain",
+    "ja": "南アフリカの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "sud-africain",
+      "fs": "sud-africaine",
+      "mp": "sud-africains",
+      "fp": "sud-africaines"
+    }
+  },
+  {
+    "fr": "pollué",
+    "ja": "汚染された",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "pollué",
+      "fs": "polluée",
+      "mp": "pollués",
+      "fp": "polluées"
+    }
+  },
+  {
+    "fr": "urbain",
+    "ja": "都市の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "urbain",
+      "fs": "urbaine",
+      "mp": "urbains",
+      "fp": "urbaines"
+    }
+  },
+  {
+    "fr": "rural",
+    "ja": "田舎の",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "rural",
+      "fs": "rurale",
+      "mp": "ruraux",
+      "fp": "rurales"
+    }
   }
 ]
