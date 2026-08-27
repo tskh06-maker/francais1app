@@ -15731,5 +15731,121 @@
       "mp": "réussis",
       "fp": "réussies"
     }
+  },
+  {
+    "fr": "intervalle",
+    "ja": "間隔",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "période",
+    "ja": "期間",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "calendrier",
+    "ja": "カレンダー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "usine",
+    "ja": "工場",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "entrepôt",
+    "ja": "倉庫",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "chemin de fer",
+    "ja": "鉄道",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "son",
+    "ja": "音",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "faim",
+    "ja": "空腹",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "soif",
+    "ja": "喉の渇き",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "envie",
+    "ja": "欲求",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "plaisir",
+    "ja": "喜び",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "peine",
+    "ja": "苦労・悲しみ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "caissier",
+    "ja": "レジ係",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "caissière"
+  },
+  {
+    "fr": "suffisant",
+    "ja": "十分な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "suffisant",
+      "fs": "suffisante",
+      "mp": "suffisants",
+      "fp": "suffisantes"
+    }
+  },
+  {
+    "fr": "insuffisant",
+    "ja": "不十分な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "insuffisant",
+      "fs": "insuffisante",
+      "mp": "insuffisants",
+      "fp": "insuffisantes"
+    }
   }
 ]
