@@ -13960,5 +13960,370 @@
       "mp": "historiques",
       "fp": "historiques"
     }
+  },
+  {
+    "fr": "veille",
+    "ja": "前日",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "lendemain",
+    "ja": "翌日",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "majorité",
+    "ja": "成人",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "génération",
+    "ja": "世代",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "étage",
+    "ja": "階",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "rez-de-chaussée",
+    "ja": "1階",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "plinthe",
+    "ja": "幅木",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "volet",
+    "ja": "雨戸",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "serrure",
+    "ja": "錠前",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "plat",
+    "ja": "料理",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "entrée",
+    "ja": "前菜",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "plat principal",
+    "ja": "主菜",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "apéritif",
+    "ja": "食前酒",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "digestif",
+    "ja": "食後酒",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "goûter",
+    "ja": "おやつ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "saveur",
+    "ja": "風味",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "odeur",
+    "ja": "におい",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "goût",
+    "ja": "味",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "laine",
+    "ja": "ウール",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "coton",
+    "ja": "綿",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "cuir",
+    "ja": "革",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "soie",
+    "ja": "絹",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "poids",
+    "ja": "体重",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "silhouette",
+    "ja": "体型",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "courant",
+    "ja": "海流・電流",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "marais",
+    "ja": "沼地",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "récif",
+    "ja": "礁",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "trottoir roulant",
+    "ja": "動く歩道",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "escalator",
+    "ja": "エスカレーター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "Cuba",
+    "ja": "キューバ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Bolivie",
+    "ja": "ボリビア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "boutique",
+    "ja": "ブティック",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "essayage",
+    "ja": "試着",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "plaque d'immatriculation",
+    "ja": "ナンバープレート",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "clignotant",
+    "ja": "ウインカー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "informatique",
+    "ja": "情報科学",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "éducation physique",
+    "ja": "体育",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "carrière",
+    "ja": "キャリア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "promotion professionnelle",
+    "ja": "昇進",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "écouteurs",
+    "ja": "イヤホン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "connexion",
+    "ja": "接続",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "proie",
+    "ja": "獲物",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "prédateur",
+    "ja": "捕食者",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "supporter",
+    "ja": "サポーター（応援者）",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "médaille d'or",
+    "ja": "金メダル",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "émotion",
+    "ja": "感情",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "sensation",
+    "ja": "感覚",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "frontière",
+    "ja": "国境",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "territoire",
+    "ja": "領土",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "moyenne",
+    "ja": "平均",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "total",
+    "ja": "合計",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "supérieur",
+    "ja": "上司・上位者",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "supérieure"
   }
 ]
