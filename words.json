@@ -15927,5 +15927,94 @@
       "mp": "généraux",
       "fp": "générales"
     }
+  },
+  {
+    "fr": "genre",
+    "ja": "種類・ジャンル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "plan",
+    "ja": "計画・地図",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "matinée",
+    "ja": "午前中",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "soirée",
+    "ja": "夜のひととき",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "journée",
+    "ja": "一日",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "village",
+    "ja": "村",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "dépense",
+    "ja": "支出",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "cadet",
+    "ja": "年下のきょうだい",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "cadette"
+  },
+  {
+    "fr": "aîné",
+    "ja": "年上のきょうだい",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "aînée"
+  },
+  {
+    "fr": "foncé",
+    "ja": "濃い色の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "foncé",
+      "fs": "foncée",
+      "mp": "foncés",
+      "fp": "foncées"
+    }
+  },
+  {
+    "fr": "impulsif",
+    "ja": "衝動的な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "impulsif",
+      "fs": "impulsive",
+      "mp": "impulsifs",
+      "fp": "impulsives"
+    }
   }
 ]
