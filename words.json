@@ -12960,5 +12960,314 @@
       "mp": "fondamentaux",
       "fp": "fondamentales"
     }
+  },
+  {
+    "fr": "loi",
+    "ja": "法律",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "droit",
+    "ja": "権利・法",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "justice",
+    "ja": "正義・司法",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "tribunal",
+    "ja": "裁判所",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "procès",
+    "ja": "裁判",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "économie",
+    "ja": "経済",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "inflation",
+    "ja": "インフレ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "budget",
+    "ja": "予算",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "impôt",
+    "ja": "税金",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "taxe",
+    "ja": "税",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "politique",
+    "ja": "政治",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "ministre",
+    "ja": "大臣",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "élection",
+    "ja": "選挙",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "vote",
+    "ja": "投票",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "instrument",
+    "ja": "楽器",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "guitare",
+    "ja": "ギター",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "piano",
+    "ja": "ピアノ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "violon",
+    "ja": "バイオリン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "chanson",
+    "ja": "歌",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A1"
+  },
+  {
+    "fr": "concert",
+    "ja": "コンサート",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "orchestre",
+    "ja": "オーケストラ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "exposition",
+    "ja": "展覧会",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "galerie",
+    "ja": "画廊",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "étoile filante",
+    "ja": "流れ星",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "dune",
+    "ja": "砂丘",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "nappe",
+    "ja": "テーブルクロス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "vase",
+    "ja": "花瓶",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "vitamine",
+    "ja": "ビタミン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "régime",
+    "ja": "ダイエット・食事制限",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "recette",
+    "ja": "レシピ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "cuisson",
+    "ja": "調理",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "président",
+    "ja": "大統領",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "présidente"
+  },
+  {
+    "fr": "économique",
+    "ja": "経済的な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "économique",
+      "fs": "économique",
+      "mp": "économiques",
+      "fp": "économiques"
+    }
+  },
+  {
+    "fr": "politique",
+    "ja": "政治的な",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "politique",
+      "fs": "politique",
+      "mp": "politiques",
+      "fp": "politiques"
+    }
+  },
+  {
+    "fr": "légal",
+    "ja": "合法な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "légal",
+      "fs": "légale",
+      "mp": "légaux",
+      "fp": "légales"
+    }
+  },
+  {
+    "fr": "illégal",
+    "ja": "違法な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "illégal",
+      "fs": "illégale",
+      "mp": "illégaux",
+      "fp": "illégales"
+    }
+  },
+  {
+    "fr": "démocratique",
+    "ja": "民主的な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "démocratique",
+      "fs": "démocratique",
+      "mp": "démocratiques",
+      "fp": "démocratiques"
+    }
+  },
+  {
+    "fr": "musical",
+    "ja": "音楽の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "musical",
+      "fs": "musicale",
+      "mp": "musicaux",
+      "fp": "musicales"
+    }
+  },
+  {
+    "fr": "artistique",
+    "ja": "芸術的な",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "artistique",
+      "fs": "artistique",
+      "mp": "artistiques",
+      "fp": "artistiques"
+    }
   }
 ]
