@@ -292,8 +292,11 @@ elif st.session_state.screen == "verb_list":
             aux_présent = conjugations[aux]["présent"]
             aux_imparfait = conjugations[aux]["imparfait"]
 
+            level = info.get("level")
+            level_badge = f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>' if level else ""
             st.markdown(
                 f'<span class="badge">{GROUP_LABELS.get(group, group)}</span>'
+                f"{level_badge}"
                 f'<span class="badge">助動詞: {aux}</span><span class="badge">過去分詞: {participe}</span>',
                 unsafe_allow_html=True,
             )
