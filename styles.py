@@ -164,6 +164,25 @@ h2, h3 { letter-spacing: -0.01em; font-weight: 700 !important; }
     margin-right: 0.4rem;
 }
 
+.gender-chip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    margin-top: 0.35rem;
+    border-radius: 7px;
+    font-size: 0.72rem;
+    font-weight: 900;
+}
+.gender-chip.m { background: rgba(54, 84, 181, 0.16); color: var(--color-primary); }
+.gender-chip.f { background: rgba(176, 141, 87, 0.20); color: var(--color-accent-gold); }
+.gender-chip.mf {
+    background: linear-gradient(90deg, rgba(54, 84, 181, 0.16) 50%, rgba(176, 141, 87, 0.20) 50%);
+    color: var(--color-ink);
+    font-size: 0.62rem;
+}
+
 .ring-wrap {
     display: inline-flex;
     flex-direction: column;

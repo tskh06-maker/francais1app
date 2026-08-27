@@ -336,8 +336,8 @@ elif st.session_state.screen == "word_list":
         nouns = [w for w in load_words() if w["pos"] == "nom"]
         st.subheader(f"登録されている名詞一覧（{len(nouns)}語）")
         st.caption(
-            "名詞をクリックすると発音ボタンが開きます。バッジは性別（M=男性名詞／F=女性名詞）を表します。"
-            "性別によって綴りが変わる名詞（例: ami/amie）は [M/F] ami(e) のように表示されます。"
+            "名詞をクリックすると発音ボタンが開きます。色付きのマークは性別（M=男性名詞／F=女性名詞）を表します。"
+            "性別によって綴りが変わる名詞（例: ami/amie）はM/Fの両方が表示され、ami(e)のように表示されます。"
         )
 
         query = st.text_input("名詞を検索（原形または意味）", placeholder="例: maison、家", key="noun_search")
@@ -377,14 +377,20 @@ elif st.session_state.screen == "word_list":
                     while i < len(fr) and i < len(fem) and fr[i] == fem[i]:
                         i += 1
                     compact = f"{fr}({fem[i:]})"
-                    row_text = f"{arrow} [M/F] {compact} — {w['ja']}"
+                    chip_html = '<div class="gender-chip mf">M/F</div>'
+                    row_text = f"{arrow} {compact} — {w['ja']}"
                 else:
-                    gender_tag = "M" if w["gender"] == "m" else "F"
-                    row_text = f"{arrow} [{gender_tag}] {fr} — {w['ja']}"
+                    g = "m" if w["gender"] == "m" else "f"
+                    chip_html = f'<div class="gender-chip {g}">{g.upper()}</div>'
+                    row_text = f"{arrow} {fr} — {w['ja']}"
 
-                if st.button(row_text, key=f"nounrow_{fr}", use_container_width=True):
-                    st.session_state.noun_list_selected = None if is_selected else fr
-                    st.rerun()
+                chip_col, row_col = st.columns([1, 11])
+                with chip_col:
+                    st.markdown(chip_html, unsafe_allow_html=True)
+                with row_col:
+                    if st.button(row_text, key=f"nounrow_{fr}", use_container_width=True):
+                        st.session_state.noun_list_selected = None if is_selected else fr
+                        st.rerun()
 
                 if is_selected:
                     with st.container(border=True):
