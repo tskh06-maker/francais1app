@@ -16373,5 +16373,286 @@
       "mp": "passionnants",
       "fp": "passionnantes"
     }
+  },
+  {
+    "fr": "stylo-plume",
+    "ja": "万年筆",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "surligneur",
+    "ja": "蛍光ペン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "agenda",
+    "ja": "手帳",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "bulletin scolaire",
+    "ja": "通知表",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "magasinier",
+    "ja": "倉庫係",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "réceptionniste",
+    "ja": "受付係",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "chauffeur",
+    "ja": "運転手",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "livreur",
+    "ja": "配達員",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "aéroglisseur",
+    "ja": "ホバークラフト",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "téléphérique",
+    "ja": "ロープウェイ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "wagon",
+    "ja": "車両",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "phare",
+    "ja": "灯台",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "barrage",
+    "ja": "ダム",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "tunnel",
+    "ja": "トンネル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "syndicat étudiant",
+    "ja": "学生組合",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "angoisse",
+    "ja": "不安",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "désespoir",
+    "ja": "絶望",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "détail",
+    "ja": "詳細",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "aspect",
+    "ja": "側面",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "étape",
+    "ja": "段階",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "phase",
+    "ja": "フェーズ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Kenya",
+    "ja": "ケニア",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Nigéria",
+    "ja": "ナイジェリア",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "mille-pattes",
+    "ja": "ムカデ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "ver de terre",
+    "ja": "ミミズ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "store",
+    "ja": "ブラインド",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "paillasse",
+    "ja": "調理台",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "fondue",
+    "ja": "フォンデュ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "ratatouille",
+    "ja": "ラタトゥイユ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "planche à voile",
+    "ja": "ウインドサーフィン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "surf",
+    "ja": "サーフィン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "kényan",
+    "ja": "ケニア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "kényane"
+  },
+  {
+    "fr": "nigérian",
+    "ja": "ナイジェリア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "nigériane"
+  },
+  {
+    "fr": "kényan",
+    "ja": "ケニアの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "kényan",
+      "fs": "kényane",
+      "mp": "kényans",
+      "fp": "kényanes"
+    }
+  },
+  {
+    "fr": "nigérian",
+    "ja": "ナイジェリアの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "nigérian",
+      "fs": "nigériane",
+      "mp": "nigérians",
+      "fp": "nigérianes"
+    }
+  },
+  {
+    "fr": "angoissé",
+    "ja": "不安な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "angoissé",
+      "fs": "angoissée",
+      "mp": "angoissés",
+      "fp": "angoissées"
+    }
+  },
+  {
+    "fr": "désespéré",
+    "ja": "絶望した",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "désespéré",
+      "fs": "désespérée",
+      "mp": "désespérés",
+      "fp": "désespérées"
+    }
   }
 ]
