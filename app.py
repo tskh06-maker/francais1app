@@ -136,7 +136,8 @@ with st.sidebar:
     if st.button("🔤 単語クイズ", use_container_width=True):
         go("word_setup")
     if st.button("📖 動詞一覧", use_container_width=True):
-        go("verb_list")
+        st.session_state.word_list_tab = "verb"
+        go("word_list")
     if st.button("📗 名詞一覧", use_container_width=True):
         st.session_state.word_list_tab = "noun"
         go("word_list")
@@ -193,7 +194,8 @@ if st.session_state.screen == "home":
             st.markdown('<div class="card-title">動詞一覧</div>', unsafe_allow_html=True)
             st.markdown('<div class="card-caption">登録済みの動詞と活用表を検索・閲覧</div>', unsafe_allow_html=True)
             if st.button("登録されている動詞一覧を見る", use_container_width=True):
-                go("verb_list")
+                st.session_state.word_list_tab = "verb"
+                go("word_list")
     with col4:
         with st.container(border=True):
             st.markdown('<div class="card-icon">📊</div>', unsafe_allow_html=True)
@@ -232,128 +234,110 @@ if st.session_state.screen == "home":
 
 
 # ---------- 動詞一覧 ----------
-elif st.session_state.screen == "verb_list":
-    verbs = [w["fr"] for w in load_words() if w["pos"] == "verbe"]
-    meanings = load_verb_meanings()
-    conjugations = load_conjugations()
-    st.subheader(f"登録されている動詞一覧（{len(verbs)}語）")
-    st.caption("動詞をクリックすると活用表が開きます。être動詞の複合過去・大過去は、主語の性・数による過去分詞の一致を省略し、男性単数形で表示しています。")
-
-    query = st.text_input("動詞を検索（原形または意味）", placeholder="例: aller、行く")
-
-    pronoun_words = {"je": "je", "tu": "tu", "il_elle": "il/elle", "nous": "nous", "vous": "vous", "ils": "ils"}
-    vowels = "aeiouyàâäéèêëîïôöùûüh"
-    reflexive_elisions = {"me": "m’", "te": "t’", "se": "s’"}
-
-    def reflexive_prefix(key, next_word):
-        pronoun = REFLEXIVE_PRONOUNS[key]
-        if pronoun in reflexive_elisions and next_word[:1].lower() in vowels:
-            return reflexive_elisions[pronoun]
-        return pronoun + " "
-
-    def tense_form_display(forms, key, reflexive):
-        form = forms[key]
-        return (reflexive_prefix(key, form) + form) if reflexive else form
-
-    def compound_form(aux_forms, key, participe, reflexive=False):
-        aux_form = aux_forms[key]
-        if key == "je":
-            # 再帰動詞では je の直後は常に me/m'（子音扱い）なので je はエリジオンしない
-            if reflexive:
-                pronoun = "je "
-            else:
-                pronoun = "j’" if aux_form[:1].lower() in vowels else "je "
-        else:
-            pronoun = pronoun_words[key] + " "
-        reflexive_part = reflexive_prefix(key, aux_form) if reflexive else ""
-        return f"{pronoun}{reflexive_part}{aux_form} {participe}"
-
-    if query.strip():
-        q_norm = strip_accents(query.strip().lower())
-        matched = [
-            v for v in verbs if q_norm in strip_accents(v.lower()) or query.strip() in meanings.get(v, "")
-        ]
-        st.caption(f"検索結果: {len(matched)}件")
-        grouped = False
-    else:
-        matched = sorted(verbs, key=lambda v: GROUP_ORDER.index(conjugations[v]["conjugationGroup"]))
-        grouped = True
-
-    previous_group = None
-    for verb in matched:
-        info = conjugations[verb]
-        group = info.get("conjugationGroup")
-
-        if grouped and group != previous_group:
-            group_count = sum(1 for v in matched if conjugations[v].get("conjugationGroup") == group)
-            if previous_group is not None:
-                st.divider()
-            st.markdown(f"##### {GROUP_LABELS.get(group, group)}（{group_count}語）")
-            previous_group = group
-
-        reflexive = info.get("reflexive", False)
-        with st.expander(f"{verb} — {meanings.get(verb, '')}"):
-            présent = info["présent"]
-            imparfait = info["imparfait"]
-            participe_info = info["participe_passé"]
-            aux = participe_info["auxiliaire"]
-            participe = participe_info["participe"]
-            aux_présent = conjugations[aux]["présent"]
-            aux_imparfait = conjugations[aux]["imparfait"]
-
-            level = info.get("level")
-            level_badge = f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>' if level else ""
-            st.markdown(
-                f'<span class="badge">{GROUP_LABELS.get(group, group)}</span>'
-                f"{level_badge}"
-                f'<span class="badge">助動詞: {aux}</span><span class="badge">過去分詞: {participe}</span>',
-                unsafe_allow_html=True,
-            )
-            speak_button(verb, button_key=f"speak_verblist_{verb}")
-
-            pronoun_rows = [
-                (
-                    label,
-                    tense_form_display(présent, key, reflexive),
-                    tense_form_display(imparfait, key, reflexive),
-                    compound_form(aux_présent, key, participe, reflexive),
-                    compound_form(aux_imparfait, key, participe, reflexive),
-                )
-                for key, label in PRONOUNS
-            ]
-            st.markdown(render_conjugation_table_html(pronoun_rows), unsafe_allow_html=True)
-
-    render_speech_player()
-
-
-# ---------- 名詞一覧・形容詞一覧 ----------
 elif st.session_state.screen == "word_list":
     tab = st.segmented_control(
-        "表示", ["noun", "adj"], format_func=lambda t: "名詞一覧" if t == "noun" else "形容詞一覧",
-        default="noun", key="word_list_tab", label_visibility="collapsed",
+        "表示", ["verb", "noun", "adj"],
+        format_func=lambda t: {"verb": "動詞一覧", "noun": "名詞一覧", "adj": "形容詞一覧"}[t],
+        key="word_list_tab", label_visibility="collapsed",
     ) or "noun"
 
-    # h aspiré（有音のh）は母音扱いされずエリジオンしない例外。現在のデータには該当語がないが、
-    # 今後 héros 等を追加した際に誤って l'héros としないための安全策。
-    ASPIRATE_H_NOUNS = {"héros", "hall", "hasard", "haricot", "honte", "hockey"}
+    if tab == "verb":
+        verbs = [w["fr"] for w in load_words() if w["pos"] == "verbe"]
+        meanings = load_verb_meanings()
+        conjugations = load_conjugations()
+        st.subheader(f"登録されている動詞一覧（{len(verbs)}語）")
+        st.caption("動詞をクリックすると活用表が開きます。être動詞の複合過去・大過去は、主語の性・数による過去分詞の一致を省略し、男性単数形で表示しています。")
 
-    def noun_article(word, gender):
-        first = strip_accents(word)[0].lower()
-        is_h_muet = word[0].lower() == "h" and word.lower() not in ASPIRATE_H_NOUNS
-        if first in "aeiou" or is_h_muet:
-            return "l’"
-        return "le" if gender == "m" else "la"
+        query = st.text_input("動詞を検索（原形または意味）", placeholder="例: aller、行く", key="verb_search")
 
-    def with_article(word, gender):
-        article = noun_article(word, gender)
-        return f"{article}{word}" if article == "l’" else f"{article} {word}"
+        pronoun_words = {"je": "je", "tu": "tu", "il_elle": "il/elle", "nous": "nous", "vous": "vous", "ils": "ils"}
+        vowels = "aeiouyàâäéèêëîïôöùûüh"
+        reflexive_elisions = {"me": "m’", "te": "t’", "se": "s’"}
 
-    if tab == "noun":
+        def reflexive_prefix(key, next_word):
+            pronoun = REFLEXIVE_PRONOUNS[key]
+            if pronoun in reflexive_elisions and next_word[:1].lower() in vowels:
+                return reflexive_elisions[pronoun]
+            return pronoun + " "
+
+        def tense_form_display(forms, key, reflexive):
+            form = forms[key]
+            return (reflexive_prefix(key, form) + form) if reflexive else form
+
+        def compound_form(aux_forms, key, participe, reflexive=False):
+            aux_form = aux_forms[key]
+            if key == "je":
+                # 再帰動詞では je の直後は常に me/m'（子音扱い）なので je はエリジオンしない
+                if reflexive:
+                    pronoun = "je "
+                else:
+                    pronoun = "j’" if aux_form[:1].lower() in vowels else "je "
+            else:
+                pronoun = pronoun_words[key] + " "
+            reflexive_part = reflexive_prefix(key, aux_form) if reflexive else ""
+            return f"{pronoun}{reflexive_part}{aux_form} {participe}"
+
+        if query.strip():
+            q_norm = strip_accents(query.strip().lower())
+            matched = [
+                v for v in verbs if q_norm in strip_accents(v.lower()) or query.strip() in meanings.get(v, "")
+            ]
+            st.caption(f"検索結果: {len(matched)}件")
+            grouped = False
+        else:
+            matched = sorted(verbs, key=lambda v: GROUP_ORDER.index(conjugations[v]["conjugationGroup"]))
+            grouped = True
+
+        previous_group = None
+        for verb in matched:
+            info = conjugations[verb]
+            group = info.get("conjugationGroup")
+
+            if grouped and group != previous_group:
+                group_count = sum(1 for v in matched if conjugations[v].get("conjugationGroup") == group)
+                if previous_group is not None:
+                    st.divider()
+                st.markdown(f"##### {GROUP_LABELS.get(group, group)}（{group_count}語）")
+                previous_group = group
+
+            reflexive = info.get("reflexive", False)
+            with st.expander(f"{verb} — {meanings.get(verb, '')}"):
+                présent = info["présent"]
+                imparfait = info["imparfait"]
+                participe_info = info["participe_passé"]
+                aux = participe_info["auxiliaire"]
+                participe = participe_info["participe"]
+                aux_présent = conjugations[aux]["présent"]
+                aux_imparfait = conjugations[aux]["imparfait"]
+
+                level = info.get("level")
+                level_badge = f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>' if level else ""
+                st.markdown(
+                    f'<span class="badge">{GROUP_LABELS.get(group, group)}</span>'
+                    f"{level_badge}"
+                    f'<span class="badge">助動詞: {aux}</span><span class="badge">過去分詞: {participe}</span>',
+                    unsafe_allow_html=True,
+                )
+                speak_button(verb, button_key=f"speak_verblist_{verb}")
+
+                pronoun_rows = [
+                    (
+                        label,
+                        tense_form_display(présent, key, reflexive),
+                        tense_form_display(imparfait, key, reflexive),
+                        compound_form(aux_présent, key, participe, reflexive),
+                        compound_form(aux_imparfait, key, participe, reflexive),
+                    )
+                    for key, label in PRONOUNS
+                ]
+                st.markdown(render_conjugation_table_html(pronoun_rows), unsafe_allow_html=True)
+
+    elif tab == "noun":
         nouns = [w for w in load_words() if w["pos"] == "nom"]
         st.subheader(f"登録されている名詞一覧（{len(nouns)}語）")
         st.caption(
-            "名詞をクリックすると発音ボタンが開きます。性別によって綴りが変わる名詞（例: ami/amie）は "
-            "(m/f) ami(e) のように表示されます。"
+            "名詞をクリックすると発音ボタンが開きます。バッジは性別（M=男性名詞／F=女性名詞）を表します。"
+            "性別によって綴りが変わる名詞（例: ami/amie）は [M/F] ami(e) のように表示されます。"
         )
 
         query = st.text_input("名詞を検索（原形または意味）", placeholder="例: maison、家", key="noun_search")
@@ -393,9 +377,10 @@ elif st.session_state.screen == "word_list":
                     while i < len(fr) and i < len(fem) and fr[i] == fem[i]:
                         i += 1
                     compact = f"{fr}({fem[i:]})"
-                    row_text = f"{arrow} (m/f) {compact} — {w['ja']}"
+                    row_text = f"{arrow} [M/F] {compact} — {w['ja']}"
                 else:
-                    row_text = f"{arrow} {with_article(fr, w['gender'])} — {w['ja']}"
+                    gender_tag = "M" if w["gender"] == "m" else "F"
+                    row_text = f"{arrow} [{gender_tag}] {fr} — {w['ja']}"
 
                 if st.button(row_text, key=f"nounrow_{fr}", use_container_width=True):
                     st.session_state.noun_list_selected = None if is_selected else fr
@@ -411,22 +396,19 @@ elif st.session_state.screen == "word_list":
                             )
                             col_m, col_f = st.columns(2)
                             with col_m:
-                                st.caption(f"男性：{with_article(fr, 'm')}")
+                                st.caption(f"男性：{fr}")
                                 speak_button(
                                     fr, button_key=f"speak_noun_{fr}_m",
                                     label=f"{fr} ▶️", use_container_width=True,
                                 )
                             with col_f:
-                                st.caption(f"女性：{with_article(fem, 'f')}")
+                                st.caption(f"女性：{fem}")
                                 speak_button(
                                     fem, button_key=f"speak_noun_{fr}_f",
                                     label=f"{fem} ▶️", use_container_width=True,
                                 )
                         else:
-                            gender_label = (
-                                f"男性名詞（{noun_article(fr, 'm')}）" if w["gender"] == "m"
-                                else f"女性名詞（{noun_article(fr, 'f')}）"
-                            )
+                            gender_label = "男性名詞" if w["gender"] == "m" else "女性名詞"
                             st.markdown(
                                 f'<span class="badge">{gender_label}</span>'
                                 f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>',
