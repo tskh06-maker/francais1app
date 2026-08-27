@@ -18556,5 +18556,215 @@
       "mp": "compétents",
       "fp": "compétentes"
     }
+  },
+  {
+    "fr": "olive",
+    "ja": "オリーブ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "noix de coco",
+    "ja": "ココナッツ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "pastille",
+    "ja": "のど飴",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "infusion",
+    "ja": "ハーブティー",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "panorama",
+    "ja": "パノラマ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "boussole",
+    "ja": "コンパス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "carte routière",
+    "ja": "道路地図",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "humour",
+    "ja": "ユーモア",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "sarcasme",
+    "ja": "皮肉",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "prestige",
+    "ja": "名声",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "réputation",
+    "ja": "評判",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Bénin",
+    "ja": "ベナン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "béninois",
+    "ja": "ベナン人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "béninois",
+    "ja": "ベナンの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "béninois",
+      "fs": "béninoise",
+      "mp": "béninois",
+      "fp": "béninoises"
+    }
+  },
+  {
+    "fr": "sarcastique",
+    "ja": "皮肉な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "sarcastique",
+      "fs": "sarcastique",
+      "mp": "sarcastiques",
+      "fp": "sarcastiques"
+    }
+  },
+  {
+    "fr": "prestigieux",
+    "ja": "名声のある",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "prestigieux",
+      "fs": "prestigieuse",
+      "mp": "prestigieux",
+      "fp": "prestigieuses"
+    }
+  },
+  {
+    "fr": "myrtille",
+    "ja": "ブルーベリー",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "framboise",
+    "ja": "木苺",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "gourmandise",
+    "ja": "食いしん坊",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "appétit",
+    "ja": "食欲",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "gourmand",
+    "ja": "食いしん坊の",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "gourmand",
+      "fs": "gourmande",
+      "mp": "gourmands",
+      "fp": "gourmandes"
+    }
+  },
+  {
+    "fr": "appétissant",
+    "ja": "食欲をそそる",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "appétissant",
+      "fs": "appétissante",
+      "mp": "appétissants",
+      "fp": "appétissantes"
+    }
+  },
+  {
+    "fr": "bienveillance",
+    "ja": "思いやり",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "bienveillant",
+    "ja": "思いやりのある",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "bienveillant",
+      "fs": "bienveillante",
+      "mp": "bienveillants",
+      "fp": "bienveillantes"
+    }
+  },
+  {
+    "fr": "malveillant",
+    "ja": "悪意のある",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "malveillant",
+      "fs": "malveillante",
+      "mp": "malveillants",
+      "fp": "malveillantes"
+    }
   }
 ]
