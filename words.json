@@ -18409,5 +18409,152 @@
       "mp": "bureaucratiques",
       "fp": "bureaucratiques"
     }
+  },
+  {
+    "fr": "paradoxe",
+    "ja": "逆説",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "ironie",
+    "ja": "皮肉",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "frustration",
+    "ja": "苛立ち",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "dissertation",
+    "ja": "小論文",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "compétence",
+    "ja": "能力",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "souveraineté",
+    "ja": "主権",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "piratage",
+    "ja": "ハッキング",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "orque",
+    "ja": "シャチ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "marmelade",
+    "ja": "マーマレード",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "cratère",
+    "ja": "クレーター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "quartier résidentiel",
+    "ja": "住宅街",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Cameroun",
+    "ja": "カメルーン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "triathlon",
+    "ja": "トライアスロン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "camerounais",
+    "ja": "カメルーン人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "camerounaise"
+  },
+  {
+    "fr": "camerounais",
+    "ja": "カメルーンの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "camerounais",
+      "fs": "camerounaise",
+      "mp": "camerounais",
+      "fp": "camerounaises"
+    }
+  },
+  {
+    "fr": "ironique",
+    "ja": "皮肉な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "ironique",
+      "fs": "ironique",
+      "mp": "ironiques",
+      "fp": "ironiques"
+    }
+  },
+  {
+    "fr": "frustrant",
+    "ja": "苛立たしい",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "frustrant",
+      "fs": "frustrante",
+      "mp": "frustrants",
+      "fp": "frustrantes"
+    }
+  },
+  {
+    "fr": "compétent",
+    "ja": "有能な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "compétent",
+      "fs": "compétente",
+      "mp": "compétents",
+      "fp": "compétentes"
+    }
   }
 ]
