@@ -17448,5 +17448,273 @@
       "mp": "orgueilleux",
       "fp": "orgueilleuses"
     }
+  },
+  {
+    "fr": "marâtre",
+    "ja": "継母（俗）",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "beau-parent",
+    "ja": "継親",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "évier de cuisine",
+    "ja": "台所のシンク",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "robinet mitigeur",
+    "ja": "混合水栓",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "plan de travail",
+    "ja": "調理台",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "crème",
+    "ja": "クリーム",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "chantilly",
+    "ja": "ホイップクリーム",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "nougat",
+    "ja": "ヌガー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "sirop",
+    "ja": "シロップ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "veste en cuir",
+    "ja": "革ジャン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "robe de soirée",
+    "ja": "イブニングドレス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "cataracte",
+    "ja": "白内障",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "migraine",
+    "ja": "偏頭痛",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "iceberg",
+    "ja": "氷山",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "banquise",
+    "ja": "氷原",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "gare routière",
+    "ja": "バスターミナル",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "station-service",
+    "ja": "ガソリンスタンド",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "Qatar",
+    "ja": "カタール",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Émirats arabes unis",
+    "ja": "アラブ首長国連邦",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "caméléon",
+    "ja": "カメレオン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "salamandre",
+    "ja": "サンショウウオ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "karaté",
+    "ja": "空手",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "judo",
+    "ja": "柔道",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "réalité augmentée",
+    "ja": "拡張現実",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "blockchain",
+    "ja": "ブロックチェーン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "stage professionnel",
+    "ja": "職業研修",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "productivité",
+    "ja": "生産性",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "dictature",
+    "ja": "独裁政治",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "monarchie",
+    "ja": "君主制",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "mélancolie",
+    "ja": "憂鬱",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "anecdote",
+    "ja": "逸話",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "métaphore",
+    "ja": "比喩",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "qatarien",
+    "ja": "カタール人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "qatarienne"
+  },
+  {
+    "fr": "qatarien",
+    "ja": "カタールの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "qatarien",
+      "fs": "qatarienne",
+      "mp": "qatariens",
+      "fp": "qatariennes"
+    }
+  },
+  {
+    "fr": "mélancolique",
+    "ja": "憂鬱な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "mélancolique",
+      "fs": "mélancolique",
+      "mp": "mélancoliques",
+      "fp": "mélancoliques"
+    }
+  },
+  {
+    "fr": "productif",
+    "ja": "生産的な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "productif",
+      "fs": "productive",
+      "mp": "productifs",
+      "fp": "productives"
+    }
   }
 ]
