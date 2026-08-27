@@ -16223,5 +16223,155 @@
       "mp": "diplomatiques",
       "fp": "diplomatiques"
     }
+  },
+  {
+    "fr": "bonnet",
+    "ja": "ニット帽",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "petit pois",
+    "ja": "グリーンピース",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "haricot vert",
+    "ja": "インゲン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "betterave",
+    "ja": "ビーツ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "asperge",
+    "ja": "アスパラガス",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "artichaut",
+    "ja": "アーティチョーク",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "rosée",
+    "ja": "露",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "robinet d'eau chaude",
+    "ja": "お湯の蛇口",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "nombril",
+    "ja": "へそ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "uniforme scolaire",
+    "ja": "学生服",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "ceinture noire",
+    "ja": "黒帯",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "médaille",
+    "ja": "メダル",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "ennui",
+    "ja": "退屈",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "moyen de transport",
+    "ja": "交通手段",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "critère",
+    "ja": "基準",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "apprentissage",
+    "ja": "見習い・実習",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "impact",
+    "ja": "影響",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "intelligence artificielle",
+    "ja": "人工知能",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "ennuyé",
+    "ja": "退屈した",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "ennuyé",
+      "fs": "ennuyée",
+      "mp": "ennuyés",
+      "fp": "ennuyées"
+    }
+  },
+  {
+    "fr": "passionnant",
+    "ja": "夢中にさせる",
+    "pos": "adjectif",
+    "level": "A2",
+    "forms": {
+      "ms": "passionnant",
+      "fs": "passionnante",
+      "mp": "passionnants",
+      "fp": "passionnantes"
+    }
   }
 ]
