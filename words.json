@@ -12378,5 +12378,587 @@
       "mp": "tièdes",
       "fp": "tièdes"
     }
+  },
+  {
+    "fr": "échéance",
+    "ja": "締切",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "délai",
+    "ja": "期限",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "horaire",
+    "ja": "時刻表",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "ancêtre",
+    "ja": "祖先",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "matelas",
+    "ja": "マットレス",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "drap",
+    "ja": "シーツ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "interrupteur",
+    "ja": "スイッチ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "prise",
+    "ja": "コンセント",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "ampoule",
+    "ja": "電球",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "seau",
+    "ja": "バケツ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "éponge",
+    "ja": "スポンジ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "cintre",
+    "ja": "ハンガー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "nouille",
+    "ja": "麺",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "sushi",
+    "ja": "寿司",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "curry",
+    "ja": "カレー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "soja",
+    "ja": "大豆",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "tofu",
+    "ja": "豆腐",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "vinaigrette",
+    "ja": "ドレッシング",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "collant",
+    "ja": "タイツ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "tablier",
+    "ja": "エプロン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "peignoir",
+    "ja": "バスローブ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "rhume",
+    "ja": "風邪",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "toux",
+    "ja": "咳",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "grippe",
+    "ja": "インフルエンザ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "allergie",
+    "ja": "アレルギー",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "blessure",
+    "ja": "けが",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "cicatrice",
+    "ja": "傷跡",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "pansement",
+    "ja": "絆創膏",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "climat",
+    "ja": "気候",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "atmosphère",
+    "ja": "大気",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "mousson",
+    "ja": "モンスーン",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "tempête",
+    "ja": "嵐",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "cimetière",
+    "ja": "墓地",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "zoo",
+    "ja": "動物園",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "aquarium",
+    "ja": "水族館",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "Danemark",
+    "ja": "デンマーク",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Finlande",
+    "ja": "フィンランド",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Roumanie",
+    "ja": "ルーマニア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Hongrie",
+    "ja": "ハンガリー",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "étiquette",
+    "ja": "値札",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "marque",
+    "ja": "ブランド",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "pneu",
+    "ja": "タイヤ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "volant",
+    "ja": "ハンドル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "moteur",
+    "ja": "エンジン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "frein",
+    "ja": "ブレーキ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "interrogation",
+    "ja": "小テスト",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "copie",
+    "ja": "答案",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "correction",
+    "ja": "添削・訂正",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "employeur",
+    "ja": "雇用主",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "syndicat",
+    "ja": "組合",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "robot",
+    "ja": "ロボット",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "drone",
+    "ja": "ドローン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "capteur",
+    "ja": "センサー",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "fourmi",
+    "ja": "アリ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "sauterelle",
+    "ja": "バッタ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "patinage",
+    "ja": "スケート",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "équitation",
+    "ja": "乗馬",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "voile",
+    "ja": "セーリング",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "passion",
+    "ja": "情熱",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "désir",
+    "ja": "欲望",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "définition",
+    "ja": "定義",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "référence",
+    "ja": "参照",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "descendant",
+    "ja": "子孫",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "descendante"
+  },
+  {
+    "fr": "orphelin",
+    "ja": "孤児",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "orpheline"
+  },
+  {
+    "fr": "fiancé",
+    "ja": "婚約者",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "fiancée"
+  },
+  {
+    "fr": "candidat",
+    "ja": "応募者",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2",
+    "fem": "candidate"
+  },
+  {
+    "fr": "danois",
+    "ja": "デンマーク人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "danoise"
+  },
+  {
+    "fr": "finlandais",
+    "ja": "フィンランド人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "finlandaise"
+  },
+  {
+    "fr": "roumain",
+    "ja": "ルーマニア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "roumaine"
+  },
+  {
+    "fr": "hongrois",
+    "ja": "ハンガリー人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "hongroise"
+  },
+  {
+    "fr": "danois",
+    "ja": "デンマークの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "danois",
+      "fs": "danoise",
+      "mp": "danois",
+      "fp": "danoises"
+    }
+  },
+  {
+    "fr": "finlandais",
+    "ja": "フィンランドの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "finlandais",
+      "fs": "finlandaise",
+      "mp": "finlandais",
+      "fp": "finlandaises"
+    }
+  },
+  {
+    "fr": "roumain",
+    "ja": "ルーマニアの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "roumain",
+      "fs": "roumaine",
+      "mp": "roumains",
+      "fp": "roumaines"
+    }
+  },
+  {
+    "fr": "hongrois",
+    "ja": "ハンガリーの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "hongrois",
+      "fs": "hongroise",
+      "mp": "hongrois",
+      "fp": "hongroises"
+    }
+  },
+  {
+    "fr": "franc",
+    "ja": "率直な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "franc",
+      "fs": "franche",
+      "mp": "francs",
+      "fp": "franches"
+    }
+  },
+  {
+    "fr": "essentiel",
+    "ja": "不可欠な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "essentiel",
+      "fs": "essentielle",
+      "mp": "essentiels",
+      "fp": "essentielles"
+    }
+  },
+  {
+    "fr": "fondamental",
+    "ja": "基本的な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "fondamental",
+      "fs": "fondamentale",
+      "mp": "fondamentaux",
+      "fp": "fondamentales"
+    }
   }
 ]
