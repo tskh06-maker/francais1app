@@ -28,7 +28,7 @@ from context_quiz import load_sentences
 from history import get_review_verbs, get_stats, record_result
 from quiz import load_words, make_choices
 from settings import DEFAULT_STRICT_ACCENT, STRICT_ACCENT_LABELS
-from styles import inject_custom_css, render_hero, render_ring
+from styles import inject_custom_css, render_conjugation_table_html, render_hero, render_ring
 
 st.set_page_config(page_title="フランス語学習アプリ", page_icon="🇫🇷", layout="centered")
 inject_custom_css()
@@ -59,7 +59,6 @@ defaults = {
     "auth_email": None,
     "auth_id_token": None,
     "auth_refresh_token": None,
-    "verb_list_selected": None,
 }
 for key, value in defaults.items():
     st.session_state.setdefault(key, value)
@@ -284,65 +283,33 @@ elif st.session_state.screen == "verb_list":
             previous_group = group
 
         reflexive = info.get("reflexive", False)
+        with st.expander(f"{verb} — {meanings.get(verb, '')}"):
+            présent = info["présent"]
+            imparfait = info["imparfait"]
+            participe_info = info["participe_passé"]
+            aux = participe_info["auxiliaire"]
+            participe = participe_info["participe"]
+            aux_présent = conjugations[aux]["présent"]
+            aux_imparfait = conjugations[aux]["imparfait"]
 
-        # 選択中の動詞だけ詳細（活用表＋発音ボタン）を組み立てる。
-        # 500語すべてに毎回ボタン一式を作ると重くなるため、開いている1語分だけに絞っている。
-        is_selected = st.session_state.verb_list_selected == verb
-        arrow = "▾" if is_selected else "▸"
-        if st.button(f"{arrow} {verb} — {meanings.get(verb, '')}", key=f"verbrow_{verb}", use_container_width=True):
-            st.session_state.verb_list_selected = None if is_selected else verb
-            st.rerun()
+            st.markdown(
+                f'<span class="badge">{GROUP_LABELS.get(group, group)}</span>'
+                f'<span class="badge">助動詞: {aux}</span><span class="badge">過去分詞: {participe}</span>',
+                unsafe_allow_html=True,
+            )
+            speak_button(verb, button_key=f"speak_verblist_{verb}")
 
-        if is_selected:
-            with st.container(border=True):
-                présent = info["présent"]
-                imparfait = info["imparfait"]
-                participe_info = info["participe_passé"]
-                aux = participe_info["auxiliaire"]
-                participe = participe_info["participe"]
-                aux_présent = conjugations[aux]["présent"]
-                aux_imparfait = conjugations[aux]["imparfait"]
-
-                st.markdown(
-                    f'<span class="badge">{GROUP_LABELS.get(group, group)}</span>'
-                    f'<span class="badge">助動詞: {aux}</span><span class="badge">過去分詞: {participe}</span>',
-                    unsafe_allow_html=True,
+            pronoun_rows = [
+                (
+                    label,
+                    tense_form_display(présent, key, reflexive),
+                    tense_form_display(imparfait, key, reflexive),
+                    compound_form(aux_présent, key, participe, reflexive),
+                    compound_form(aux_imparfait, key, participe, reflexive),
                 )
-                speak_button(verb, button_key=f"speak_verblist_{verb}")
-
-                pronoun_rows = [
-                    (
-                        key,
-                        label,
-                        tense_form_display(présent, key, reflexive),
-                        tense_form_display(imparfait, key, reflexive),
-                        compound_form(aux_présent, key, participe, reflexive),
-                        compound_form(aux_imparfait, key, participe, reflexive),
-                    )
-                    for key, label in PRONOUNS
-                ]
-
-                header_cols = st.columns(5)
-                for col, title in zip(header_cols, ["人称", "現在形", "半過去", "複合過去", "大過去"]):
-                    col.markdown(f"**{title}**")
-
-                for key, label, présent_form, imparfait_form, pc_form, pqp_form in pronoun_rows:
-                    row_cols = st.columns(5)
-                    row_cols[0].markdown(f"**{label}**")
-                    forms_with_tense = [
-                        (présent_form, "présent"),
-                        (imparfait_form, "imparfait"),
-                        (pc_form, "passé_composé"),
-                        (pqp_form, "plus_que_parfait"),
-                    ]
-                    for col, (form, tense_name) in zip(row_cols[1:], forms_with_tense):
-                        with col:
-                            speak_button(
-                                form,
-                                button_key=f"speak_{verb}_{tense_name}_{key}",
-                                label=f"{form} ▶️",
-                                use_container_width=True,
-                            )
+                for key, label in PRONOUNS
+            ]
+            st.markdown(render_conjugation_table_html(pronoun_rows), unsafe_allow_html=True)
 
     render_speech_player()
 

@@ -18,13 +18,9 @@ import streamlit.components.v1 as components
 _PENDING_KEY = "_pending_speech_text"
 
 
-def speak_button(text, button_key=None, label="▶️ 発音を聞く", use_container_width=False):
-    """textを読み上げるボタンを描画する。押されたら実際の読み上げを予約する。
-
-    label: ボタンの表示テキスト。活用表のマスなど小さく表示したい場合は
-    "suis ▶️" のようにアイコンのみ／短い文言にするとボタン幅が自動的に縮む。
-    """
-    if st.button(label, key=button_key or f"speak_{text}", use_container_width=use_container_width):
+def speak_button(text, button_key=None):
+    """textを読み上げるボタンを描画する。押されたら実際の読み上げを予約する。"""
+    if st.button("🔊 発音を聞く", key=button_key or f"speak_{text}"):
         st.session_state[_PENDING_KEY] = text
 
 
