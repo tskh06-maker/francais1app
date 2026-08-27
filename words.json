@@ -16654,5 +16654,268 @@
       "mp": "désespérés",
       "fp": "désespérées"
     }
+  },
+  {
+    "fr": "étagère à livres",
+    "ja": "本棚",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "radiateur",
+    "ja": "ラジエーター",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "thermostat",
+    "ja": "サーモスタット",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "bâillement",
+    "ja": "あくび",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "éternuement",
+    "ja": "くしゃみ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "fondant au chocolat",
+    "ja": "チョコレートフォンダン",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "caramel",
+    "ja": "キャラメル",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "guimauve",
+    "ja": "マシュマロ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "bowling",
+    "ja": "ボウリング",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "billard",
+    "ja": "ビリヤード",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "fléchettes",
+    "ja": "ダーツ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "réalité virtuelle",
+    "ja": "仮想現実",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "streaming",
+    "ja": "ストリーミング",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "port",
+    "ja": "港",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "quai de gare",
+    "ja": "駅のホーム",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "ceinture de sécurité",
+    "ja": "シートベルト",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "coffre",
+    "ja": "トランク",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "solidarité",
+    "ja": "連帯",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "égalité",
+    "ja": "平等",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "inégalité",
+    "ja": "不平等",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "motivation",
+    "ja": "モチベーション",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "désordre",
+    "ja": "混乱",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "brouillon",
+    "ja": "下書き",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "plagiat",
+    "ja": "盗作",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "Islande",
+    "ja": "アイスランド",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "Croatie",
+    "ja": "クロアチア",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "apprenti",
+    "ja": "見習い",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "otarie",
+    "ja": "アシカ",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "morse",
+    "ja": "セイウチ",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "chapeau de paille",
+    "ja": "麦わら帽子",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "indice",
+    "ja": "手がかり",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "mystère",
+    "ja": "謎",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "islandais",
+    "ja": "アイスランド人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1",
+    "fem": "islandaise"
+  },
+  {
+    "fr": "croate",
+    "ja": "クロアチア人",
+    "pos": "nom",
+    "gender": "m",
+    "level": "B1"
+  },
+  {
+    "fr": "islandais",
+    "ja": "アイスランドの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "islandais",
+      "fs": "islandaise",
+      "mp": "islandais",
+      "fp": "islandaises"
+    }
+  },
+  {
+    "fr": "croate",
+    "ja": "クロアチアの",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "croate",
+      "fs": "croate",
+      "mp": "croates",
+      "fp": "croates"
+    }
   }
 ]
