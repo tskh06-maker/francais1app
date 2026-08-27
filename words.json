@@ -15542,5 +15542,100 @@
       "mp": "nets",
       "fp": "nettes"
     }
+  },
+  {
+    "fr": "petit ami",
+    "ja": "彼氏",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "petite amie",
+    "ja": "彼女",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "température",
+    "ja": "気温",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "espace",
+    "ja": "空間",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "lieu",
+    "ja": "場所",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "endroit",
+    "ja": "場所",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1"
+  },
+  {
+    "fr": "durée",
+    "ja": "期間",
+    "pos": "nom",
+    "gender": "f",
+    "level": "B1"
+  },
+  {
+    "fr": "modèle",
+    "ja": "モデル・見本",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A2"
+  },
+  {
+    "fr": "qualité",
+    "ja": "質",
+    "pos": "nom",
+    "gender": "f",
+    "level": "A2"
+  },
+  {
+    "fr": "copain",
+    "ja": "友達（親しい）",
+    "pos": "nom",
+    "gender": "m",
+    "level": "A1",
+    "fem": "copine"
+  },
+  {
+    "fr": "sociable",
+    "ja": "社交的な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "sociable",
+      "fs": "sociable",
+      "mp": "sociables",
+      "fp": "sociables"
+    }
+  },
+  {
+    "fr": "valable",
+    "ja": "有効な",
+    "pos": "adjectif",
+    "level": "B1",
+    "forms": {
+      "ms": "valable",
+      "fs": "valable",
+      "mp": "valables",
+      "fp": "valables"
+    }
   }
 ]
