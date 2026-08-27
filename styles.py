@@ -68,6 +68,12 @@ h2, h3 { letter-spacing: -0.01em; font-weight: 700 !important; }
     color: #fff !important;
 }
 
+.st-key-noun_rows .stButton > button,
+.st-key-adj_rows .stButton > button {
+    justify-content: flex-start !important;
+    text-align: left !important;
+}
+
 [data-testid="stVerticalBlockBorderWrapper"] {
     border-radius: 16px !important;
     border-color: var(--color-border) !important;

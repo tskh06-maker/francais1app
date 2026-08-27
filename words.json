@@ -2553,7 +2553,8 @@
     "ja": "友達",
     "pos": "nom",
     "gender": "m",
-    "level": "A1"
+    "level": "A1",
+    "fem": "amie"
   },
   {
     "fr": "travail",
@@ -3874,14 +3875,16 @@
     "ja": "先生",
     "pos": "nom",
     "gender": "m",
-    "level": "A1"
+    "level": "A1",
+    "fem": "professeure"
   },
   {
     "fr": "étudiant",
     "ja": "学生",
     "pos": "nom",
     "gender": "m",
-    "level": "A1"
+    "level": "A1",
+    "fem": "étudiante"
   },
   {
     "fr": "classe",
@@ -4892,49 +4895,56 @@
     "ja": "看護師",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "infirmière"
   },
   {
     "fr": "avocat",
     "ja": "弁護士",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "avocate"
   },
   {
     "fr": "ingénieur",
     "ja": "エンジニア",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "ingénieure"
   },
   {
     "fr": "employé",
     "ja": "従業員",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "employée"
   },
   {
     "fr": "patron",
     "ja": "上司",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "patronne"
   },
   {
     "fr": "client",
     "ja": "客",
     "pos": "nom",
     "gender": "m",
-    "level": "A1"
+    "level": "A1",
+    "fem": "cliente"
   },
   {
     "fr": "vendeur",
     "ja": "店員",
     "pos": "nom",
     "gender": "m",
-    "level": "A1"
+    "level": "A1",
+    "fem": "vendeuse"
   },
   {
     "fr": "artiste",
@@ -4948,49 +4958,56 @@
     "ja": "作家",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "écrivaine"
   },
   {
     "fr": "chanteur",
     "ja": "歌手",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "chanteuse"
   },
   {
     "fr": "acteur",
     "ja": "俳優",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "actrice"
   },
   {
     "fr": "cuisinier",
     "ja": "料理人",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "cuisinière"
   },
   {
     "fr": "agriculteur",
     "ja": "農家",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "agricultrice"
   },
   {
     "fr": "policier",
     "ja": "警察官",
     "pos": "nom",
     "gender": "m",
-    "level": "A1"
+    "level": "A1",
+    "fem": "policière"
   },
   {
     "fr": "pompier",
     "ja": "消防士",
     "pos": "nom",
     "gender": "m",
-    "level": "A1"
+    "level": "A1",
+    "fem": "pompière"
   },
   {
     "fr": "gouvernement",
@@ -6527,7 +6544,8 @@
     "ja": "いとこ",
     "pos": "nom",
     "gender": "m",
-    "level": "A1"
+    "level": "A1",
+    "fem": "cousine"
   },
   {
     "fr": "oncle",
@@ -6562,7 +6580,8 @@
     "ja": "隣人",
     "pos": "nom",
     "gender": "m",
-    "level": "A1"
+    "level": "A1",
+    "fem": "voisine"
   },
   {
     "fr": "cinéma",
@@ -6723,7 +6742,8 @@
     "ja": "招待客",
     "pos": "nom",
     "gender": "m",
-    "level": "A2"
+    "level": "A2",
+    "fem": "invitée"
   },
   {
     "fr": "pratique",

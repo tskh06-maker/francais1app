@@ -61,6 +61,7 @@ defaults = {
     "auth_refresh_token": None,
     "noun_list_selected": None,
     "adj_list_selected": None,
+    "word_list_tab": "noun",
 }
 for key, value in defaults.items():
     st.session_state.setdefault(key, value)
@@ -137,9 +138,11 @@ with st.sidebar:
     if st.button("📖 動詞一覧", use_container_width=True):
         go("verb_list")
     if st.button("📗 名詞一覧", use_container_width=True):
-        go("noun_list")
+        st.session_state.word_list_tab = "noun"
+        go("word_list")
     if st.button("🎨 形容詞一覧", use_container_width=True):
-        go("adj_list")
+        st.session_state.word_list_tab = "adj"
+        go("word_list")
     if st.button("📊 学習記録", use_container_width=True):
         go("history_view")
     if st.button("⚙️ 設定", use_container_width=True):
@@ -323,107 +326,167 @@ elif st.session_state.screen == "verb_list":
     render_speech_player()
 
 
-# ---------- 名詞一覧 ----------
-elif st.session_state.screen == "noun_list":
-    nouns = [w for w in load_words() if w["pos"] == "nom"]
-    st.subheader(f"登録されている名詞一覧（{len(nouns)}語）")
-    st.caption("名詞をクリックすると発音ボタンが開きます。")
+# ---------- 名詞一覧・形容詞一覧 ----------
+elif st.session_state.screen == "word_list":
+    tab = st.segmented_control(
+        "表示", ["noun", "adj"], format_func=lambda t: "名詞一覧" if t == "noun" else "形容詞一覧",
+        default="noun", key="word_list_tab", label_visibility="collapsed",
+    ) or "noun"
 
-    query = st.text_input("名詞を検索（原形または意味）", placeholder="例: maison、家", key="noun_search")
+    # h aspiré（有音のh）は母音扱いされずエリジオンしない例外。現在のデータには該当語がないが、
+    # 今後 héros 等を追加した際に誤って l'héros としないための安全策。
+    ASPIRATE_H_NOUNS = {"héros", "hall", "hasard", "haricot", "honte", "hockey"}
 
-    if query.strip():
-        q_norm = strip_accents(query.strip().lower())
-        matched = [w for w in nouns if q_norm in strip_accents(w["fr"].lower()) or query.strip() in w["ja"]]
-        st.caption(f"検索結果: {len(matched)}件")
-        grouped = False
+    def noun_article(word, gender):
+        first = strip_accents(word)[0].lower()
+        is_h_muet = word[0].lower() == "h" and word.lower() not in ASPIRATE_H_NOUNS
+        if first in "aeiou" or is_h_muet:
+            return "l’"
+        return "le" if gender == "m" else "la"
+
+    def with_article(word, gender):
+        article = noun_article(word, gender)
+        return f"{article}{word}" if article == "l’" else f"{article} {word}"
+
+    if tab == "noun":
+        nouns = [w for w in load_words() if w["pos"] == "nom"]
+        st.subheader(f"登録されている名詞一覧（{len(nouns)}語）")
+        st.caption(
+            "名詞をクリックすると発音ボタンが開きます。性別によって綴りが変わる名詞（例: ami/amie）は "
+            "(m/f) ami(e) のように表示されます。"
+        )
+
+        query = st.text_input("名詞を検索（原形または意味）", placeholder="例: maison、家", key="noun_search")
+
+        if query.strip():
+            q_norm = strip_accents(query.strip().lower())
+            matched = [
+                w for w in nouns
+                if q_norm in strip_accents(w["fr"].lower())
+                or (w.get("fem") and q_norm in strip_accents(w["fem"].lower()))
+                or query.strip() in w["ja"]
+            ]
+            st.caption(f"検索結果: {len(matched)}件")
+            grouped = False
+        else:
+            matched = sorted(nouns, key=lambda w: LEVELS.index(w["level"]))
+            grouped = True
+
+        with st.container(key="noun_rows"):
+            previous_level = None
+            for w in matched:
+                level = w["level"]
+                if grouped and level != previous_level:
+                    level_count = sum(1 for x in matched if x["level"] == level)
+                    if previous_level is not None:
+                        st.divider()
+                    st.markdown(f"##### {LEVEL_LABELS.get(level, level)}（{level_count}語）")
+                    previous_level = level
+
+                fr = w["fr"]
+                fem = w.get("fem")
+                is_selected = st.session_state.noun_list_selected == fr
+                arrow = "▾" if is_selected else "▸"
+
+                if fem:
+                    i = 0
+                    while i < len(fr) and i < len(fem) and fr[i] == fem[i]:
+                        i += 1
+                    compact = f"{fr}({fem[i:]})"
+                    row_text = f"{arrow} (m/f) {compact} — {w['ja']}"
+                else:
+                    row_text = f"{arrow} {with_article(fr, w['gender'])} — {w['ja']}"
+
+                if st.button(row_text, key=f"nounrow_{fr}", use_container_width=True):
+                    st.session_state.noun_list_selected = None if is_selected else fr
+                    st.rerun()
+
+                if is_selected:
+                    with st.container(border=True):
+                        if fem:
+                            st.markdown(
+                                f'<span class="badge">男性形・女性形</span>'
+                                f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>',
+                                unsafe_allow_html=True,
+                            )
+                            col_m, col_f = st.columns(2)
+                            with col_m:
+                                st.caption(f"男性：{with_article(fr, 'm')}")
+                                speak_button(
+                                    fr, button_key=f"speak_noun_{fr}_m",
+                                    label=f"{fr} ▶️", use_container_width=True,
+                                )
+                            with col_f:
+                                st.caption(f"女性：{with_article(fem, 'f')}")
+                                speak_button(
+                                    fem, button_key=f"speak_noun_{fr}_f",
+                                    label=f"{fem} ▶️", use_container_width=True,
+                                )
+                        else:
+                            gender_label = (
+                                f"男性名詞（{noun_article(fr, 'm')}）" if w["gender"] == "m"
+                                else f"女性名詞（{noun_article(fr, 'f')}）"
+                            )
+                            st.markdown(
+                                f'<span class="badge">{gender_label}</span>'
+                                f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>',
+                                unsafe_allow_html=True,
+                            )
+                            speak_button(fr, button_key=f"speak_noun_{fr}")
+
     else:
-        matched = sorted(nouns, key=lambda w: LEVELS.index(w["level"]))
-        grouped = True
+        adjs = [w for w in load_words() if w["pos"] == "adjectif"]
+        st.subheader(f"登録されている形容詞一覧（{len(adjs)}語）")
+        st.caption("形容詞をクリックすると、男性単数・女性単数・男性複数・女性複数の活用形と発音ボタンが開きます。")
 
-    previous_level = None
-    for w in matched:
-        level = w["level"]
-        if grouped and level != previous_level:
-            level_count = sum(1 for x in matched if x["level"] == level)
-            if previous_level is not None:
-                st.divider()
-            st.markdown(f"##### {LEVEL_LABELS.get(level, level)}（{level_count}語）")
-            previous_level = level
+        query = st.text_input("形容詞を検索（原形または意味）", placeholder="例: grand、大きい", key="adj_search")
 
-        fr = w["fr"]
-        article = "le " if w["gender"] == "m" else "la "
-        is_selected = st.session_state.noun_list_selected == fr
-        arrow = "▾" if is_selected else "▸"
-        if st.button(f"{arrow} {article}{fr} — {w['ja']}", key=f"nounrow_{fr}", use_container_width=True):
-            st.session_state.noun_list_selected = None if is_selected else fr
-            st.rerun()
+        if query.strip():
+            q_norm = strip_accents(query.strip().lower())
+            matched = [w for w in adjs if q_norm in strip_accents(w["fr"].lower()) or query.strip() in w["ja"]]
+            st.caption(f"検索結果: {len(matched)}件")
+            grouped = False
+        else:
+            matched = sorted(adjs, key=lambda w: LEVELS.index(w["level"]))
+            grouped = True
 
-        if is_selected:
-            with st.container(border=True):
-                gender_label = "男性名詞（le）" if w["gender"] == "m" else "女性名詞（la）"
-                st.markdown(
-                    f'<span class="badge">{gender_label}</span>'
-                    f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>',
-                    unsafe_allow_html=True,
-                )
-                speak_button(fr, button_key=f"speak_noun_{fr}")
+        with st.container(key="adj_rows"):
+            previous_level = None
+            for w in matched:
+                level = w["level"]
+                if grouped and level != previous_level:
+                    level_count = sum(1 for x in matched if x["level"] == level)
+                    if previous_level is not None:
+                        st.divider()
+                    st.markdown(f"##### {LEVEL_LABELS.get(level, level)}（{level_count}語）")
+                    previous_level = level
 
-    render_speech_player()
+                fr = w["fr"]
+                forms = w["forms"]
+                is_selected = st.session_state.adj_list_selected == fr
+                arrow = "▾" if is_selected else "▸"
+                if st.button(f"{arrow} {fr} — {w['ja']}", key=f"adjrow_{fr}", use_container_width=True):
+                    st.session_state.adj_list_selected = None if is_selected else fr
+                    st.rerun()
 
-
-# ---------- 形容詞一覧 ----------
-elif st.session_state.screen == "adj_list":
-    adjs = [w for w in load_words() if w["pos"] == "adjectif"]
-    st.subheader(f"登録されている形容詞一覧（{len(adjs)}語）")
-    st.caption("形容詞をクリックすると、男性単数・女性単数・男性複数・女性複数の活用形と発音ボタンが開きます。")
-
-    query = st.text_input("形容詞を検索（原形または意味）", placeholder="例: grand、大きい", key="adj_search")
-
-    if query.strip():
-        q_norm = strip_accents(query.strip().lower())
-        matched = [w for w in adjs if q_norm in strip_accents(w["fr"].lower()) or query.strip() in w["ja"]]
-        st.caption(f"検索結果: {len(matched)}件")
-        grouped = False
-    else:
-        matched = sorted(adjs, key=lambda w: LEVELS.index(w["level"]))
-        grouped = True
-
-    previous_level = None
-    for w in matched:
-        level = w["level"]
-        if grouped and level != previous_level:
-            level_count = sum(1 for x in matched if x["level"] == level)
-            if previous_level is not None:
-                st.divider()
-            st.markdown(f"##### {LEVEL_LABELS.get(level, level)}（{level_count}語）")
-            previous_level = level
-
-        fr = w["fr"]
-        forms = w["forms"]
-        is_selected = st.session_state.adj_list_selected == fr
-        arrow = "▾" if is_selected else "▸"
-        if st.button(f"{arrow} {fr} — {w['ja']}", key=f"adjrow_{fr}", use_container_width=True):
-            st.session_state.adj_list_selected = None if is_selected else fr
-            st.rerun()
-
-        if is_selected:
-            with st.container(border=True):
-                st.markdown(f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>', unsafe_allow_html=True)
-                st.caption(f"{forms['ms']} / {forms['fs']} / {forms['mp']} / {forms['fp']}")
-                form_cols = st.columns(4)
-                form_items = [
-                    ("男性単数", forms["ms"]), ("女性単数", forms["fs"]),
-                    ("男性複数", forms["mp"]), ("女性複数", forms["fp"]),
-                ]
-                for col, (form_label, form_value) in zip(form_cols, form_items):
-                    with col:
-                        st.caption(form_label)
-                        speak_button(
-                            form_value,
-                            button_key=f"speak_adj_{fr}_{form_label}",
-                            label=f"{form_value} ▶️",
-                            use_container_width=True,
-                        )
+                if is_selected:
+                    with st.container(border=True):
+                        st.markdown(f'<span class="badge">{LEVEL_LABELS.get(level, level)}</span>', unsafe_allow_html=True)
+                        st.caption(f"{forms['ms']} / {forms['fs']} / {forms['mp']} / {forms['fp']}")
+                        form_cols = st.columns(4)
+                        form_items = [
+                            ("男性単数", forms["ms"]), ("女性単数", forms["fs"]),
+                            ("男性複数", forms["mp"]), ("女性複数", forms["fp"]),
+                        ]
+                        for col, (form_label, form_value) in zip(form_cols, form_items):
+                            with col:
+                                st.caption(form_label)
+                                speak_button(
+                                    form_value,
+                                    button_key=f"speak_adj_{fr}_{form_label}",
+                                    label=f"{form_value} ▶️",
+                                    use_container_width=True,
+                                )
 
     render_speech_player()
 
